@@ -1,4 +1,4 @@
 # dothome1
 
-#test01
-<a href="http//wkdddnr.github.io/dothome1/">test01</a>
+#웹표준 사이트 
+<a href="https://wkdddnr.github.io/dothome1/webstandard/index.html">바로가기</a>
