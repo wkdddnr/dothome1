@@ -58,17 +58,16 @@
         let text = $(".desc").text().split(" ").join("</span><span>");
         text = "<span>" + text + "</span>";
 
-        // $(".desc").html(text).find("span").mouseover(function () {
+        // $(".desc").html(text).find("span").mouseover(function(){
         //     $(this).css({color: "#c7254e", backgroundColor: "#f9f2f4", borderRadius: "5px"
         //     });
         // });
 
         $(".desc").html(text).find("span").hover(function(){
-            $(this).css({color: "#c7254e", backgroundColor: "#f9f2f4", borderRadius: "5px"
-        },function(){
+            $(this).css({color: "#c7254e", backgroundColor: "#f9f2f4", borderRadius: "5px"});
+        }, function(){
             $(this).css({color: "#000000"});
-        });
-
+        });    
     </script>
 </body>
 
