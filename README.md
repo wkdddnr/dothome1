@@ -7,4 +7,6 @@
 <br>
 
 #제이쿼리 예제<br>
-<a href="https://wkdddnr.github.io/dothome1/jQuery/jquery04_find2.html">바로가기</a>
+find(): <a href="https://wkdddnr.github.io/dothome1/jQuery/jquery04_find2.html">바로가기</a>
+<br>
+addClass(): <a href="https://wkdddnr.github.io/dothome1/jQuery/jquery06_addClass2.html">바로가기</a>
