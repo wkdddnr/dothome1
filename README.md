@@ -12,5 +12,5 @@ find(): <a href="https://wkdddnr.github.io/dothome1/jQuery/jquery04_find2.html">
 addClass(): <a href="https://wkdddnr.github.io/dothome1/jQuery/jquery06_addClass2.html">바로가기</a>
 
 <br>
-#닷홈  <br>
+#닷홈 <br>
 <a href="http://wkdddnr.dothome.co.kr/">바로가기</a>
