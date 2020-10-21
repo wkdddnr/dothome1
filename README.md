@@ -13,4 +13,4 @@ addClass(): <a href="https://wkdddnr.github.io/dothome1/jQuery/jquery06_addClass
 
 <br>
 #일러스트<br>
-<a href="https://wkdddnr.github.io/dothome1/illustrator/index.html">바로가기</a>
+<a href="http://wkdddnr.dothome.co.kr/">바로가기</a>
