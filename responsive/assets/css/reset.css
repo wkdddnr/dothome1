@@ -9,7 +9,7 @@ a {color: #222; text-decoration: none;}
 a:hover {color: #2698cb;}
 
 /* 블릿 기호 초기화 */
-ul, ol {list-style: none;}
+ul, ol, li {list-style: none;}
 
 /* 폰트 초기화 */
 body, input, textarea, select, button, table {
