@@ -3,8 +3,8 @@
 #웹표준 사이트 만들기<br>
 <a href="https://wkdddnr.github.io/dothome1/webstandard/index.html">바로가기</a>
 
-#웹표준 사이트 만들기<br>
-<a href="https://wkdddnr.github.io/dothome1/webstandard/index.html">바로가기</a>
+#반응형 사이트 만들기<br>
+<a href="https://wkdddnr.github.io/dothome1/responsive/index.html">바로가기</a>
 
 
 <br>
