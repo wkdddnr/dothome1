@@ -11,6 +11,9 @@
     <!-- CSS Style -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
 
     <!-- webfonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
@@ -250,12 +253,12 @@
                             <!-- //로그인 -->
 
                             <!-- 팝업 -->
-                            <div class="popup">
+                            <div class="popup square clearfix">
                                 <h4>Advertisement</h4>
                                 <ul>
-                                    <li><img src="img/sban07.jpg" alt="이미지7"></li>
-                                    <li><img src="img/sban08.jpg" alt="이미지8"></li>
-                                    <li><img src="img/sban09.jpg" alt="이미지9"></li>
+                                    <li><a href="img/sban07.jpg"><img src="img/sban07.jpg" alt="이미지7"></a></li>
+                                    <li><a href="img/sban08.jpg"><img src="img/sban08.jpg" alt="이미지8"></a></li>
+                                    <li><a href="img/sban09.jpg"><img src="img/sban09.jpg" alt="이미지9"></a></li>
                                 </ul>
                             </div>
                             <!-- //팝업 -->
@@ -416,7 +419,11 @@
 
     <!-- script -->
     <script src="js/jquery.min_1.12.4.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
     <script>
+        $(".popup").lightGallery();
+
         $(".tit .btn").click(function(event){
             event.preventDefault();   //#의 기본 기능을 차단
             //전체 메뉴를 보여주세요
