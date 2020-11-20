@@ -73,19 +73,17 @@
     <div class="bs-header bgs5" id="content">
         <div class="container">
             <h1>GAME Effect Reference v1.0 &lt;/doc&gt;</h1>
-            <p><a href="https://wkdddnr.dothome.co.kr" target="_blank">wkdddnr.dothome.co.kr</a></p>
+            <p><a href="http://wkdddnr.dothome.co.kr/" target="_blank">wkdddnr.dothome.co.kr</a></p>
         </div>
     </div>
     <div class="container bs-docs-container">
         <div class="row">
             <div class="col-md-12" role="main">
-                <!-- 배너 광고 -->
+                <!-- 배너 광고 1140 -->
                 <div class="ad">
                     <script src="https://ads-partners.coupang.com/g.js"></script>
                     <script>
-                        new PartnersCoupang.G({
-                            id: 347695
-                        });
+                        new PartnersCoupang.G({ id:348399 });
                     </script>
                 </div>
                 <!-- //배너 광고 -->
@@ -95,6 +93,7 @@
                     <h2 id="intro1" class="page-header">Quiz1</h2>
                     <p class="bs-callout bs-callout-info">주관식 1문제 스타일(자바스크립트/제이쿼리)</p>
                     <iframe width="100%" height="590px" src="quizEffect01-jquery.html" frameborder="0"></iframe>
+<h3>jQuery</h3>
 <pre class="line-numbers language-js"><code>//선택자
 const question = $(".question");
 const questionNum = $(".num");
@@ -124,26 +123,9 @@ questionBtn.click(function(){
     questionBtn.hide();
     questionAnswer.show();
     questionEx.show();
-});   
-</pre></code> 
-                </div>
-                <!-- //Intro1 -->
-                <!-- 배너 광고 -->
-                <div class="ad">
-                    <script src="https://ads-partners.coupang.com/g.js"></script>
-                    <script>
-                        new PartnersCoupang.G({
-                            id: 347695
-                        });
-                    </script>
-                </div>
-                <!-- //배너 광고 -->
-
-                <!-- Intro2 -->
-                <div class="bs-docs-section">
-                    <h2 id="intro2" class="page-header">Quiz2</h2>
-                    <p class="bs-callout bs-callout-info">주관식 1문제 스타일(자바스크립트/제이쿼리)</p>
-                    <iframe width="100%" height="590px" src="quizEffect01-javascript.html" frameborder="0"></iframe>
+});
+</pre></code>
+<h3>javascript</h3>
 <pre class="line-numbers language-js"><code>//선택자
 const question = document.querySelector(".question")
 const questionNum = document.querySelector(".num")
@@ -175,16 +157,27 @@ questionBtn.addEventListener("click", function(){
     questionBtn.style.display = "none";
     questionAnswer.style.display = "block";
     questionEx.style.display = "block";
-});   
-</pre></code> 
+});
+</pre></code>
                 </div>
-                <!-- //Intro2 -->
+                <!-- //Intro1 -->
+                <!-- 배너 광고 -->
+                <div class="ad">
+                    <script src="https://ads-partners.coupang.com/g.js"></script>
+                    <script>
+                        new PartnersCoupang.G({
+                            id: 347695
+                        });
+                    </script>
+                </div>
+                <!-- //배너 광고 -->
 
-                <!-- Intro3 -->
+                <!-- Intro2 -->
                 <div class="bs-docs-section">
-                    <h2 id="intro3" class="page-header">Quiz3</h2>
-                    <p class="bs-callout bs-callout-info">주관식 3문제 스타일(자바스크립트/제이쿼리)</p>
-                    <iframe width="100%" height="650px" src="quizEffect02-javascript.html" frameborder="0"></iframe>
+                    <h2 id="intro2" class="page-header">Quiz2</h2>
+                    <p class="bs-callout bs-callout-info">주관식 1문제 스타일(자바스크립트/제이쿼리)</p>
+                    <iframe width="100%" height="590px" src="quizEffect01-javascript.html" frameborder="0"></iframe>
+<h3>jQuery</h3>
 <pre class="line-numbers language-js"><code>//선택자
 const questionAsk = $(".question");
 const questionNum = $(".num");
@@ -253,6 +246,7 @@ questionBtn.click(function(){
     $(this).nextAll().show();
 });
 </pre></code>
+<h3>javascript</h3>
 <pre class="line-numbers language-js"><code>//선택자
 const questionQuiz = document.querySelectorAll(".quiz")
 const questionAsk = document.querySelectorAll(".question");
@@ -328,9 +322,9 @@ questionBtn.forEach(elem => {
         this.nextElementSibling.style.display = "block";
     });
 });
+</pre></code>
                 </div>
-                <!-- //Intro3 -->
-
+                <!-- //Intro2 -->
 
 
         </div>
