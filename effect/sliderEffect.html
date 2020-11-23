@@ -90,7 +90,7 @@
 
                 <!-- Intro1 -->
                 <div class="bs-docs-section">
-                    <h2 id="intro2" class="page-header">Slider Effect</h2>
+                    <h2 id="intro1" class="page-header">Slider Effect</h2>
                     <p class="bs-callout bs-callout-info">이미지를 슬라이드 형식으로 나오게 했습니다.</p>
                     <iframe width="100%" height="700px" src="sliderEffect01-jquery.html" frameborder="0"></iframe>
 <h3>jQuery</h3>
@@ -138,6 +138,39 @@ currentIndex = nextIndex;
                 </div>
             </div>
             <!-- //Intro1 -->
+
+            <!-- Intro2 -->
+            <div class="bs-docs-section">
+                <h2 id="intro2" class="page-header">Slider Effect</h2>
+                <p class="bs-callout bs-callout-info">이미지를 슬라이드 형식으로 나오게 했습니다.</p>
+                <iframe width="100%" height="700px" src="sliderEffect02-jquery.html" frameborder="0"></iframe>
+<h3>jQuery</h3>
+<pre class="line-numbers language-js"><code>const sliderWrap = $(".slider-wrap");
+const sliderImg = $(".slider-img");
+const slider = $(".slider");
+
+let currentIndex = 0;
+let sliderCount = slider.length;
+
+
+setInterval(function(){
+    // if(currentIndex &lt; sliderCount -1){
+    //     currentIndex++;
+    // } else {
+    //     currentIndex = 0;
+    // }
+    currentIndex &lt; sliderCount - 1 ? currentIndex++ : currentIndex = 0;
+
+    let sliderPosition = currentIndex * (-800) + "px";
+    sliderImg.animate({left: sliderPosition}, 400);
+}, 3000);
+</pre></code>
+<h3>javascript</h3>
+<pre class="line-numbers language-js"><code>
+</pre></code>
+            </div>
+        </div>
+        <!-- //Intro2 -->
 
         </div>
         <!-- //col-md-12 -->
