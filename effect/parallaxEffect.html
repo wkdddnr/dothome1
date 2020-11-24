@@ -99,7 +99,7 @@
                 <div class="bs-docs-section">
                     <h2 id="intro1" class="page-header">Parallax - jQuery</h2>
                     <p class="bs-callout bs-callout-info">scrollTop과 OffsetTop값을 이용하여 패랠랙스 스크로링 효과를 완성하였습니다.</p>
-                    <iframe width="100%" height="700px" src="sliderEffect01-jquery.html" frameborder="0"></iframe>
+                    <iframe width="100%" height="700px" src="parallax01-jquery.html" frameborder="0"></iframe>
 <h3>jQuery</h3>
 <pre class="line-numbers language-js"><code>// $(window).scroll(function(){
 //     const scrollTop = $(window).scrollTop() + $(window).height()/2;
@@ -251,19 +251,23 @@ $(window).scroll(function(){
 //     const scrollTop = $(window).scrollTop()
 // });
 window.addEventListener("scroll",function(){
-    let pageYOffset = window.pageYOffset;
+    let pageYOffset = window.pageYOffset + screen.height/2;
 
     //출력용
     document.querySelector(".pageYOffset").innerText = parseInt(pageYOffset);
-    document.querySelector(".s1OffsetTop").innerText = document.getElementById("section1").offsetTop;
-    document.querySelector(".s2OffsetTop").innerText = document.getElementById("section2").offsetTop;
-    document.querySelector(".s3OffsetTop").innerText = document.getElementById("section3").offsetTop;
-    document.querySelector(".s4OffsetTop").innerText = document.getElementById("section4").offsetTop;
-    document.querySelector(".s5OffsetTop").innerText = document.getElementById("section5").offsetTop;
-    document.querySelector(".s6OffsetTop").innerText = document.getElementById("section6").offsetTop;
-    document.querySelector(".s7OffsetTop").innerText = document.getElementById("section7").offsetTop;
-    document.querySelector(".s8OffsetTop").innerText = document.getElementById("section8").offsetTop;
-    document.querySelector(".s9OffsetTop").innerText = document.getElementById("section9").offsetTop;
+    // document.querySelector(".s1OffsetTop").innerText = document.getElementById("section1").offsetTop;
+    // document.querySelector(".s2OffsetTop").innerText = document.getElementById("section2").offsetTop;
+    // document.querySelector(".s3OffsetTop").innerText = document.getElementById("section3").offsetTop;
+    // document.querySelector(".s4OffsetTop").innerText = document.getElementById("section4").offsetTop;
+    // document.querySelector(".s5OffsetTop").innerText = document.getElementById("section5").offsetTop;
+    // document.querySelector(".s6OffsetTop").innerText = document.getElementById("section6").offsetTop;
+    // document.querySelector(".s7OffsetTop").innerText = document.getElementById("section7").offsetTop;
+    // document.querySelector(".s8OffsetTop").innerText = document.getElementById("section8").offsetTop;
+    // document.querySelector(".s9OffsetTop").innerText = document.getElementById("section9").offsetTop;
+
+    for(let i=1; i&lt;=9; i++){
+        document.querySelector(".s"+i+"OffsetTop").innerText = document.getElementById("section"+i).offsetTop;
+    }
 
     //출력용 글씨 색
     // if( pageYOffset > document.getElementById("section1").offsetTop ){
@@ -311,7 +315,8 @@ window.addEventListener("scroll",function(){
     // } else {
     //     document.querySelector(".s9OffsetTop").style.color = "white";
     // }
-
+    
+    //글씨색 출력용
     for(let i=1; i&lt;=9; i++){
         if( pageYOffset > document.getElementById("section"+i).offsetTop ){
             document.querySelector(".s"+i+"OffsetTop").style.color = "red";
@@ -319,16 +324,72 @@ window.addEventListener("scroll",function(){
             document.querySelector(".s"+i+"OffsetTop").style.color = "white";
         }
     }
+
+    //나타나기
+    // if( pageYOffset > document.getElementById("section1").offsetTop){
+    //     document.getElementById("section1").classList.add("show");
+    // } else {
+    //     document.getElementById("section1").classList.remove("show");
+    // }
+    // if( pageYOffset > document.getElementById("section2").offsetTop){
+    //     document.getElementById("section2").classList.add("show");
+    // } else {
+    //     document.getElementById("section2").classList.remove("show");
+    // }
+    // if( pageYOffset > document.getElementById("section3").offsetTop){
+    //     document.getElementById("section3").classList.add("show");
+    // } else {
+    //     document.getElementById("section3").classList.remove("show");
+    // }
+    // if( pageYOffset > document.getElementById("section4").offsetTop){
+    //     document.getElementById("section4").classList.add("show");
+    // } else {
+    //     document.getElementById("section4").classList.remove("show");
+    // }
+    // if( pageYOffset > document.getElementById("section5").offsetTop){
+    //     document.getElementById("section5").classList.add("show");
+    // } else {
+    //     document.getElementById("section5").classList.remove("show");
+    // }
+    // if( pageYOffset > document.getElementById("section6").offsetTop){
+    //     document.getElementById("section6").classList.add("show");
+    // } else {
+    //     document.getElementById("section6").classList.remove("show");
+    // }
+    // if( pageYOffset > document.getElementById("section7").offsetTop){
+    //     document.getElementById("section7").classList.add("show");
+    // } else {
+    //     document.getElementById("section7").classList.remove("show");
+    // }
+    // if( pageYOffset > document.getElementById("section8").offsetTop){
+    //     document.getElementById("section8").classList.add("show");
+    // } else {
+    //     document.getElementById("section8").classList.remove("show");
+    // }
+    // if( pageYOffset > document.getElementById("section9").offsetTop){
+    //     document.getElementById("section9").classList.add("show");
+    // } else {
+    //     document.getElementById("section9").classList.remove("show");
+    // }
+    
+    //한번에 나타나기
+    document.querySelectorAll(".content-item").forEach(elem => {
+        if(pageYOffset > elem.offsetTop){
+            elem.classList.add("show");
+        } else {
+            elem.classList.remove("show");
+        }
+    });
 });
 </code></pre>
                 </div>
                 <!-- //Intro1 -->
 
-                <!-- Intro1 -->
+                <!-- Intro2 -->
                 <div class="bs-docs-section">
-                    <h2 id="intro1" class="page-header">Parallax - jQuery</h2>
+                    <h2 id="intro2" class="page-header">Parallax - jQuery</h2>
                     <p class="bs-callout bs-callout-info">scrollTop과 OffsetTop값을 이용하여 패랠랙스 스크로링 효과를 완성하였습니다.</p>
-                    <iframe width="100%" height="700px" src="sliderEffect02-jquery.html" frameborder="0"></iframe>
+                    <iframe width="100%" height="700px" src="parallax02-jquery.html" frameborder="0"></iframe>
 <h3>jQuery</h3>
 <pre class="line-numbers language-js"><code>$(window).scroll(function(){
     let scrollTop = $(window).scrollTop();
