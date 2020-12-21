@@ -1,288 +1,837 @@
 {
     "status": "ok",
     "status_message": "Query was successful",
-    "data": {      
+    "data": {
       "refer": [
         {
-            "type": "html",
-            "id": 1,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": "A",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<a>",
-            "desc": "<a> 태그는 하이퍼 링크를 정의합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<a> ~ </a>)",
-            "version" : "HTML4",
-            "view" : "밑줄과 파란색으로 표시",
-            "definition" : [
-                "하이퍼 링크란 현재 페이지에서 다른 페이지의 이동을 말합니다.",
-                "방문하지 않는 링크는 밑줄과 파란색으로 표시됩니다.",
-                "방문한 링크는 밑줄과 보라색으로 표시됩니다.",
-                "활성화된 링크는 밑줄과 빨간색으로 표시됩니다.",
-                "HTML5에서는 <a> 태그는 블록 요소를 포함할 수 있습니다."
-            ]
+            "desc": "<a>태그는 하이퍼링크를 걸어주는 태그입니다."
+            
         },{
-            "type": "html",
-            "id": 2,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<address>",
+            "desc": "<address> 태그는 웹 페이지의 연락처 정보를 설정합니다."
         },{
-            "type": "html",
-            "id": 3,
-            "link": "https://webzz.tistory.com/231",
+            "type":"html",
+            "id": "B",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<acronym>",
-            "desc": "<acronym> 태그는 생략된 글자나 약어를 표시하는데 사용합니다.",
-            "category": "-",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<acronym> ~ </acronym>)",
-            "version" : "HTML4(HTML5에서 지원되지 않습니다.)",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<button>",
+            "desc": "<button>태그는 클릭 가능한 버튼을 나타냅니다."
         },{
-            "type": "html",
-            "id": 4,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": "D",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<div>",
+            "desc": "<div> 태그는 문서의 영역을 나누거나 그룹화 할 때 사용합니다."
         },{
-            "type": "html",
-            "id": 5,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<dd>",    
+            "desc": "<dd> 태그는 용어를 설명하는 태그입니다."
         },{
-            "type": "html",
-            "id": 6,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<dl>",    
+            "desc": "<dl> 태그는 용어를 설명하는 목록형 태그입니다."
         },{
-            "type": "html",
-            "id": 7,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<dt>",    
+            "desc": "<dt> 태그는 용어의 제목을 설명하는 목록형 태그입니다."
         },{
-            "type": "html",
-            "id": 8,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": "E",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<em>",    
+            "desc": "<em> 태그는 텍스트를 강조하는데 사용합니다."
         },{
-            "type": "html",
-            "id": 9,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": "F",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<fieldset>",    
+            "desc": "<fieldset> 태그는 폼 요소의 그룹 내부 영역을 설정합니다."
         },{
-            "type": "html",
-            "id": 10,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<figcaption>",    
+            "desc": "<figcaption> 태그는 <figure> 요소의 제목을 정의합니다."
         },{
-            "type": "html",
-            "id": 11,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<figure>",    
+            "desc": "<figure> 태그는 그림, 도표, 사진, 코드 등의 표현을 정의합니다."
         },{
-            "type": "html",
-            "id": 12,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<form>",    
+            "desc": "<form> 태그는 웹 서버에 정보를 제공하는 폼 컨트롤 유형을 정의합니다."
         },{
-            "type": "html",
-            "id": 13,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": "H",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<h1>~<h6>",    
+            "desc": "<h1>~<h6> 태그는 제목 영역을 설정합니다."
         },{
-            "type": "html",
-            "id": 14,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<html>",    
+            "desc": "<html> 태그는 웹 문서의 최상위 요소 문서의 루트를 나타냅니다."
         },{
-            "type": "html",
-            "id": 15,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": "I",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<i>",    
+            "desc": "<i> 태그는 특별한 이유로 평범한 글자와 구분하기 위해 사용됩니다."
         },{
-            "type": "html",
-            "id": 16,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<img>",    
+            "desc": "<img> 태그는 웹 문서에 이미지를 정의합니다."
         },{
-            "type": "html",
-            "id": 17,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<input>",    
+            "desc": "<input> 태그는 데이터를 입력할 수 있는 폼 컨트롤을 정의합니다."
         },{
-            "type": "html",
-            "id": 18,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": "L",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<label>",    
+            "desc": "<label> 태그는 해당 <input> 요소의 제목을 설정합니다."
         },{
-            "type": "html",
-            "id": 19,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<legend>",    
+            "desc": "<legend> 태그는 <fieldset> 요소의 영역 제목을 정의합니다."
         },{
-            "type": "html",
-            "id": 20,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<li>",    
+            "desc": "<li> 태그는 목록의 항목을 나타내는 태그입니다."
         },{
-            "type": "html",
-            "id": 21,
-            "link": "https://webzz.tistory.com/229",
+            "type":"html",
+            "id": "N",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
-            "title": "<abbr>",
-            "desc": "<abbr> 태그는 생략된 글자나 머리글자를 표시하는데 사용합니다.",
-            "category": "플로우 콘텐츠(Flow Content), 프레이징 콘텐츠(Phrasing content), 인터렉티브 콘텐츠 (Interactive content)",
-            "property": "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
-            "element": "인라인 구조(Inline Element)",
-            "tag": "닫는 태그 사용(<abbr> ~ </abbr>)",
-            "version" : "HTML4",
-            "view" : "점선(브라우저마다 틀림) 및 툴팁"
+            "title": "<nav>",    
+            "desc": "<nav> 태그는 웹 문서에 네비게이션 링크를 정의합니다."
+        },{
+            "type":"html",
+            "id": "O",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "<ol>",    
+            "desc": "<ol> 태그는 순서가 있는 목록형 태그입니다."
+        },{
+            "type":"html",
+            "id": "P",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "<picture>",    
+            "desc": "<picture> 태그는 화면 크기에 따라 이미지를 정의합니다."
+        },{
+            "type":"html",
+            "id": "S",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "<section>",    
+            "desc": "<source> 태그는 미디어 요소에 대한 소스를 지정하는데 사용합니다."
+        },{
+            "type":"html",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "<span>",    
+            "desc": "<span> 태그는 인라인 요소 그룹화를 정의합니다."
+        },{
+            "type":"html",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "<strong>",    
+            "desc": "<strong> 태그는 텍스트의 중요성을 강조합니다."
+        },{
+            "type":"html",
+            "id": "T",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "<table>",    
+            "desc": "<table> 태그는 표를 만들 때 사용합니다."
+        },{
+            "type":"html",
+            "id": "U",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "<ul>",    
+            "desc": "<ul> 태그는 순서가 없는 목록형 태그를 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "B",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "backface-visibility",    
+            "desc": "backface-visibility 속성은 요소의 뒷면을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "background",    
+            "desc": "background 속성은 단축 속성으로 하나의 선언으로 배경 속성 값을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "border",    
+            "desc": "border 속성은 테두리 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "border-radius",    
+            "desc": "border-radius 속성은 모서리 굴곡을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "box-shadow",    
+            "desc": "box-shadow 속성은 박스 요소의 그림자를 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "box-sizing",    
+            "desc": "box-sizing 속성은 크기 및 높이 여부의 포함을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "C",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "calc()",    
+            "desc": "clac()속성은 css 속성의 값으로 계산식을 지정할 수 있습니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "clear",    
+            "desc": "clear 속성은 float 요소의 성질을 차단합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "cursor",    
+            "desc": "cursor 속성은 마우스 오버시 마우스 포인터를 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "F",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "float",    
+            "desc": "float 속성은 블록요소의 정렬 상태를 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "font",    
+            "desc": "font 속성은 폰트에 관한 설정을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "H",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "height",    
+            "desc": "height 속성은 콘텐츠 요소의 세로값을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "L",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "letter-spacing",    
+            "desc": "letter-spacing 속성은 글자 사이의 간격을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "line-height",    
+            "desc": "line-height 속성은 문장과 문장 사이의 간격을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "linear-gradient",    
+            "desc": "두 개 이상의 색이 직선을 따라 점진적으로 변화하는 이미지를 생성합니다. "
+        },{
+            "type":"CSS",
+            "id": "M",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "margin ",    
+            "desc": "margin 속성은 요소의 바같쪽 여백을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "O",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "overflow  ",    
+            "desc": "overflow 속성은 지정한 영역에 요소들이 벗어났을 때 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "P",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "padding ",    
+            "desc": "padding 속성은 요소의 안쪽 여백을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "perspective ",    
+            "desc": "perspective 속성은 3D를 표현할 때 원근점을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "pointer-events ",    
+            "desc": "pointer-events 속성은 포인터 이벤트 반응을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "position",    
+            "desc": "position 속성은 요소의 위치를 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "T",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text-align",    
+            "desc": "text-align 속성은 텍스트 정렬 방식을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text-indent",    
+            "desc": "text-indent 속성은 문단 들여쓰기 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text-overflow",    
+            "desc": "text-overflow 속성은 문자열 영역 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text-shadow",    
+            "desc": "text-shadow 속성은 텍스트에 그림자를 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text-transform",    
+            "desc": "text-transform 속성은 텍스트를 대문자나 소문자로 변경합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "transform",    
+            "desc": "transform 속성은 요소의 움직임을 표현합니다."
+        },{
+            "type":"CSS",
+            "id": "U",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "user-select",    
+            "desc": "user-select 속성은 요소의 텍스트를 선택할 지 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "V",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "visibility",    
+            "desc": "visibility 속성은 요소를 보이지 않게 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "W",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "white-space",    
+            "desc": "white-space 속성은 줄바꿈, 공백, 줄 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "width",    
+            "desc": "width 속성은 요소의 가로 값을 정의합니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "word-break",    
+            "desc": "word-break 속성은 줄바꿈 속성을 설정합니다."
+        },{
+            "type":"CSS",
+            "id": "Z",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "z-index",    
+            "desc": "z-index 속성은 요소의 위치가 겹칠 경우 순서를 정의합니다."
+        },{
+            "type":"CSS",
+            "id": "ETC",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "!important",    
+            "desc": "!important를 사용하면 우선순위가 1순위가 됩니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "이미지스프라이트",    
+            "desc": "이미지스프라이트는 아이콘 또는 장식을 위한 이미지 요소들을 스프라이트 기법을 활용하여 파일의 사이즈를 최소화하고 효율성을 높일 수 있습니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "IR효과",    
+            "desc": "IR 기법은 이미지 데체 텍스를 제공하기 위한 CSS 기법으로 다양한  CSS 기법을 사용하여 이미지 대체 텍스트를 제공할 수 있습니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "@media",    
+            "desc": "@media는 화면 크기에 따른 각각의 속성 값을 지정하여 여러가지 화면을 구성하는 기술입니다."
+        },{
+            "type":"CSS",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "가상요소",    
+            "desc": "가상요소는 선택자에 추가하는 키워드로, 선택한 요소의 일부분에만 스타일을 입힐 수 있습니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "변수",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "변수",    
+            "desc": "가상요소는 선택자에 추가하는 키워드로, 선택한 요소의 일부분에만 스타일을 입힐 수 있습니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "변수의 유형",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "Number",    
+            "desc": "숫자를 사용할 수 있습니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "변수의 유형",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "String",    
+            "desc": "문자를 사용할 수 있습니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "String",    
+            "desc": "문자를 사용할 수 있습니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "typeof",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "typeof",    
+            "desc": "typeof는 지정한 데이터 또는 변수에 저장된 자료형을 알고 싶을 때 사용합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "연산자",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "산술 연산자",    
+            "desc": "산술 연산자는 사칙 연산을 수행합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "대입 연산자",    
+            "desc": "대입 연산자는 사칙연산을 간결하게 표현할 때 사용합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "증감 연산자",    
+            "desc": "증가 연산자는 1만큼 증가시키고, 감소 연산자는 1만큼 감소시킵니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "비교 연산자",    
+            "desc": "비교 연산자는 비교 할 때 사용하며, 결과 값은 true(참) 또는 false(거짓)로 반환합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "논리 연산자",    
+            "desc": "참/거짓으로 나타나는 boolean 값을 조합해서 논리 연산을 수행합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "조건문",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "if문",    
+            "desc": "if문 단독으로 사용하는 형태입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "if~else문",    
+            "desc": "두개의 값을 비교하여 코드를 별개로 실행합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "다중 if문",    
+            "desc": "여러가지 조건에 따라 조건문을 설정합니다. 조건에 계속 설정할 수 있으며 마지막에는 조건식을 쓰지 않습니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "중첩 if문",    
+            "desc": "중첩 if문은 조건문 안에 조건문이 오는 것을 말합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "switch문",    
+            "desc": "해당 조건에 맞는 값을 case로 구분해서 수행하는 제어문입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "삼항연산자",    
+            "desc": "조건을 처리하는 if문의 다른 형태 제어문입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "반복문",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "While문",    
+            "desc": "반복되는 부분을 실행할 때 사용하는 제어문입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "do while문",    
+            "desc": "do while문은 반드시 한 번은 실행문을 실행하고 조건식을 검사합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "for문",    
+            "desc": "for문은 특정 구문을 여러번 반복하고 싶을 때 사용하는 반복문입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "중첩 for문",    
+            "desc": "for문 안에 for문이 있는 형태입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "break문",    
+            "desc": "코드 실행문을 빠져나갈 때 사용하며, 일반적으로 반복문을 종료할 때 사용합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "continue문",    
+            "desc": "continue문은 반복문을 제어하는 명령어입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "배열",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "배열",    
+            "desc": "배열은 여러개의 데이터를 순차적으로 저장하는 저장소입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "함수",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "선언적 함수",    
+            "desc": "함수의 일반적인 사용 방법입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "익명 함수",    
+            "desc": "익명 함수는 변수에 함수를 설정하는 방법입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "매개변수가있는 함수",    
+            "desc": "변수를 통해 함수의 값을 전달하는 함수입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "arguments함수",    
+            "desc": "arguments 함수는 매개변수를 사용하는 것처럼 사용할 수 있습니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "리턴 값이있는 함수",    
+            "desc": "결과 값이 있는 함수입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "재귀 함수",    
+            "desc": "함수 정의문 내에 함수를 다시 호출하여 실행하는 함수입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "콜백 함수",    
+            "desc": "함수를 변수에 저장하고 변수를 함수의 인수로 사용하여 매개변수에 전달하는 함수입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "내부 함수",    
+            "desc": "내부 함수는 함수 안에 함수를 선언하는 함수를 말합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "객체 생성자 함수",    
+            "desc": "자바스크립트 엔진에 내장되어 있는 객체 생성자 함수를 사용하여 객체를 생성합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "프로토타입 함수",    
+            "desc": "프로토타입을 사용하여 생성된 객체를 공유할 수 있습니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "화살표 함수",    
+            "desc": "화살표 함수(Arrow function)는 function 키워드 대신 화살표(=>)를 사용하여 좀 더 간단하게 함수를 사용할 수 있는 함수입니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "객체",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "객체",    
+            "desc": "객체(object)란 데이터와 연산 작업을 담고 있는 기본적인 기능이며, 메서드(Method)와 속성(Attribute)으로 이루어져 있습니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": "메서드",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "setAttribute",    
+            "desc": "선택요소의 속성값을 설정합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "getElementByld",    
+            "desc": "주어진 문자열과 일치하는 id 속성을 가진 요소를 찾고, 이를 나타내는 Element 객체를 반환합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "querySelector",    
+            "desc": "css 선택자로 요소를 선택하게 해줍니다. "
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "addEventListener",    
+            "desc": "지정한 이벤트가 대상에 전달될 때마다 호출할 함수를 설정합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "index",    
+            "desc": "배열에서의 위치를 가리키는 숫자"
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "preventDefault",    
+            "desc": "이벤트를 취소할 수 있는 경우, 이벤트의 전파를 막지 않고 그 이벤트를 취소합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "parselnt",    
+            "desc": "소수점을 정수로 봔환합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "innerText",    
+            "desc": "요소와 그 자손의 렌더링 된 텍스트를 나타냅니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "innerHTML",    
+            "desc": "요소내에 포함된 HTML을 가져오거나 설정합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "setTimeout",    
+            "desc": "setTimeout()은 지정된 시간이 경과 한 후 지정된 코드 블록을 한 번 실행합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "setInterval",    
+            "desc": "setInterval()은 일정 시간 간격을 두고 함수를 실행합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "setInterval",    
+            "desc": "setInterval()은 일정 시간 간격을 두고 함수를 실행합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "pageX/YOffset",    
+            "desc": "pageXOffest은 브라우서의 문서 위치 X값(오른쪽왼쪽)을 반환하고, pageYOffset는 브라우저의 문서 위치 Y값(위아래)을 반환합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "offsetTop",    
+            "desc": "offsetParent요소의 위쪽에서 선택한 요소의 위쪽까지의 거리를 반환합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "toString",    
+            "desc": "toString()문자열 지정자 메서드는 수를 문자열로 리턴합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "offsetTop",    
+            "desc": "offsetParent요소의 위쪽에서 선택한 요소의 위쪽까지의 거리를 반환합니다."
+        },{
+            "type":"JAVASCRIPT",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "classList",    
+            "desc": "Dom객체의 클래스를 조작할 수 있는 읽기전용 프로퍼티입니다."
+        },{
+            "type":"JQUERY",
+            "id": "선택자",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "기본선택자",    
+            "desc": "가장 기본적으로 요소를 선택하는 방법입니다. 이 방법은 CSS와 동일합니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "계층 선택자",    
+            "desc": "계층적인 구조에서 선택하는 방법입니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "속성 선택자",    
+            "desc": "태그의 속성을 사용하여 선택하는 방법입니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "기본 필터선택자",    
+            "desc": "필터는 선태자 앞에 :(콜론)을 붙어 표현을 하며, 필터를 사용해 다양한 조건에 따라 선택할 수 있습니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "보임 필터선택자",    
+            "desc": "화면에 보이거나 보이지 않는 요소를 찾습니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "자식 요소 필터 선택자",    
+            "desc": "자식 요소들을 선택 하는 방법입니다."
+        },{
+            "type":"JQUERY",
+            "id": "속성메서드",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "addClass/removeClass",    
+            "desc": "addClass() 메서드는 선택한 요소에 클래스를 생성하고, remove|Class() 메서드는 선택한 요소에서 지정한 클래스를 삭제합니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "hasClass",    
+            "desc": "hasClass() 메서드는 선택한 요소에 지정한 클래스가 있으면 true를 반환하고, 없으면 false를 반환합니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "toggleClass",    
+            "desc": "toggleClass() 메서드는 선택한 요소에 지정한 클래스가 없으면 생성하고, 있을 경우에는 삭제합니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "text/html",    
+            "desc": "html() 메서드는 선택한 요소를 새 요소로 바꿀 때 사용하고, text() 메서드는 선택한 요소의 텍스트를 가져오거나  새 텍스트를 생성합니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "attr/removeAttr",    
+            "desc": "attr() 메서드는 선택한 요소에 새 속성을 생성하거나 기존의 속성을 변경할 때, removeAttr() 메서드는 삭제할 때 사용합니다."
+        },{
+            "type":"JQUERY",
+            "id": "탐색메서드",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "find/filter",    
+            "desc": "find()/filter() 메서드는 하위 요소 중에서 find()/filter()로 필터링한 요소만 선택합니다. "
+        },{
+            "type":"JQUERY",
+            "id": "수치메서드",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "position/offset",    
+            "desc": "요소 위치 메서드는 선택한 요소의 가로/세로로 떨어진 위치의 좌푯값을 반환하거나 변경할 때 사용합니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "scrollTop/scrollLeft",    
+            "desc": "scrollTop() 메서드는 스크롤바가 수직/수평으로 이동한 위칫값을 불러오거나 변경할 때 사용합니다."
+        },{
+            "type":"JQUERY",
+            "id": "배열메서드",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "each",    
+            "desc": "each()는 선택한 요소가 여러 개일 때 각각에 대하여 반복하여 함수를 실행시킵니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "index",    
+            "desc": "배열에서 위치를 가리키는 숫자입니다."
+        },{
+            "type":"JQUERY",
+            "id": "효과메서드",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "show/hide",    
+            "desc": "hide() 메서드는 선택한 요소를 숨깁니다. show() 메서드는 숨겨진 요소를 노출시킵니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "slideUp/slideDown",    
+            "desc": "slideUp()메서드는 요소가 위로 접히며 사라집니다. slideDown() 숨겨진 요소가 아래로 펼쳐집니다."
+        },{
+            "type":"JQUERY",
+            "id": " ",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "fadeIn/fadeOut",    
+            "desc": "fadeOut() 메서드는 요소가 점점 투명해집니다. fadeIn() 메서드는 숨겨진 요소가 점점 선명해집니다."
+        },{
+            "type":"JQUERY",
+            "id": "ETC",
+            "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
+            "title": "next",    
+            "desc": "next()는 선택한 요소의 다음 요소를 선택합니다. nextAll()은 선택한 요소의 다음 모든 요소를 선택합니다. nextUntil()은 다음 요소를 조건에 맞을 때까지 찾습니다."
         }
       ]
     }
