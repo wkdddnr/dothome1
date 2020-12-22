@@ -8,7 +8,7 @@
       "ports": [
         {
           "id": 1,
-          "link": "https://webstoryboy.github.io/portfolio/port2/",
+          "link": "https://wkdddnr.github.io/effect/port/portfolio01",
           "image": "../img/port01.jpg",
           "title": "PORTFOLIO DONG1",
           "category": "PORTFOLIO1",
@@ -16,7 +16,7 @@
         },
         {
           "id": 2,
-          "link": "https://webstoryboy.github.io/portfolio/port1/",
+          "link": "https://wkdddnr.github.io/effect/port/portfolio02",
           "image": "../img/port02.jpg",
           "title": "PORTFOLIO DONG2",
           "category": "PORTFOLIO2",
@@ -24,7 +24,7 @@
         },
         {
           "id": 3,
-          "link": "https://webstoryboy.github.io/portfolio/port3/pf03.html",
+          "link": "https://wkdddnr.github.io/effect/port/portfolio03",
           "image": "../img/port03.jpg",
           "title": "PORTFOLIO DONG3",
           "category": "PORTFOLIO3",
@@ -32,7 +32,7 @@
         },
         {
           "id": 4,
-          "link": "https://webstoryboy.github.io/portfolio/port4/index4.html",
+          "link": "https://wkdddnr.github.io/effect/port/portfolio04.html",
           "image": "../img/port04.jpg",
           "title": "PORTFOLIO DONG4",
           "category": "PORTFOLIO4",
@@ -40,7 +40,7 @@
         },
         {
           "id": 5,
-          "link": "https://webstoryboy.github.io/portfolio/port5/indexs/main.html",
+          "link": "https://wkdddnr.github.io/effect/port/portfolio05.html",
           "image": "../img/port01.jpg",
           "title": "PORTFOLIO DONG5",
           "category": "PORTFOLIO5",
@@ -48,7 +48,7 @@
         },
         {
           "id": 6,
-          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "link": "https://wkdddnr.github.io/effect/port/portfolio06.html",
           "image": "../img/port02.jpg",
           "title": "PORTFOLIO DONG6",
           "category": "PORTFOLIO6",
@@ -56,7 +56,7 @@
         },
         {
           "id": 7,
-          "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
+          "link": "https://wkdddnr.github.io/effect/port/portfolio07.html",
           "image": "../img/port03.jpg",
           "title": "PORTFOLIO DONG7",
           "category": "PORTFOLIO7",
