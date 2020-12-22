@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        a {text-decoration: none;}
+        li {list-style: none;}
+        #wrap {}
+        #header {width: 100%; height: 86px; background: #fff;}
+        #banner {width: 100%; height: 300px; background: #444;}
+        #contents { background: #fff;}
+        #footer {width: 100%; height: 200px; background: #000;}
+        .container {position: relative; width: 1300px; height: inherit; margin: 0 auto;}
+
+        .header {color: #000; text-align: center; border-bottom: 1px solid rgba(0,0,0,.05);}
+        .header .logo {position: absolute; left: 0; top: 10px; margin-top: 17px; background: url(https://static-clova.pstatic.net/static/70fd2ea/img/sprite/sp_svg_icon.svg); background-position: -4px -62px; background-repeat: no-repeat; width: 145px;     height: 22px;}
+        .header .menu {padding: 25px;}
+        .header .menu li {display: inline; font-size: 16px; padding: 0 25px;}
+        .header .btn {position: absolute; right: 0; top: 10px; padding: 20px;}
+        .header .btn li {display: inline; font-size: 12px; border: 1px solid #000; border-radius: 5px; padding: 8px 13px; margin-left: 5px;}
+
+        #banner {background: #fff;}
+        .banner {text-align: center; padding-top: 123px;}
+        .banner p {font-size: 41px; line-height: 56px; color: #2c2c2c;}
+        .banner p span {color: #01be75;}
+        .banner .btn1 {margin-left: 530px; width: 200px; margin-top: 30px; padding: 4px 0 17px; line-height: 22px; border-radius: 4px; background: #05d686;}
+        .banner .btn1 a {display: inline-block; color: #fff; padding-top: 13px; font-size: 20px;}
+
+        #cont1 {}
+        .cont1 {background: #fff; margin-top: 120px;}
+        .cont1 .cont1-box {width: 1060px; padding: 0px 40px 111px; margin: 46px auto 0; box-sizing: border-box;}
+        .cont1 .cont1-box .item-box {overflow: hidden; font-size: 0;}
+        .cont1 .cont1-box .item-box .item {position: relative; display: inline-block; width: 20%; height: 196px; line-height: 196px; vertical-align: top; border: 1px solid #f2f2f2; box-sizing: border-box;}
+        .cont1 .cont1-box .item-box .item img {width: 100%;}
+
+        .footer {padding: 50px 0; padding-top: 80px;}
+        .footer-top {height: 30px; overflow: hidden;}
+        .footer-top .flogo {float: left; background: #fff; background: url(https://static-clova.pstatic.net/static/70fd2ea/img/sprite/sp_svg_icon.svg); background-position: -4px -34px; background-repeat: no-repeat; width: 145px; height: 20px;}
+        .footer-top div {float: right; margin-left: 15px;}
+        .footer-top div .ficon1 {padding-left: 10px; float: left; background: url(https://static-clova.pstatic.net/static/70fd2ea/img/sprite/sp_svg_icon.svg); background-position: -128px -92px; background-repeat: no-repeat; width: 21px; height: 18px;}
+        .footer-top div .ficon2 {float: left; background: url(https://static-clova.pstatic.net/static/70fd2ea/img/sprite/sp_svg_icon.svg); background-position: -164px -218px; background-repeat: no-repeat; width: 21px; height: 18px;}
+        .footer-top div .ficon3 {float: left; background: url(https://static-clova.pstatic.net/static/70fd2ea/img/sprite/sp_svg_icon.svg); background-position: -138px -218px; background-repeat: no-repeat; width: 21px; height: 18px;}
+        .footer-top div .ficon4 {float: left; background: url(https://static-clova.pstatic.net/static/70fd2ea/img/sprite/sp_svg_icon.svg); background-position: -200px -172px; background-repeat: no-repeat; width: 21px; height: 18px;}
+        .footer-bottom {height: 30px; padding-top: 15px; display: flex; justify-content: space-between; align-items: center;}
+        .footer-bottom .fb1 { width: 30%; height: 50px; }
+        .footer-bottom .fb2 { width: 40%; height: 50px; }
+        .footer-bottom .fb3 { width: 30%; height: 50px;  font-size: 13px; color: #666; text-align: right;}
+        .footer-bottom .fb1 li {display: inline; font-size: 13px; color: #666;}
+        .footer-bottom .fb2 {font-size: 13px; color: #666; text-align: center;}
+        .footer-bottom .fb3 li {display: inline; font-size: 13px; padding-left: 15px; color: #666; text-align: right;}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div class="container">
+                <div class="header">
+                    <div class="logo"></div>
+                    <div class="menu">
+                        <ul>
+                            <li>기술·솔루션</li>
+                            <li>제품</li>
+                            <li>플랫폼</li>
+                            <li>파트너</li>
+                            <li>리서치</li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <ul>
+                            <li>Biz Start</li>
+                            <li>비즈니스 문의</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="container">
+                <div class="banner">
+                    <p><span>클로바</span>는 다양한 브랜드,<br>
+                        서비스 및 개발사들과 함께 하겠습니다.</p>
+                    <div class="btn1">
+                        <a href="#">제휴 제안 신청</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contents">
+            <div class="container">
+                <div class="cont1">
+                    <div class="cont1-box">
+                        <ul class="item-box">
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/dy_media.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_1.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_2.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_3.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_4.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_5.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_6.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_7.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_8.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_9.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_10.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_11.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_12.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/infomark.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/iscream_edu.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_13.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_14.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_15.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_16.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/markt.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/minibig.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_17.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_18.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_19.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_20.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_30.jpg" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_31.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_21.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_22.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_23.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_32.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_33.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_24.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_25.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_26.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_27.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_28.png" alt="">
+                            </li>
+                            <li class="item">
+                                <img src="https://static-clova.pstatic.net/static/4b722fb/img/partner/partner_logo_29.png" alt="">
+                            </li>
+                            <li class="item">
+                                
+                            </li>
+                            <li class="item">
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <div class="footer">
+                    <div class="footer-top">
+                        <h5 class="flogo"></h5>
+                        <div>
+                            <div class="ficon1"></div>
+                            <div class="ficon2"></div>
+                            <div class="ficon3"></div>
+                            <div class="ficon4"></div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <ul class="fb1">
+                            <li>고객센터 1833-5387</li>
+                            <li>09:00 - 18:00 (주말, 공휴일 휴무) </li>
+                        </ul>
+                        <p class="fb2">Powered by NAVER · LINE</p>
+                        <ul class="fb3">
+                            <li>공지사항</li>
+                            <li>이용약관</li>
+                            <li>CLOVA 채용안내</li>
+                            <li>CLOVA JP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
