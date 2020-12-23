@@ -10,7 +10,7 @@
           "id": 1,
           "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio01",
           "image": "../img/standard.jpg",
-          "title": "WEB STANDARD",
+          "title": "PORTFOLIO SITE01",
           "category": "PORTFOLIO1",
           "rating": 5
         },
@@ -18,7 +18,7 @@
           "id": 2,
           "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio02",
           "image": "../img/responsive.jpg",
-          "title": "WEB RESPONSIVE",
+          "title": "PORTFOLIO SITE02",
           "category": "PORTFOLIO2",
           "rating": 4.9
         },
@@ -26,7 +26,7 @@
           "id": 3,
           "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio03",
           "image": "../img/megabox.jpg",
-          "title": "SITE MEGA BOX",
+          "title": "PORTFOLIO SITE03",
           "category": "PORTFOLIO3",
           "rating": 5
         },
@@ -34,7 +34,7 @@
           "id": 4,
           "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio04.html",
           "image": "../img/naver-clova01.jpg",
-          "title": "SITE NAVER CLOVA",
+          "title": "PORTFOLIO SITE04",
           "category": "PORTFOLIO4",
           "rating": 5
         },
@@ -42,7 +42,7 @@
           "id": 5,
           "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio05.html",
           "image": "../img/naver-clova02.jpg",
-          "title": "SITE NAVER CLOVA",
+          "title": "PORTFOLIO SITE05",
           "category": "PORTFOLIO5",
           "rating": 4.9
         },
@@ -50,7 +50,7 @@
           "id": 6,
           "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio06.html",
           "image": "../img/naver-clova03.jpg",
-          "title": "SITE NAVER CLOVA",
+          "title": "PORTFOLIO SITE06",
           "category": "PORTFOLIO6",
           "rating": 4.9
         },
@@ -58,7 +58,7 @@
           "id": 7,
           "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio07.html",
           "image": "../img/naver-clova04.jpg",
-          "title": "SITE NAVER CLOVA",
+          "title": "PORTFOLIO SITE07",
           "category": "PORTFOLIO7",
           "rating": 4.9
         },
@@ -66,7 +66,7 @@
           "id": 8,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port04.jpg",
-          "title": "PORTFOLIO DONG8",
+          "title": "PORTFOLIO SITE8",
           "category": "PORTFOLIO8",
           "rating": 4.9
         },
@@ -74,7 +74,7 @@
           "id": 9,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port01.jpg",
-          "title": "PORTFOLIO DONG9",
+          "title": "PORTFOLIO SITE9",
           "category": "PORTFOLIO9",
           "rating": 4.9
         },
@@ -82,7 +82,7 @@
           "id": 10,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port02.jpg",
-          "title": "PORTFOLIO DONG10",
+          "title": "PORTFOLIO SITE10",
           "category": "PORTFOLIO10",
           "rating": 4.9
         },
@@ -90,7 +90,7 @@
           "id": 11,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port03.jpg",
-          "title": "PORTFOLIO DONG11",
+          "title": "PORTFOLIO SITE11",
           "category": "PORTFOLIO11",
           "rating": 4.9
         },
@@ -98,7 +98,7 @@
           "id": 12,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port04.jpg",
-          "title": "PORTFOLIO DONG12",
+          "title": "PORTFOLIO SITE12",
           "category": "PORTFOLIO12",
           "rating": 4.9
         },
@@ -106,7 +106,7 @@
           "id": 13,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port01.jpg",
-          "title": "PORTFOLIO DONG13",
+          "title": "PORTFOLIO SITE13",
           "category": "PORTFOLIO13",
           "rating": 4.9
         },
@@ -114,7 +114,7 @@
           "id": 14,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port02.jpg",
-          "title": "PORTFOLIO DONG14",
+          "title": "PORTFOLIO SITE14",
           "category": "PORTFOLIO14",
           "rating": 4.9
         },
@@ -122,7 +122,7 @@
           "id": 15,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port03.jpg",
-          "title": "PORTFOLIO DONG15",
+          "title": "PORTFOLIO SITE15",
           "category": "PORTFOLIO15",
           "rating": 4.9
         },
@@ -130,7 +130,7 @@
           "id": 16,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port04.jpg",
-          "title": "PORTFOLIO DONG16",
+          "title": "PORTFOLIO SITE16",
           "category": "PORTFOLIO16",
           "rating": 4.9
         },
@@ -138,7 +138,7 @@
           "id": 17,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port01.jpg",
-          "title": "PORTFOLIO DONG17",
+          "title": "PORTFOLIO SITE17",
           "category": "PORTFOLIO17",
           "rating": 4.9
         },
@@ -146,7 +146,7 @@
           "id": 18,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port02.jpg",
-          "title": "PORTFOLIO DONG18",
+          "title": "PORTFOLIO SITE18",
           "category": "PORTFOLIO18",
           "rating": 4.9
         },
@@ -154,7 +154,7 @@
           "id": 19,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port03.jpg",
-          "title": "PORTFOLIO DONG19",
+          "title": "PORTFOLIO SITE19",
           "category": "PORTFOLIO19",
           "rating": 4.9
         },
@@ -162,7 +162,7 @@
           "id": 20,
           "link": "https://webstoryboy.github.io/portfolio/port6/port05.html",
           "image": "../img/port04.jpg",
-          "title": "PORTFOLIO DONG20",
+          "title": "PORTFOLIO SITE20",
           "category": "PORTFOLIO20",
           "rating": 4.9
         }
