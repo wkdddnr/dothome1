@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mouse Effect07 - javascript</title>
+    <title>Mouse Effect08 - javascript</title>
     <style>
         @font-face {
             font-family: 'Jal_Onuel';
@@ -18,15 +18,15 @@
         li {list-style: none;}
         
         body {
-            /* background: url(img/images08@2.jpg) no-repeat center center;
+            background: url(img/images08@2.jpg) no-repeat center center;
             background-size: cover;
-            background-color: #55555a; */
+            background-color: #55555a;
             height: 100vh;
             overflow: hidden;
             font-size: 16px;
             line-height: 1.5;
             font-family: 'Jal_Onuel';
-            /* background-blend-mode: luminosity; */
+            background-blend-mode: luminosity;
             /* cursor: none; */
             position: relative;
         }
@@ -34,7 +34,7 @@
             content: '';
             position: absolute; left: 0; top: 0;
             width: 100%; height: 100vh;
-            background: rgba(94, 112, 117, 0.7);
+            background: rgba(101, 111, 114, 0.7);
         }
 
         /* info */
@@ -82,29 +82,52 @@
         }
 
         /* main */
-        .cover_wrap {
-            position: relative;
-            z-index: 1;
-            height: 100vh;
-            overflow: hidden;
-            background: url(img/images15@2.jpg) center center;
+        .text-wrap {
+            position: absolute;
+            left: 50%; top: 50%;
+            transform: translate(-50%, -20%);
+            font-size: 3vw;
         }
-        #svg-mask {
-            position: fixed;
-            z-index: 2;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            fill: blue;
-            mix-blend-mode: overlay;
+        .text-wrap .line {
+            width: 100%; display: flex;
+        }
+        .text-wrap .line .left {
+            width: 50vw;
+            transform: skew(0deg, -15deg);
+            overflow: hidden;
+        }
+        .text-wrap .line .left .span-wrap {
+            width: 100vw;
+            text-align: center;
+        }
+        .text-wrap .line .left .span-wrap span {
+            color: gold;
+        }
+        .text-wrap .line .right  {
+            width: 50vw;
+            transform: skew(0deg, 15deg);
+            overflow: hidden;
+        }
+        .text-wrap .line .right  .span-wrap {
+            width: 100vw;
+            text-align: center;
+            transform: translate(-50vw);
+        }
+        .text-wrap span {
+            display: inline-block;
+        }
+        .img-wrap {
+            position: absolute;
+            left: 50%; top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
         }
     </style>
 </head>
 <body>
     <!-- info -->
     <div class="info left">
-        <h1>mouseEffect07 - javascript</h1>
+        <h1>mouseEffect08 - javascript</h1>
         <p>마우스 방향에 따라 움직이기</p>
     </div>
     <div class="info right">
@@ -115,105 +138,97 @@
             <li><a href="mouseEffect04-jquery.html">4</a><a href="mouseEffect04-javascript.html">4</a></li>
             <li><a href="mouseEffect05-jquery.html">5</a><a href="mouseEffect05-javascript.html">5</a></li>
             <li><a href="mouseEffect06-jquery.html">6</a><a href="mouseEffect06-javascript.html">6</a></li>
-            <li><a href="mouseEffect07-jquery.html">7</a><a href="mouseEffect07-javascript.html" class="active">7</a></li>
-            <li><a href="mouseEffect08-jquery.html">8</a><a href="mouseEffect08-javascript.html">8</a></li>
+            <li><a href="mouseEffect07-jquery.html">7</a><a href="mouseEffect07-javascript.html">7</a></li>
+            <li><a href="mouseEffect08-jquery.html">8</a><a href="mouseEffect08-javascript.html" class="active">8</a></li>
             <li><a href="mouseEffect09-jquery.html">9</a><a href="mouseEffect09-javascript.html">9</a></li>
         </ul>
     </div>
 
     <div class="info bottom">
         <ul>
-            <li>clientX : <span class="clientX">0</span></li>
-            <li>clientY : <span class="clientY">0</span></li>
+            <li>mouseX : <span class="mouseX">0</span></li>
+            <li>mouseY : <span class="mouseY">0</span></li>
+            <li>mouseX2 : <span class="mouseX2">0</span></li>
+            <li>mouseY2 : <span class="mouseY2">0</span></li>
         </ul>
     </div>
     <!-- //info -->
 
     <main>
-        <div class="cover" id="cover">
-            <div class="cover_wrap">
-                <!-- <img src="img/images15@2.jpg" alt="배경 이미지"> -->
+
+        <div class="contents">
+            <div class="movie-image">
+                <div class="text-wrap">
+                    <div class="line">
+                        <div class="left">
+                            <div class="span-wrap">
+                                <span class="span-slow">Pain past</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="span-wrap">
+                                <span class="span-slow">Pain past</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="left">
+                            <div class="span-wrap">
+                                <span class="span-fast">is pleasuer.</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="span-wrap">
+                                <span class="span-fast">is pleasuer.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="left">
+                            <div class="span-wrap">
+                                <span class="span-slow">지나간 고통은</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="span-wrap">
+                                <span class="span-slow">지나간 고통은</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="left">
+                            <div class="span-wrap">
+                                <span class="span-fast">쾌락이다.</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="span-wrap">
+                                <span class="span-fast">쾌락이다.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-wrap">
+                    <img src="img/images17@2.jpg" alt="이미지">
+                </div>
             </div>
         </div>
-        <svg id="svg-mask">
-            <defs>
-                <filter id="svg-mask--blur" x="0" y="0">
-                    <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
-                </filter>
-                <mask id="svg-mask--mask">
-                    <rect class="svg-mask--rect" fill="white" />
-                    <circle class="svg-mask--circle" cx="100" cy="100" r="30" fill="black" filter="url(#svg-mask--blur)" />
 
-                </mask>
-            </defs>
-            <rect class="svg-mask--rect" mask="url(#svg-mask--mask)" />
-        </svg>
     </main>
 
     <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script>
-        class MaskSVG {
-            constructor(obj){
-                this.el = document.body.querySelector('#svg-mask');
-                this.rect = document.body.querySelectorAll('.svg-mask--rect');
-                this.circle = document.body.querySelectorAll('.svg-mask--circle');
-                this.clicked = false;
-                this.init();
-            }
+        
+        window.addEventListener("mousemove",mouseMove)
+        function mouseMove(e){
+            let positionSlow = (e.pageX - (window.innerWidth/2)) * 0.1;
+            let positionFast = (e.pageX - (window.innerWidth/2))* 0.2;
+            gsap.to(".span-slow",{duration: .4, x: positionSlow});
+            gsap.to(".span-fast",{duration: .4, x: -positionFast});
+        };
 
-            init(){
-                this.handleResize();
-                this.binds();
-                this.events();
-            }
-
-            binds(){
-                this.handleResize = this.handleResize.bind(this);
-                this.handleMouse = this.handleMouse.bind(this);
-                this.handleClick = this.handleClick.bind(this);
-            }
-            
-            events(){
-                window.addEventListener('resize', this.handleResize);
-                window.addEventListener('mousemove', this.handleMouse);
-                window.addEventListener('touchmove', this.handleMouse);
-                window.addEventListener('click', this.handleClick);
-            }
-
-            handleMouse(e){
-                gsap.to(this.circle, {
-                    duration: 0.7,
-                    cx: e.clientX || e.touches[0].clientX,
-                    cy: e.clientY || e.touches[0].clientY,
-                    ease: 'power2.out'
-                });
-            }
-
-            handleResize(){
-                this.minRadius = window.innerWidth * 0.1;
-                this.maxRadius = window.innerWidth * 1.1;
-                
-                gsap.set([this.el, this.rect],{
-                    width: `${window.innerWidth}px`,
-                    height: `${window.innerHeight}px`
-                });
-
-                gsap.set(this.circle,{
-                    r: `${this.minRadius}px`
-                });
-            }
-
-            handleClick(){
-                this.clicked = !this.clicked;
-                gsap.to(this.circle, {
-                    duration: 1,
-                    r: this.clicked ? this.maxRadius : this.minRadius,
-                    ease: 'power3.inOut'
-                })
-            }
-        }
-        new MaskSVG();
     </script>
 </body>
 </html>
