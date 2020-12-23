@@ -8,7 +8,9 @@
             "id": "A",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<a>",
-            "desc": "<a>태그는 하이퍼링크를 걸어주는 태그입니다."
+            "desc": "<a>태그는 하이퍼링크를 걸어주는 태그입니다.",
+            "property" : "ddddd",
+            "element" : "ddddd"
             
         },{
             "type":"html",
