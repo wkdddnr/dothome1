@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mouse Effect06 - jquery</title>
+    <title>Mouse Effect08 - jquery</title>
     <style>
         @font-face {
             font-family: 'Jal_Onuel';
@@ -18,7 +18,7 @@
         li {list-style: none;}
         
         body {
-            background: url(img/images07@2.jpg) no-repeat center center;
+            background: url(img/images08@2.jpg) no-repeat center center;
             background-size: cover;
             background-color: #55555a;
             height: 100vh;
@@ -34,7 +34,7 @@
             content: '';
             position: absolute; left: 0; top: 0;
             width: 100%; height: 100vh;
-            background: rgba(121, 143, 115, 0.7);
+            background: rgba(101, 111, 114, 0.7);
         }
 
         /* info */
@@ -82,55 +82,52 @@
         }
 
         /* main */
-        .contents {
-            display: flex;
-            position: relative;
-            flex-direction: column;
-            width: 100vw;
-            height: 100vh;
-            position: relative;
-            justify-content: center;
-            align-items: center;
-        }
-        .contents p {
-            max-width: 70vw;
-            font-size: 3vw;
-            text-align: justify;
-        }
-        .contents p:first-child {
-            font-size: 2vw;
-            line-height: 2;
-        }
-        .contents p em {
-            color: orange;
-            border-bottom: 2px dashed orange;
-            font-style: normal;
-        }
-        .contents p .word {
-            color: orange;
-            font-size: 4vw;
-            /* text-shadow: 5px -10px 0px rgba(255,165,0,0.4),
-                        -5px 10px 0px rgba(255,35,251,0.4),
-                        10px -5px 0px rgba(255,255,73,0.4),
-                        -10px 5px 0px rgba(102,249,255,0.4); */
-        }
-        .cursor {
+        .text-wrap {
             position: absolute;
-            width: 20px; height: 20px;
-            background: #fff;
-            border-radius: 50%;
-            z-index: 1000;
-            user-select: none;
-            pointer-events: none;
-            transform: scale(.5);
-            transition: transform 0.3s ease-in-out;
+            left: 50%; top: 50%;
+            transform: translate(-50%, -20%);
+            font-size: 3vw;
+        }
+        .text-wrap .line {
+            width: 100%; display: flex;
+        }
+        .text-wrap .line .left {
+            width: 50vw;
+            transform: skew(0deg, -15deg);
+            overflow: hidden;
+        }
+        .text-wrap .line .left .span-wrap {
+            width: 100vw;
+            text-align: center;
+        }
+        .text-wrap .line .left .span-wrap span {
+            color: gold;
+        }
+        .text-wrap .line .right  {
+            width: 50vw;
+            transform: skew(0deg, 15deg);
+            overflow: hidden;
+        }
+        .text-wrap .line .right  .span-wrap {
+            width: 100vw;
+            text-align: center;
+            transform: translate(-50vw);
+        }
+        .text-wrap span {
+            display: inline-block;
+        }
+        .img-wrap {
+            position: absolute;
+            left: 50%; top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
         }
     </style>
 </head>
 <body>
     <!-- info -->
     <div class="info left">
-        <h1>mouseEffect06 - jquery</h1>
+        <h1>mouseEffect08 - jquery</h1>
         <p>마우스 방향에 따라 움직이기</p>
     </div>
     <div class="info right">
@@ -158,36 +155,86 @@
     <!-- //info -->
 
     <main>
-        <div class="contents">
 
-            <p>The way to get started is to quit talking and <em>begin</em> doing</p>
-            <p>무언가를 시작하려면 말은 멈추고 <em>행동</em> 해야 한다.</p>
-            <p>
-                <strong class="word">★</strong>
-            </p>
+        <div class="contents">
+            <div class="movie-image">
+                <div class="text-wrap">
+                    <div class="line">
+                        <div class="left">
+                            <div class="span-wrap">
+                                <span class="span-slow">Pain past</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="span-wrap">
+                                <span class="span-slow">Pain past</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="left">
+                            <div class="span-wrap">
+                                <span class="span-fast">is pleasuer.</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="span-wrap">
+                                <span class="span-fast">is pleasuer.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="left">
+                            <div class="span-wrap">
+                                <span class="span-slow">지나간 고통은</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="span-wrap">
+                                <span class="span-slow">지나간 고통은</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div class="left">
+                            <div class="span-wrap">
+                                <span class="span-fast">쾌락이다.</span>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="span-wrap">
+                                <span class="span-fast">쾌락이다.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-wrap">
+                    <img src="img/images17@2.jpg" alt="이미지">
+                </div>
+            </div>
         </div>
+
     </main>
 
     <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script>
-        $(window).mousemove(function(e){
-            let x = e.pageX;
-            let y = e.pageY;
-            let mouseX = ( x- $(".word").offset().left - $(".word").width()/2 ) / $(".word").width() * 5;
-            let mouseY = ( x- $(".word").offset().top - $(".word").height()/2 ) / $(".word").height() * 5;
+        $(window).on("mousemove", mouseMove);
 
-            $(".word").css({textShadow:"10px -20px 0px rgba(255, 165, 9, 0.4), -10px 20px 0px rgba(255, 35, 251, 0.4), 20px -10px 0px rgba(255, 255, 73, 0.4), -20px 10px 0px rgba(102, 249, 255, 0.4)"});
-            $(".word").css({textShadow:""+mouseX+"px -"+mouseY+"px 0px rgba(255, 165, 9, 0.4), -"+mouseX+"px "+mouseY+"px 0px rgba(255, 35, 251, 0.4)"});
+        function mouseMove(e){
+            let positionSlow = (e.pageX - ($(window).width()/2)) * 0.1;
+            let positionFast = (e.pageX - ($(window).width()/2)) * 0.2;
 
-            $(".mouseX").text(parseInt(mouseX));
-            $(".mouseY").text(parseInt(mouseY));
-            $(".mouseX2").text(parseInt(-mouseX));
-            $(".mouseY2").text(parseInt(-mouseY));
-
-        })
-
+            gsap.to(".span-slow", {
+                duration: .4,
+                x: positionSlow
+            });
+            gsap.to(".span-fast", {
+                duration: .4,
+                x: -positionFast
+            });
+        }
 
     </script>
 </body>

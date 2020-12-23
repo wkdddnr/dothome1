@@ -9,7 +9,7 @@
         {
           "id": 1,
           "link": "https://wkdddnr.github.io/dothome1/effect/port/portfolio01",
-          "image": "img/standard.png",
+          "image": "../img/standard.png",
           "title": "PORTFOLIO DONG1",
           "category": "PORTFOLIO1",
           "rating": 5
