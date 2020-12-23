@@ -55,109 +55,145 @@
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<dl>",    
-            "desc": "<dl> 태그는 용어를 설명하는 목록형 태그입니다."
+            "desc": "<dl> 태그는 용어를 설명하는 목록형 태그입니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<dt>",    
-            "desc": "<dt> 태그는 용어의 제목을 설명하는 목록형 태그입니다."
+            "desc": "<dt> 태그는 용어의 제목을 설명하는 목록형 태그입니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": "E",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<em>",    
-            "desc": "<em> 태그는 텍스트를 강조하는데 사용합니다."
+            "desc": "<em> 태그는 텍스트를 강조하는데 사용합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": "F",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<fieldset>",    
-            "desc": "<fieldset> 태그는 폼 요소의 그룹 내부 영역을 설정합니다."
+            "desc": "<fieldset> 태그는 폼 요소의 그룹 내부 영역을 설정합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<figcaption>",    
-            "desc": "<figcaption> 태그는 <figure> 요소의 제목을 정의합니다."
+            "desc": "<figcaption> 태그는 <figure> 요소의 제목을 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<figure>",    
-            "desc": "<figure> 태그는 그림, 도표, 사진, 코드 등의 표현을 정의합니다."
+            "desc": "<figure> 태그는 그림, 도표, 사진, 코드 등의 표현을 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "블록 요소(Block Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<form>",    
-            "desc": "<form> 태그는 웹 서버에 정보를 제공하는 폼 컨트롤 유형을 정의합니다."
+            "desc": "<form> 태그는 웹 서버에 정보를 제공하는 폼 컨트롤 유형을 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": "H",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<h1>~<h6>",    
-            "desc": "<h1>~<h6> 태그는 제목 영역을 설정합니다."
+            "desc": "<h1>~<h6> 태그는 제목 영역을 설정합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "블록 요소(Blockk Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<html>",    
-            "desc": "<html> 태그는 웹 문서의 최상위 요소 문서의 루트를 나타냅니다."
+            "desc": "<html> 태그는 웹 문서의 최상위 요소 문서의 루트를 나타냅니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "-"
         },{
             "type":"html",
             "id": "I",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<i>",    
-            "desc": "<i> 태그는 특별한 이유로 평범한 글자와 구분하기 위해 사용됩니다."
+            "desc": "<i> 태그는 특별한 이유로 평범한 글자와 구분하기 위해 사용됩니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<img>",    
-            "desc": "<img> 태그는 웹 문서에 이미지를 정의합니다."
+            "desc": "<img> 태그는 웹 문서에 이미지를 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<input>",    
-            "desc": "<input> 태그는 데이터를 입력할 수 있는 폼 컨트롤을 정의합니다."
+            "desc": "<input> 태그는 데이터를 입력할 수 있는 폼 컨트롤을 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": "L",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<label>",    
-            "desc": "<label> 태그는 해당 <input> 요소의 제목을 설정합니다."
+            "desc": "<label> 태그는 해당 <input> 요소의 제목을 설정합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<legend>",    
-            "desc": "<legend> 태그는 <fieldset> 요소의 영역 제목을 정의합니다."
+            "desc": "<legend> 태그는 <fieldset> 요소의 영역 제목을 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<li>",    
-            "desc": "<li> 태그는 목록의 항목을 나타내는 태그입니다."
+            "desc": "<li> 태그는 목록의 항목을 나타내는 태그입니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": "N",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<nav>",    
-            "desc": "<nav> 태그는 웹 문서에 네비게이션 링크를 정의합니다."
+            "desc": "<nav> 태그는 웹 문서에 네비게이션 링크를 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "블록 요소(Block Element)"
         },{
             "type":"html",
             "id": "O",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<ol>",    
-            "desc": "<ol> 태그는 순서가 있는 목록형 태그입니다."
+            "desc": "<ol> 태그는 순서가 있는 목록형 태그입니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "블록 요소(Block Element)"
         },{
             "type":"html",
             "id": "P",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<picture>",    
-            "desc": "<picture> 태그는 화면 크기에 따라 이미지를 정의합니다."
+            "desc": "<picture> 태그는 화면 크기에 따라 이미지를 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "-"
         },{
             "type":"html",
             "id": "S",
