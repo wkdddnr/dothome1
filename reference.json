@@ -199,31 +199,41 @@
             "id": "S",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<section>",    
-            "desc": "<source> 태그는 미디어 요소에 대한 소스를 지정하는데 사용합니다."
+            "desc": "<section> 태그는 주제별 그룹의 콘텐츠 섹션을 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "블록 요소(Block Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<span>",    
-            "desc": "<span> 태그는 인라인 요소 그룹화를 정의합니다."
+            "desc": "<span> 태그는 인라인 요소 그룹화를 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": " ",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<strong>",    
-            "desc": "<strong> 태그는 텍스트의 중요성을 강조합니다."
+            "desc": "<strong> 태그는 텍스트의 중요성을 강조합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"html",
             "id": "T",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<table>",    
-            "desc": "<table> 태그는 표를 만들 때 사용합니다."
+            "desc": "<table> 태그는 표를 만들 때 사용합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "블록 요소(Block Element)"
         },{
             "type":"html",
             "id": "U",
             "image": "https://i1.daumcdn.net/thumb/T650x650/?fname=https://t1.daumcdn.net/cfile/tistory/99BECF3C5BB02F501B",
             "title": "<ul>",    
-            "desc": "<ul> 태그는 순서가 없는 목록형 태그를 정의합니다."
+            "desc": "<ul> 태그는 순서가 없는 목록형 태그를 정의합니다.",
+            "property" : "글로벌 속성 적용(Global Attributes), 이벤트 속성 적용(Event Attributes)",
+            "element" : "인라인 요소(Inline Element)"
         },{
             "type":"CSS",
             "id": "B",
