@@ -15,6 +15,8 @@
             align-items: center;
             height: 100vh;
             user-select: none;
+            overflow: hidden;
+            background-image: url(img/images10@2.jpg);
         }
 
         .menu-item {
@@ -41,6 +43,9 @@
         let cloned = [];
 
         let hover = false;
+
+        let speed = 0;
+        let acc = 0;
 
         const item = document.querySelector(".menu-item");
         const word = item.querySelector(".menu-word");
@@ -72,6 +77,31 @@
 
         window.addEventListener("resize", calculate);
         window.addEventListener("load", calculate);
+
+        //애니메이션
+        const animate = () => {
+            acc += 0.1;
+            if(hover){
+                acc -= 0.35;
+            }
+
+            // 최대값 제한걸기
+            acc = Math.min(13, Math.max(0, acc))
+
+            // 가속도 주기
+            speed += acc;
+
+            if(speed >= wordWidth){
+                speed = 0;
+            }
+
+            // 텍스트 효과
+            item.style.transform = `translateX(${-speed}px) skewX(${-2 * acc}deg)`
+
+            //RaF
+            requestAnimationFrame(animate)
+        }
+        animate();
     </script>
 </body>
 </html>
