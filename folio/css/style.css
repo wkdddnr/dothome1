@@ -151,7 +151,7 @@ body {
 
 /* cont6 */
 #cont6 {
-    width: 100vw;
+    width: 70vw;
     height: 100%;
     float: left;
 }
@@ -163,6 +163,7 @@ body {
     font-family: 'Chosunilbo_myungjo';
     font-size: 2vw;
     line-height: 1.4;
+    margin: 0;
 }
 .sub_txt {
     margin-top: 5vw;
@@ -176,4 +177,121 @@ body {
     font-family: 'Chosunilbo_myungjo';
     font-size: 0.9vw;
     line-height: 1.8;
+    margin: 0;
+}
+.skill {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: 0 0 0 65vw;
+}
+
+/* cont7 */
+#cont7 {
+    width: 40vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont7 {
+    height: 90%;
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+    margin: 1vw;
+}
+.sk_txt {
+    padding: 0 2.5vw 0 2.5vw;
+    margin-top: 3vw;
+}
+.sk_txt h2 {
+    color: #000;
+    font-family: 'nanummyeongjo', sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.sk_txt h3 {
+    color: #545454;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    font-family: 'nanummyeongjo', sans-serif;
+    font-weight: normal;
+}
+.sk_txt p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 1vw;
+    line-height: 1.8;
+}
+
+/* cont8 */
+#cont8 {
+    width: 40vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont8 {
+    margin-top: 3vw;
+    padding: 0 2.5vw 0 2.5vw;
+    font-size: 2.5vw;
+    font-family: 'nanummyeongjo', sans-serif;
+}
+.cont8 ul {}
+.cont8 li {
+    margin-top: 0.5vw;
+}
+.cont8 li:nth-child(5)::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 0.1vw;
+    width: 2vw;
+    background: #000;
+}
+.cont8 li:nth-child(6)::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 0.1vw;
+    width: 2vw;
+    background: #000;
+}
+.cont8 li:nth-child(7)::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 0.1vw;
+    width: 2vw;
+    background: #000;
+}
+.cont8 li:nth-child(8)::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 0.1vw;
+    width: 2vw;
+    background: #000;
+}
+.cont8 li:nth-child(9)::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 0.1vw;
+    width: 2vw;
+    background: #000;
+}
+.cont8 li:nth-child(10)::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 0.1vw;
+    width: 2vw;
+    background: #000;
+}
+.Site {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.9vw;
 }
