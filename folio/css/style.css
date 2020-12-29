@@ -1,0 +1,179 @@
+/* 폰트 */
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 37395px;
+    background: #fff;
+}
+#contents {
+    overflow: hidden;
+    position: fixed;
+    left: 0; top: 0;
+    color: #fff;
+    width: 10000vw;
+    height: 100%;
+}
+
+/* cont1 */
+#cont1 {
+    width: 42vw;
+    height: 100%;
+    float: left;
+}
+.main {
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+    width: 35vw;
+    height: 30vw;
+    filter: brightness(80%);
+}
+.cir {
+    background: #000;
+    border-radius: 50%;
+    width: 12vw; height: 12vw;
+    margin-left: 11vw;
+    left: 0; top: 0;
+    transform: translate(0%, -50%);
+}
+.cir h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.3vw;
+    padding-top: 5vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* cont2 */
+#cont2 {
+    width: 8vw;
+    height: 100%;
+    float: left;
+}
+.desc {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.desc ul {
+    width: 1vw;
+    border-right: 0.1vw solid #AAAAAA;
+    padding: 1vw;
+    margin: 1vw;
+}
+.desc a {
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    padding: 0vw 0vw 3vw 0vw;
+    font-size: 0.9vw;
+    display: inline-block;
+}
+.desc a:first-child {
+    font-family: 'nanummyeongjo', sans-serif;
+    font-size: 1.1vw;
+    padding: 7vw 0vw 0vw 0vw;
+}
+
+/* cont3 */
+#cont3 {
+    width: 30vw;
+    height: 100%;
+    float: left;
+}
+#cont3 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    line-height: 1.6;
+    font-size: 0.9vw;
+    letter-spacing: -0.1vw;
+    margin-top: 3vw;
+}
+#cont3 a {
+    display: inline-block;
+    font-family: 'Chosunilbo_myungjo';
+    color: #000;
+    font-size: 0.9vw;
+    letter-spacing: -0.1vw;
+    padding: 0 0 0.2vw 0;
+    border-bottom: 1px solid #000;
+    margin-top: 2vw;
+}
+
+/* cont4 */
+#cont4 {
+    width: 120vw;
+    height: 100%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.tit {
+    margin-top: 1vw;
+}
+.tit h2 {
+    color: #000;
+    font-family: 'nanummyeongjo', sans-serif;
+    font-weight: normal;
+    font-size: 17vw;
+    display: block;
+    white-space: nowrap;
+    letter-spacing: -1vw;
+    line-height: 0.9;
+    z-index: 1;
+}
+.tit h2:nth-child(2) {
+    margin-left: 25vw;
+}
+.tit h2:nth-child(3) {
+    margin-left: 13vw;
+}
+
+/* cont5 */
+#cont5 {
+    width: 45vw;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.sub {
+    background-image: url(../img/sub.JPG);
+    background-size: cover;
+    width: 40vw;
+    height: 100%;
+    filter: saturate(30%);
+}
+
+/* cont6 */
+#cont6 {
+    width: 100vw;
+    height: 100%;
+    float: left;
+}
+.main_txt {
+    margin-top: 3vw;
+}
+.main_txt p {
+    color: #000000;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 2vw;
+    line-height: 1.4;
+}
+.sub_txt {
+    margin-top: 5vw;
+}
+.sub_txt > div {
+    float: left;
+    padding: 0 5vw 0 0;
+}
+.sub_txt p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    line-height: 1.8;
+}
