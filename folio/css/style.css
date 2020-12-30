@@ -1089,3 +1089,446 @@ body {
     font-weight: 300;
     font-size: 0.9vw;
 }
+
+/* cont22 */
+#cont22 {
+    width: 45vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+    margin-left: 18vw;
+}
+.cont22 {
+    height: 100%;
+    margin-left: 8vw;
+}
+.play3 {
+    width: 28vw;
+    height: 100%;
+    background-image: url(../img/play.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* cont23 */
+#cont23 {
+    width: 131vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont23 {
+    height: 100%;
+    background: #1e1e1e;
+    position: relative;
+}
+.cont23 h2 {
+    color: #fff;
+    position: absolute;
+    left: -3%;
+    top: 35%;
+    transform: rotate(270deg);
+    font-size: 10vw;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+}
+.scr_main1 {
+    background-image: url(../img/parallax01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 35vw;
+    height: 40%;
+    left: 20%;
+    top: 8%;
+    position: absolute;
+}
+.scr_sub1 {
+    background-image: url(../img/parallax02.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 35vw;
+    height: 40%;
+    left: 30%;
+    top: 53%;
+    position: absolute;
+}
+.main_txt1 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 45.5%;
+    top: 40%;
+    position: absolute;
+    font-size: 3vw;
+}
+.sub_txt1 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 55.5%;
+    top: 85%;
+    position: absolute;
+    font-size: 3vw;
+}
+.cont23 p {
+    color: #ffffff;
+    font-family: 'Chosunilbo_myungjo';
+    left: 70%;
+    top: 45%;
+    line-height: 1.6;
+    position: absolute;
+}
+#web6 {
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10vw;
+    display: inline-block;
+    background: #fff;
+    width: 10vw; height: 10vw;
+    left: 64%;
+    top: 20%;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.cont23 a {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    left: 85%;
+    top: 57%;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+}
+
+/* cont24 */
+#cont24 {
+    width: 100vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont24 {
+    height: 100%;
+    background: #1e1e1e;
+    position: relative;
+}
+.scr_main2 {
+    background-image: url(../img/mouse01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 35vw;
+    height: 40%;
+    left: 0%;
+    top: 8%;
+    position: absolute;
+}
+.scr_sub2 {
+    background-image: url(../img/mouse02.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 35vw;
+    height: 40%;
+    left: 10%;
+    top: 53%;
+    position: absolute;
+}
+.main_txt2 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 33.5%;
+    top: 40%;
+    position: absolute;
+    font-size: 3vw;
+}
+.sub_txt2 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 43.5%;
+    top: 85%;
+    position: absolute;
+    font-size: 3vw;
+}
+.cont24 p {
+    color: #ffffff;
+    font-family: 'Chosunilbo_myungjo';
+    left: 59%;
+    top: 45%;
+    line-height: 1.6;
+    position: absolute;
+}
+#web7 {
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10vw;
+    display: inline-block;
+    background: #fff;
+    width: 10vw; height: 10vw;
+    left: 52%;
+    top: 20%;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.cont24 a {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    left: 80%;
+    top: 57%;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+}
+
+/* cont25 */
+#cont25 {
+    width: 100vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont25 {
+    height: 100%;
+    background: #1e1e1e;
+    position: relative;
+}
+.scr_main3 {
+    background-image: url(../img/quiz01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 35vw;
+    height: 40%;
+    left: 0%;
+    top: 8%;
+    position: absolute;
+}
+.scr_sub3 {
+    background-image: url(../img/quiz02.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 35vw;
+    height: 40%;
+    left: 10%;
+    top: 53%;
+    position: absolute;
+}
+.main_txt3 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 33.5%;
+    top: 40%;
+    position: absolute;
+    font-size: 3vw;
+}
+.sub_txt3 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 43.5%;
+    top: 85%;
+    position: absolute;
+    font-size: 3vw;
+}
+.cont25 p {
+    color: #ffffff;
+    font-family: 'Chosunilbo_myungjo';
+    left: 59%;
+    top: 45%;
+    line-height: 1.6;
+    position: absolute;
+}
+#web8 {
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10vw;
+    display: inline-block;
+    background: #fff;
+    width: 10vw; height: 10vw;
+    left: 52%;
+    top: 20%;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.cont25 a {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    left: 80%;
+    top: 57%;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+}
+
+/* cont26 */
+#cont26 {
+    width: 100vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont26 {
+    height: 100%;
+    background: #1e1e1e;
+    position: relative;
+}
+.scr_main4 {
+    background-image: url(../img/slider01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 35vw;
+    height: 40%;
+    left: 0%;
+    top: 8%;
+    position: absolute;
+}
+.scr_sub4 {
+    background-image: url(../img/slider02.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 35vw;
+    height: 40%;
+    left: 10%;
+    top: 53%;
+    position: absolute;
+}
+.main_txt4 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 33.5%;
+    top: 40%;
+    position: absolute;
+    font-size: 3vw;
+}
+.sub_txt4 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 43.5%;
+    top: 85%;
+    position: absolute;
+    font-size: 3vw;
+}
+.cont26 p {
+    color: #ffffff;
+    font-family: 'Chosunilbo_myungjo';
+    left: 59%;
+    top: 45%;
+    line-height: 1.6;
+    position: absolute;
+}
+#web9 {
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10vw;
+    display: inline-block;
+    background: #fff;
+    width: 10vw; height: 10vw;
+    left: 52%;
+    top: 20%;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.cont26 a {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    left: 80%;
+    top: 57%;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+}
+
+/* cont27 */
+#cont27 {
+    width: 100vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont27 {
+    height: 100%;
+    position: relative;
+}
+.cont27 h2 {
+    color: #000;
+    font-family: 'Chosunilbo_myungjo';
+    font-weight: normal;
+    margin: 3vw 0 0 5vw;
+    font-size: 2vw;
+    line-height: 1.3;
+}
+.cont27 ul {
+    margin: 7vw 0 0 5vw;
+    position: absolute;
+}
+.cont27 li {
+    color: #000;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.cont27 li:nth-child(1) {
+    padding-bottom: 1vw;
+}
+.cont27 li:nth-child(4) {
+    padding-bottom: 1vw;
+}
+.cont27 li:nth-child(5) {
+    border-bottom: 1px solid #000000;
+}
+.cont27 li:nth-child(6) {
+    border-bottom: 1px solid #000000;
+}
+.cont27 p {
+    color: #000;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    top: 42.5%;
+    left: 25%;
+}
+
+.cont1 {
+    color: #AAAAAA;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 25%;
+    top: 48%;
+    border: 1px solid #AAAAAA;
+    padding: 0.5vw 11vw 0.5vw 1vw;
+}
+.cont2 {
+    color: #AAAAAA;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 25%;
+    top: 55%;
+    border: 1px solid #AAAAAA;
+    padding: 1vw 11.8vw 9vw 1vw;
+}
+.cont3 {
+    color: #AAAAAA;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 25%;
+    top: 81%;
+    border: 1px solid #AAAAAA;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+}
