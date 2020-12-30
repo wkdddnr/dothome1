@@ -327,6 +327,7 @@ body {
     height: 100%;
     background-image: url(../img/play.svg);
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 /* cont10 */
@@ -352,7 +353,7 @@ body {
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
-.main_img {
+.main_img1 {
     background-image: url(../img/stand01.jpg);
     background-size: cover;
     width: 50vw;
@@ -360,7 +361,7 @@ body {
     left: 8%;
     position: absolute;
 }
-.sub_img {
+.sub_img1 {
     background-image: url(../img/stand02.jpg);
     background-size: cover;
     width: 25vw;
@@ -373,21 +374,11 @@ body {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     left: 65%;
-    top: 15%;
+    top: 20%;
     line-height: 1.6;
     position: absolute;
 }
-/* .btn {
-    border-radius: 50%;
-    line-height: 1.5;
-    display: inline-block;
-    background: #000;
-    width: 10vw; height: 10vw;
-    left: 53%;
-    top: 65%;
-    position: absolute;
-} */
-#web{
+#web1{
     color: #fff;
     text-align: center;
     border-radius: 50%;
@@ -406,16 +397,695 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     left: 82%;
-    top: 39%;
+    top: 44%;
     border-bottom: 1px solid #000;
     position: absolute;
 }
-#next {
+#next1 {
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     position: absolute;
     left: 98%;
     top: 50%;
+    font-size: 0.9vw;
+}
+#next1::after {
+    content: '';
+    width: 0.09vw;
+    height: 42.5vw;
+    background: #aaaaaa;
+    position: absolute;
+    top: -20.5vw;
+    right: -2vw;
+}
+
+/* cont11 */
+#cont11 {
+    width: 140vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont11 {
+    height: 100%;
+}
+.site2 {
+    height: 100%;
+    position: relative;
+    margin-left: 10vw;
+}
+.site2 h2 {
+    color: #000;
+    position: absolute;
+    left: -19%; top: 35%;
+    transform: rotate(270deg);
+    font-size: 10vw;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+}
+.main_img2 {
+    background-image: url(../img/respon01.jpg);
+    background-size: cover;
+    width: 50vw;
+    height: 100%;
+    left: 8%;
+    position: absolute;
+}
+.sub_img2 {
+    background-image: url(../img/respon02.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 35%;
+    left: 44%;
+    top: 30%;
+    position: absolute;
+}
+.site2 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    left: 66%;
+    top: 37%;
+    line-height: 1.6;
+    position: absolute;
+}
+#web2 {
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10vw;
+    display: inline-block;
+    background: #000;
+    width: 10vw; height: 10vw;
+    left: 60%;
+    top: 13%;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.site2 a {
+    color: #000;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    left: 84%;
+    top: 54%;
+    border-bottom: 1px solid #000;
+    position: absolute;
+}
+#next2 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    left: 98%;
+    top: 50%;
+    font-size: 0.9vw;
+}
+#next2::after {
+    content: '';
+    width: 0.09vw;
+    height: 42.5vw;
+    background: #aaaaaa;
+    position: absolute;
+    top: -20.5vw;
+    right: -2vw;
+}
+
+/* cont12 */
+#cont12 {
+    width: 140vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont12 {
+    height: 100%;
+}
+.site3 {
+    height: 100%;
+    position: relative;
+    margin-left: 10vw;
+}
+.site3 h2 {
+    color: #000;
+    position: absolute;
+    left: -16%; top: 35%;
+    transform: rotate(270deg);
+    font-size: 10vw;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+}
+.main_img3 {
+    background-image: url(../img/mega01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 50vw;
+    height: 100%;
+    left: 8%;
+    position: absolute;
+}
+.sub_img3 {
+    background-image: url(../img/mega02.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 35%;
+    left: 45%;
+    top: 45%;
+    position: absolute;
+}
+.site3 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    left: 68%;
+    top: 35%;
+    line-height: 1.6;
+    position: absolute;
+}
+#web3 {
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10vw;
+    display: inline-block;
+    background: #000;
+    width: 10vw; height: 10vw;
+    left: 63%;
+    top: 65%;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.site3 a {
+    color: #000;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    left: 86%;
+    top: 57%;
+    border-bottom: 1px solid #000;
+    position: absolute;
+}
+#next3 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    left: 98%;
+    top: 50%;
+    font-size: 0.9vw;
+}
+#next3::after {
+    content: '';
+    width: 0.09vw;
+    height: 42.5vw;
+    background: #aaaaaa;
+    position: absolute;
+    top: -20.5vw;
+    right: -2vw;
+}
+
+/* cont13 */
+#cont13 {
+    width: 140vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont13 {
+    height: 100%;
+}
+.site4 {
+    height: 100%;
+    position: relative;
+    margin-left: 9vw;
+}
+.site4 h2 {
+    color: #000;
+    position: absolute;
+    left: -19%; top: 35%;
+    transform: rotate(270deg);
+    font-size: 10vw;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+}
+.main_img4 {
+    background-image: url(../img/naver01.jpg);
+    background-size: cover;
+    width: 50vw;
+    height: 100%;
+    left: 8%;
+    position: absolute;
+}
+.sub_img4 {
+    background-image: url(../img/naver02.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 35%;
+    left: 44%;
+    top: 30%;
+    position: absolute;
+}
+.site4 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    left: 70%;
+    top: 40%;
+    line-height: 1.6;
+    position: absolute;
+}
+#web4 {
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10vw;
+    display: inline-block;
+    background: #000;
+    width: 10vw; height: 10vw;
+    left: 59%;
+    top: 13%;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.site4 a {
+    color: #000;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    left: 88%;
+    top: 55%;
+    border-bottom: 1px solid #000;
+    position: absolute;
+}
+#next4 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    left: 98%;
+    top: 50%;
+    font-size: 0.9vw;
+}
+#next4::after {
+    content: '';
+    width: 0.09vw;
+    height: 42.5vw;
+    background: #aaaaaa;
+    position: absolute;
+    top: -20.5vw;
+    right: -2vw;
+}
+
+/* cont14 */
+#cont14 {
+    width: 140vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont14 {
+    height: 100%;
+}
+.site5 {
+    height: 100%;
+    position: relative;
+    margin-left: 10vw;
+}
+.site5 h2 {
+    color: #000;
+    position: absolute;
+    left: -9%; top: 35%;
+    transform: rotate(270deg);
+    font-size: 10vw;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+}
+.main_img5 {
+    background-image: url(../img/react01.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 50vw;
+    height: 100%;
+    left: 8%;
+    position: absolute;
+}
+.sub_img5 {
+    background-image: url(../img/react02.jpg);
+    background-size: cover;
+    width: 25vw;
+    height: 35%;
+    left: 45%;
+    top: 45%;
+    position: absolute;
+}
+.site5 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    left: 68%;
+    top: 45%;
+    line-height: 1.6;
+    position: absolute;
+}
+#web5 {
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10vw;
+    display: inline-block;
+    background: #000;
+    width: 10vw; height: 10vw;
+    left: 63%;
+    top: 65%;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.site5 a {
+    color: #000;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    left: 86%;
+    top: 57%;
+    border-bottom: 1px solid #000;
+    position: absolute;
+}
+#next5 {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.9vw;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    right: 2.5vw;
+}
+
+
+/* cont15 */
+#cont15 {
+    width: 45vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont15 {
+    height: 100%;
+    margin-left: 8vw;
+}
+.play2 {
+    width: 28vw;
+    height: 100%;
+    background-image: url(../img/play.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* cont16 */
+#cont16 {
+    width: 40vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont16 {
+    height: 90%;
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+    margin: 1vw 0 1vw 1vw;
+}
+.ani_txt1 {
+    padding: 0 2.5vw 0 2.5vw;
+    margin-top: 3vw;
+    position: relative;
+}
+.ani_txt1 h2 {
+    color: #000;
+    font-family: 'nanummyeongjo', sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt1 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 1vw;
+    line-height: 1.8;
+}
+#ani_btn1 {
+    position: absolute;
+    top: 19vw;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+.ani_img1 {
+    background-image: url(../img/cube.jpg);
+    background-size: cover;
+    background-position: 80% 80%;
+    width: 30vw;
+    height: 20vw;
+    margin-top: 13vw;
+}
+
+/* cont17 */
+#cont17 {
+    width: 40vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont17 {
+    height: 90%;
+    border-right: 1px solid #AAAAAA;
+    margin: 1vw 1vw 1vw 0;
+}
+.ani_txt2 {
+    padding: 0 2.5vw 0 2.5vw;
+    margin-top: 3vw;
+    position: relative;
+}
+.ani_txt2 h2 {
+    color: #000;
+    font-family: 'nanummyeongjo', sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt2 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 1vw;
+    line-height: 1.8;
+}
+#ani_btn2 {
+    position: absolute;
+    top: 19vw;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+.ani_img2 {
+    background-image: url(../img/heart.jpg);
+    background-size: cover;
+    background-position: 80% 80%;
+    width: 30vw;
+    height: 20vw;
+    margin-top: 14.5vw;
+}
+
+/* cont18 */
+#cont18 {
+    width: 40vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont18 {
+    height: 90%;
+    border-right: 1px solid #AAAAAA;
+    margin: 1vw 1vw 1vw 0;
+}
+.ani_txt3 {
+    padding: 0 2.5vw 0 2.5vw;
+    margin-top: 3vw;
+    position: relative;
+}
+.ani_txt3 h2 {
+    color: #000;
+    font-family: 'nanummyeongjo', sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt3 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 1vw;
+    line-height: 1.8;
+}
+#ani_btn3 {
+    position: absolute;
+    top: 19vw;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+.ani_img3 {
+    background-image: url(../img/tail.jpg);
+    background-size: cover;
+    background-position: 80% 80%;
+    width: 30vw;
+    height: 20vw;
+    margin-top: 14.5vw;
+}
+
+/* cont19 */
+#cont19 {
+    width: 40vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont19 {
+    height: 90%;
+    border-right: 1px solid #AAAAAA;
+    margin: 1vw 1vw 1vw 0;
+}
+.ani_txt4 {
+    padding: 0 2.5vw 0 2.5vw;
+    margin-top: 3vw;
+    position: relative;
+}
+.ani_txt4 h2 {
+    color: #000;
+    font-family: 'nanummyeongjo', sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt4 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 1vw;
+    line-height: 1.8;
+}
+#ani_btn4 {
+    position: absolute;
+    top: 19vw;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+.ani_img4 {
+    background-image: url(../img/wave.jpg);
+    background-size: cover;
+    background-position: 80% 80%;
+    width: 30vw;
+    height: 20vw;
+    margin-top: 11.2vw;
+}
+
+/* cont20 */
+#cont20 {
+    width: 40vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont20 {
+    height: 90%;
+    border-right: 1px solid #AAAAAA;
+    margin: 1vw 1vw 1vw 0;
+}
+.ani_txt5 {
+    padding: 0 2.5vw 0 2.5vw;
+    margin-top: 3vw;
+    position: relative;
+}
+.ani_txt5 h2 {
+    color: #000;
+    font-family: 'nanummyeongjo', sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt5 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 1vw;
+    line-height: 1.8;
+}
+#ani_btn5 {
+    position: absolute;
+    top: 19vw;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+.ani_img5 {
+    background-image: url(../img/svg\ text.jpg);
+    background-size: cover;
+    background-position: 80% 80%;
+    width: 30vw;
+    height: 20vw;
+    margin-top: 12.8vw;
+}
+
+/* cont21 */
+#cont21 {
+    width: 40vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont21 {
+    height: 90%;
+    border-right: 1px solid #AAAAAA;
+    margin: 1vw 1vw 1vw 0;
+}
+.ani_txt6 {
+    padding: 0 2.5vw 0 2.5vw;
+    margin-top: 3vw;
+    position: relative;
+}
+.ani_txt6 h2 {
+    color: #000;
+    font-family: 'nanummyeongjo', sans-serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt6 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 1vw;
+    line-height: 1.8;
+}
+#ani_btn6 {
+    position: absolute;
+    top: 19vw;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+.ani_img6 {
+    background-image: url(../img/tentacle.jpg);
+    background-size: cover;
+    background-position: 80% 80%;
+    width: 30vw;
+    height: 20vw;
+    margin-top: 12.8vw;
+}
+.script {
+    position: absolute;
+    color: #000;
+    top: 45%;
+    left: 150%;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
     font-size: 0.9vw;
 }
