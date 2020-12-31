@@ -12,7 +12,7 @@
 }
 
 body {
-    height: 30000px;
+    height: 1950vw;
     background: #fff;
 }
 #contents {
@@ -20,7 +20,7 @@ body {
     position: fixed;
     left: 0; top: 0;
     color: #fff;
-    width: 10000vw;
+    width: 8000vw;
     height: 100%;
 }
 
