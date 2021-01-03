@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
 
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="contents">
+    <main id="contents">
         <div id="cont1">
             <div class="main"></div>
             <div class="cir">
@@ -41,9 +41,9 @@
         </div>
         <div id="cont4">
             <div class="tit">
-                <h2>I AM</h2>
-                <h2>PRONT-END</h2>
-                <h2>DEVELOPER</h2>
+                <h2 class="abo_tit">I AM</h2>
+                <h2 class="abo_tit">PRONT-END</h2>
+                <h2 class="abo_tit">DEVELOPER</h2>
             </div>
         </div>
         <div id="cont5">
@@ -424,14 +424,92 @@
                 <div class="cont3">SEND</div>
             </div>
         </div>
-    </div>
+    </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>
-        $(window).scroll(function(){
-            const scroll = $(window).scrollTop();
-            $("#contents").css("left", -scroll);
-        });
+
+            $(window).scroll(function(){
+                    const scroll = $(window).scrollTop();
+                    $("#contents").css("left", -scroll);
+                });
+
+        /*------------------------------
+        SupahScroll
+        ------------------------------*/
+        // class SupahScroll {
+        //     constructor(options) {
+        //         this.opt = options || {}
+        //         this.el = this.opt.el ? this.opt.el : '.supah-scroll'
+        //         this.speed = this.opt.speed ? this.opt.speed : 0.1
+        //         this.init()
+        //     }
+
+        //     init() {
+        //         this.scrollY = 0
+        //         this.supahScroll = document.querySelectorAll(this.el)[0]
+        //         this.supahScroll.classList.add('supah-scroll')
+        //         this.events()
+        //         this.update()
+        //         this.animate()
+        //     }
+
+        //     update() {
+        //         if (this.supahScroll === null) return
+        //         document.body.style.height = `${this.supahScroll.getBoundingClientRect().width}px`
+        //     }
+
+        //     pause() {
+        //         document.body.style.overflow = 'hidden'
+        //         cancelAnimationFrame(this.raf)
+        //     }
+
+        //     play() {
+        //         document.body.style.overflow = 'inherit'
+        //         this.raf = requestAnimationFrame(this.animate.bind(this))
+        //     }
+
+        //     destroy() {
+        //         this.supahScroll.classList.remove('supah-scroll')
+        //         this.supahScroll.style.transform = 'none'
+        //         document.body.style.overflow = 'inherit'
+        //         window.removeEventListener('resize', this.update)
+        //         cancelAnimationFrame(this.raf)
+        //         delete this.supahScroll
+        //     }
+
+        //     animate() {
+        //         this.scrollY += (window.scrollY - this.scrollY) * this.speed
+        //         this.supahScroll.style.transform = `translate3d(${-this.scrollY}px,0,0)`
+        //         this.raf = requestAnimationFrame(this.animate.bind(this))
+        //     }
+
+        //     scrollTo(y) {
+        //         window.scrollTo(0, y)
+        //     }
+
+        //     staticScrollTo(y) {
+        //         cancelAnimationFrame(this.raf)
+        //         this.scrollY = y
+        //         window.scrollTo(0, y)
+        //         this.supahScroll.style.transform = `translate3d(0,${-y}px,0)`
+        //         this.play()
+        //     }
+
+        //     events() {
+        //         window.addEventListener('load', this.update.bind(this))
+        //         window.addEventListener('resize', this.update.bind(this))
+        //     }
+        // }
+
+
+        /*------------------------------
+        Initialize
+        ------------------------------*/
+        // const supahscroll = new SupahScroll({
+        //     el: 'main',
+        //     speed: 0.05
+        // })
     </script>
 </body>
 </html>

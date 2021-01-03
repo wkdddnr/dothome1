@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>PORTFOLIO</title>
+    
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style01.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <main id="contents">
+        <div id="section1">
+            <div class="sec1">
+                <div class="intro">
+                    <div class="intro-img"></div>
+                    <div class="intro-cirle">
+                      <h2>PORTFOLIO</h2>
+                    </div>
+                </div>
+                <div class="title">
+                    <ul>
+                        <li>a</li>
+                        <li>b</li>
+                        <li>c</li>
+                        <li>d</li>
+                        <li>e</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- //section1 -->
+        
+        <div id="section2">
+            
+        </div>
+        <!-- //section2 -->
+        
+        <div id="section3">
+            
+        </div>
+        <!-- //section3 -->
+        
+        <div id="section4">
+            
+        </div>
+        <!-- //section4 -->
+        
+        <div id="section5">
+            
+        </div>
+        <!-- //section5 -->
+        
+        <div id="section6">
+            
+        </div>
+        <!-- //section6 -->
+    </main>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+//        $(window).scroll(function(){
+//            const scroll = $(window).scrollTop();
+//            $("#contents").css("left", -scroll);
+//        });
+//        
+        
+        
+        /*------------------------------
+        SupahScroll
+        ------------------------------*/
+        class SupahScroll {
+          constructor(options) {
+            this.opt = options || {}
+            this.el = this.opt.el ? this.opt.el : '.supah-scroll'
+            this.speed = this.opt.speed ? this.opt.speed : 0.1
+            this.init()
+          }
+
+          init() {
+            this.scrollY = 0
+            this.supahScroll = document.querySelectorAll(this.el)[0]
+            this.supahScroll.classList.add('supah-scroll')
+            this.events()
+            this.update()
+            this.animate()
+          }
+
+          update() {
+            if (this.supahScroll === null) return
+            document.body.style.height = `${this.supahScroll.getBoundingClientRect().width}px`
+          }
+
+          pause() {
+            document.body.style.overflow = 'hidden'
+            cancelAnimationFrame(this.raf)
+          }
+
+          play() {
+            document.body.style.overflow = 'inherit'
+            this.raf = requestAnimationFrame(this.animate.bind(this))
+          }
+
+          destroy() {
+            this.supahScroll.classList.remove('supah-scroll')
+            this.supahScroll.style.transform = 'none'
+            document.body.style.overflow = 'inherit'
+            window.removeEventListener('resize', this.update)
+            cancelAnimationFrame(this.raf)
+            delete this.supahScroll
+          }
+
+          animate() {
+            this.scrollY += (window.scrollY - this.scrollY) * this.speed
+            this.supahScroll.style.transform = `translate3d(${-this.scrollY}px,0,0)`
+            this.raf = requestAnimationFrame(this.animate.bind(this))
+          }
+
+          scrollTo(y) {
+            window.scrollTo(0, y)
+          }
+
+          staticScrollTo(y) {
+            cancelAnimationFrame(this.raf)
+            this.scrollY = y
+            window.scrollTo(0, y)
+            this.supahScroll.style.transform = `translate3d(0,${-y}px,0)`
+            this.play()
+          }
+
+          events() {
+            window.addEventListener('load', this.update.bind(this))
+            window.addEventListener('resize', this.update.bind(this))
+          }
+        }
+
+
+        /*------------------------------
+        Initialize
+        ------------------------------*/
+        const supahscroll = new SupahScroll({
+            el: 'main',
+            speed: 0.05
+        })
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- https://homesociete.ca/ -->

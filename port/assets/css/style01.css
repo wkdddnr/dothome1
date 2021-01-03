@@ -1,0 +1,91 @@
+/* 폰트 */
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    src : url("../font/GT-Super-Display-Light-Trial.otf");
+    font-family: 'GT Super Ds Trial';
+}
+
+/*--------------------
+Body
+--------------------*/
+
+
+body {
+    -ms-scroll-chaining: none;
+    overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.supah-scroll {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    will-change: transform;
+    overflow: hidden;
+}
+
+#contents {overflow: hidden; width: 10000px; position: fixed;}
+#contents > div {width: 1800px; height: 100vh; float: left;}
+#section1 {}
+#section2 {background: #222;}
+#section3 {background: #333;}
+#section4 {background: #444;}
+#section5 {background: #555;}
+#section6 {background: #666;}
+
+/* sec1 */
+.sec1 {}
+.sec1 .intro {}
+.sec1 .intro .intro-img {
+    width: 500px; 
+    height: 70vh;
+    background: #444;
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+    filter: brightness(70%);
+    background-position: 50% 50%;
+}
+.sec1 .intro .intro-cirle {
+    width: 200px; height: 200px;
+    border-radius: 50%;
+    background: #000;
+    margin-left: 11vw;
+    /* left: 0; top: 0;
+    transform: translate(-10%, -50%); */
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+.sec1 .intro .intro-cirle h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1vw;
+    padding-top: 5vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
