@@ -82,7 +82,7 @@ body {
     display: inline-block;
 }
 .desc a:first-child {
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 1.4vw;
     padding: 7vw 0vw 0vw 0vw;
 }
@@ -125,7 +125,7 @@ body {
 }
 .tit h2 {
     color: #000;
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-weight: normal;
     font-size: 21vw;
     display: block;
@@ -220,7 +220,7 @@ body {
 }
 .sk_txt h2 {
     color: #000;
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 4vw;
     font-weight: normal;
 }
@@ -228,7 +228,7 @@ body {
     color: #545454;
     margin-top: 3vw;
     font-size: 2vw;
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-weight: normal;
 }
 .sk_txt p {
@@ -250,7 +250,7 @@ body {
     margin-top: 3vw;
     padding: 0 2.5vw 0 2.5vw;
     font-size: 3vw;
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     position: relative;
 }
 .cont8 ul {}
@@ -821,7 +821,7 @@ body {
 }
 .ani_txt1 h2 {
     color: #000;
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 3vw;
     font-weight: normal;
 }
@@ -868,7 +868,7 @@ body {
 }
 .ani_txt2 h2 {
     color: #000;
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 3vw;
     font-weight: normal;
 }
@@ -915,7 +915,7 @@ body {
 }
 .ani_txt3 h2 {
     color: #000;
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 3vw;
     font-weight: normal;
 }
@@ -962,7 +962,7 @@ body {
 }
 .ani_txt4 h2 {
     color: #000;
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 3vw;
     font-weight: normal;
 }
@@ -1009,7 +1009,7 @@ body {
 }
 .ani_txt5 h2 {
     color: #000;
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 3vw;
     font-weight: normal;
 }
@@ -1056,7 +1056,7 @@ body {
 }
 .ani_txt6 h2 {
     color: #000;
-    font-family: 'nanummyeongjo', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
     font-size: 3vw;
     font-weight: normal;
 }
