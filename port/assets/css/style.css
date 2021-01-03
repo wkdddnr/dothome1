@@ -11,8 +11,11 @@
     font-family: 'GT Super Ds Trial';
 }
 
+html {
+    font-size: 10px;
+}
 body {
-    height: 2000vw;
+    height: 4200vh;
     background: #fff;
 }
 #contents {
@@ -21,20 +24,20 @@ body {
     left: 0; top: 0;
     color: #fff;
     width: 8000vw;
-    height: 100%;
+    height: 100vh;
 }
 /* #contents > div {height: 100vh; float: left;} */
 
 /* cont1 */
 #cont1 {
-    width: 55vw;
+    width: 45vw;
     height: 100vh;
     float: left;
 }
 .main {
     background-image: url(../img/main.jpg);
     background-size: cover;
-    width: 50vw;
+    width: 40vw;
     height: 70vh;
     filter: brightness(80%);
 }
@@ -44,12 +47,12 @@ body {
     width: 12vw; height: 12vw;
     margin-left: 11vw;
     left: 0; top: 0;
-    transform: translate(70%, -50%);
+    transform: translate(25%, -50%);
 }
 .cir h2 {
     color: #fff;
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 20px;
     padding-top: 5vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -58,46 +61,46 @@ body {
 /* cont2 */
 #cont2 {
     width: 8vw;
-    height: 100%;
+    height: 100vh;
     float: left;
 }
 .desc {
     color: #000;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    height: 100%;
+    height: 100vh;
 }
 .desc ul {
     width: 1vw;
     border-right: 0.1vw solid #AAAAAA;
     padding: 0vw 1vw 0vw 1vw;
-    margin: 2.5vw 1vw 2vw 1vw;
+    margin: 1.5vw 1vw 2vw 1vw;
     
 }
 .desc a {
     writing-mode: vertical-lr; 
     transform: rotate(180deg);
-    padding: 0vw 0vw 3.5vw;
-    font-size: 1.1vw;
+    padding: 0vw 0vw 2.5vw;
+    font-size: 14px;
     display: inline-block;
 }
 .desc a:first-child {
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 1.4vw;
+    font-size: 22px;
     padding: 7vw 0vw 0vw 0vw;
 }
 
 /* cont3 */
 #cont3 {
     width: 30vw;
-    height: 100%;
+    height: 100vh;
     float: left;
 }
 #cont3 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     line-height: 1.6;
-    font-size: 1.2vw;
+    font-size: 16px;
     letter-spacing: -0.1vw;
     margin-top: 3vw;
 }
@@ -105,7 +108,7 @@ body {
     display: inline-block;
     font-family: 'Chosunilbo_myungjo';
     color: #000;
-    font-size: 1.2vw;
+    font-size: 16px;
     letter-spacing: -0.1vw;
     padding: 0 0 0.4vw 0;
     border-bottom: 1px solid #000;
@@ -114,8 +117,8 @@ body {
 
 /* cont4 */
 #cont4 {
-    width: 145vw;
-    height: 100%;
+    width: 125vw;
+    height: 100vh;
     float: left;
     position: relative;
     z-index: 1;
@@ -127,7 +130,7 @@ body {
     color: #000;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: normal;
-    font-size: 21vw;
+    font-size: 270px;
     display: block;
     white-space: nowrap;
     letter-spacing: -1vw;
@@ -144,7 +147,7 @@ body {
 /* cont5 */
 #cont5 {
     width: 45vw;
-    height: 100%;
+    height: 100vh;
     float: left;
     position: relative;
 }
@@ -152,14 +155,14 @@ body {
     background-image: url(../img/sub.JPG);
     background-size: cover;
     width: 45vw;
-    height: 100%;
+    height: 100vh;
     filter: saturate(30%);
 }
 
 /* cont6 */
 #cont6 {
     width: 90vw;
-    height: 100%;
+    height: 100vh;
     float: left;
 }
 .cont6 {
@@ -172,20 +175,20 @@ body {
     color: #000;
     font-family: 'Chosunilbo_myungjo';
     overflow: hidden;
-    font-size: 2.5vw;
+    font-size: 35px;
     line-height: 1.4;
 }
 .cont6 li:nth-child(2) {
     color: #545454;
     float: left;
-    font-size: 1.1vw;
+    font-size: 14px;
     line-height: 1.8;
     margin-top: 5vw;
 }
 .cont6 li:nth-child(3) {
     color: #545454;
     float: left;
-    font-size: 1.1vw;
+    font-size: 14px;
     line-height: 1.8;
     margin-top: 5vw;
     padding-left: 4vw;
@@ -195,21 +198,21 @@ body {
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 0.9vw;
+    font-size: 14px;
     position: absolute;
-    top: 90%;
+    top: 80%;
     right: 2.5vw;
 }
 
 /* cont7 */
 #cont7 {
     width: 46vw;
-    height: 100%;
+    height: 100vh;
     float: left;
     margin: 0;
 }
 .cont7 {
-    height: 90%;
+    height: 90vh;
     border-left: 1px solid #AAAAAA;
     border-right: 1px solid #AAAAAA;
     margin: 1vw;
@@ -221,20 +224,20 @@ body {
 .sk_txt h2 {
     color: #000;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 4vw;
+    font-size: 50px;
     font-weight: normal;
 }
 .sk_txt h3 {
     color: #545454;
     margin-top: 3vw;
-    font-size: 2vw;
+    font-size: 20px;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: normal;
 }
 .sk_txt p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
-    font-size: 1.1vw;
+    font-size: 14px;
     margin-top: 1vw;
     line-height: 1.8;
 }
@@ -242,14 +245,14 @@ body {
 /* cont8 */
 #cont8 {
     width: 40vw;
-    height: 100%;
+    height: 100vh;
     float: left;
     margin: 0;
 }
 .cont8 {
     margin-top: 3vw;
     padding: 0 2.5vw 0 2.5vw;
-    font-size: 3vw;
+    font-size: 35px;
     font-family: 'Nanum Myeongjo', serif;
     position: relative;
 }
@@ -309,7 +312,7 @@ body {
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 0.9vw;
+    font-size: 14px;
     position: absolute;
     top: 50%;
     right: 2.5vw;
@@ -318,16 +321,16 @@ body {
 /* cont9 */
 #cont9 {
     width: 45vw;
-    height: 100%;
+    height: 100vh;
     float: left;
     margin: 0;
 }
 .cont9 {
-    height: 100%;
+    height: 100vh;
 }
 .play {
     width: 28vw;
-    height: 100%;
+    height: 100vh;
     background-image: url(../img/play.svg);
     background-size: cover;
     background-position: 50% 50%;
@@ -336,15 +339,15 @@ body {
 /* cont10 */
 #cont10 {
     width: 140vw;
-    height: 100%;
+    height: 100vh;
     float: left;
     margin: 0;
 }
 .cont10 {
-    height: 100%;
+    height: 100vh;
 }
 .site1 {
-    height: 100%;
+    height: 100vh;
     position: relative;
 }
 .site1 h2 {
@@ -352,7 +355,7 @@ body {
     position: absolute;
     left: -20%; top: 35%;
     transform: rotate(270deg);
-    font-size: 10vw;
+    font-size: 150px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
@@ -380,6 +383,7 @@ body {
     top: 20%;
     line-height: 1.6;
     position: absolute;
+    font-size: 16px;
 }
 #web1{
     color: #fff;
@@ -391,7 +395,7 @@ body {
     width: 10vw; height: 10vw;
     left: 59%;
     top: 65%;
-    font-size: 1.5vw;
+    font-size: 25px;
     position: absolute;
 }
 .site1 a {
@@ -403,6 +407,7 @@ body {
     top: 44%;
     border-bottom: 1px solid #000;
     position: absolute;
+    font-size: 16px;
 }
 #next1 {
     color: #000;
@@ -411,7 +416,7 @@ body {
     position: absolute;
     left: 98%;
     top: 50%;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 #next1::after {
     content: '';
@@ -443,7 +448,7 @@ body {
     position: absolute;
     left: -19%; top: 35%;
     transform: rotate(270deg);
-    font-size: 10vw;
+    font-size: 150px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
@@ -471,6 +476,7 @@ body {
     top: 37%;
     line-height: 1.6;
     position: absolute;
+    font-size: 16px;
 }
 #web2 {
     color: #fff;
@@ -482,7 +488,7 @@ body {
     width: 10vw; height: 10vw;
     left: 60%;
     top: 13%;
-    font-size: 1.5vw;
+    font-size: 25px;
     position: absolute;
 }
 .site2 a {
@@ -494,6 +500,7 @@ body {
     top: 54%;
     border-bottom: 1px solid #000;
     position: absolute;
+    font-size: 18px;
 }
 #next2 {
     color: #000;
@@ -502,7 +509,7 @@ body {
     position: absolute;
     left: 98%;
     top: 50%;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 #next2::after {
     content: '';
@@ -534,7 +541,7 @@ body {
     position: absolute;
     left: -16%; top: 35%;
     transform: rotate(270deg);
-    font-size: 10vw;
+    font-size: 150px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
@@ -563,6 +570,7 @@ body {
     top: 35%;
     line-height: 1.6;
     position: absolute;
+    font-size: 16px;
 }
 #web3 {
     color: #fff;
@@ -574,7 +582,7 @@ body {
     width: 10vw; height: 10vw;
     left: 63%;
     top: 65%;
-    font-size: 1.5vw;
+    font-size: 25px;
     position: absolute;
 }
 .site3 a {
@@ -586,6 +594,7 @@ body {
     top: 57%;
     border-bottom: 1px solid #000;
     position: absolute;
+    font-size: 18px;
 }
 #next3 {
     color: #000;
@@ -594,7 +603,7 @@ body {
     position: absolute;
     left: 98%;
     top: 50%;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 #next3::after {
     content: '';
@@ -626,7 +635,7 @@ body {
     position: absolute;
     left: -19%; top: 35%;
     transform: rotate(270deg);
-    font-size: 10vw;
+    font-size: 150px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
@@ -654,6 +663,7 @@ body {
     top: 40%;
     line-height: 1.6;
     position: absolute;
+    font-size: 16px;
 }
 #web4 {
     color: #fff;
@@ -665,7 +675,7 @@ body {
     width: 10vw; height: 10vw;
     left: 59%;
     top: 13%;
-    font-size: 1.5vw;
+    font-size: 25px;
     position: absolute;
 }
 .site4 a {
@@ -677,6 +687,7 @@ body {
     top: 55%;
     border-bottom: 1px solid #000;
     position: absolute;
+    font-size: 18px;
 }
 #next4 {
     color: #000;
@@ -685,7 +696,7 @@ body {
     position: absolute;
     left: 98%;
     top: 50%;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 #next4::after {
     content: '';
@@ -717,7 +728,7 @@ body {
     position: absolute;
     left: -9%; top: 35%;
     transform: rotate(270deg);
-    font-size: 10vw;
+    font-size: 150px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
@@ -746,6 +757,7 @@ body {
     top: 45%;
     line-height: 1.6;
     position: absolute;
+    font-size: 16px;
 }
 #web5 {
     color: #fff;
@@ -757,7 +769,7 @@ body {
     width: 10vw; height: 10vw;
     left: 63%;
     top: 65%;
-    font-size: 1.5vw;
+    font-size: 25px;
     position: absolute;
 }
 .site5 a {
@@ -769,12 +781,13 @@ body {
     top: 57%;
     border-bottom: 1px solid #000;
     position: absolute;
+    font-size: 18px;
 }
 #next5 {
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 0.9vw;
+    font-size: 14px;
     position: absolute;
     top: 50%;
     left: 100%;
@@ -822,13 +835,13 @@ body {
 .ani_txt1 h2 {
     color: #000;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 3vw;
+    font-size: 50px;
     font-weight: normal;
 }
 .ani_txt1 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
-    font-size: 0.9vw;
+    font-size: 13px;
     margin-top: 1vw;
     line-height: 1.8;
 }
@@ -838,7 +851,7 @@ body {
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 .ani_img1 {
     background-image: url(../img/cube.jpg);
@@ -869,13 +882,13 @@ body {
 .ani_txt2 h2 {
     color: #000;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 3vw;
+    font-size: 50px;
     font-weight: normal;
 }
 .ani_txt2 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
-    font-size: 0.9vw;
+    font-size: 13px;
     margin-top: 1vw;
     line-height: 1.8;
 }
@@ -885,7 +898,7 @@ body {
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 .ani_img2 {
     background-image: url(../img/heart.jpg);
@@ -916,13 +929,13 @@ body {
 .ani_txt3 h2 {
     color: #000;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 3vw;
+    font-size: 50px;
     font-weight: normal;
 }
 .ani_txt3 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
-    font-size: 0.9vw;
+    font-size: 13px;
     margin-top: 1vw;
     line-height: 1.8;
 }
@@ -932,7 +945,7 @@ body {
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 .ani_img3 {
     background-image: url(../img/tail.jpg);
@@ -963,13 +976,13 @@ body {
 .ani_txt4 h2 {
     color: #000;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 3vw;
+    font-size: 50px;
     font-weight: normal;
 }
 .ani_txt4 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
-    font-size: 0.9vw;
+    font-size: 13px;
     margin-top: 1vw;
     line-height: 1.8;
 }
@@ -979,7 +992,7 @@ body {
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 .ani_img4 {
     background-image: url(../img/wave.jpg);
@@ -1010,13 +1023,13 @@ body {
 .ani_txt5 h2 {
     color: #000;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 3vw;
+    font-size: 50px;
     font-weight: normal;
 }
 .ani_txt5 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
-    font-size: 0.9vw;
+    font-size: 13px;
     margin-top: 1vw;
     line-height: 1.8;
 }
@@ -1026,7 +1039,7 @@ body {
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 .ani_img5 {
     background-image: url(../img/svg\ text.jpg);
@@ -1057,13 +1070,13 @@ body {
 .ani_txt6 h2 {
     color: #000;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 3vw;
+    font-size: 50px;
     font-weight: normal;
 }
 .ani_txt6 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
-    font-size: 0.9vw;
+    font-size: 13px;
     margin-top: 1vw;
     line-height: 1.8;
 }
@@ -1073,7 +1086,7 @@ body {
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 .ani_img6 {
     background-image: url(../img/tentacle.jpg);
@@ -1090,7 +1103,7 @@ body {
     left: 150%;
     font-family: Poppins, sans-serif;
     font-weight: 300;
-    font-size: 0.9vw;
+    font-size: 14px;
 }
 
 /* cont22 */
@@ -1131,7 +1144,7 @@ body {
     left: -3%;
     top: 35%;
     transform: rotate(270deg);
-    font-size: 10vw;
+    font-size: 150px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
@@ -1162,7 +1175,7 @@ body {
     left: 45.5%;
     top: 40%;
     position: absolute;
-    font-size: 3vw;
+    font-size: 45px;
 }
 .sub_txt1 {
     color: #ffffff;
@@ -1171,7 +1184,7 @@ body {
     left: 55.5%;
     top: 85%;
     position: absolute;
-    font-size: 3vw;
+    font-size: 45px;
 }
 .cont23 p {
     color: #ffffff;
@@ -1180,6 +1193,7 @@ body {
     top: 45%;
     line-height: 1.6;
     position: absolute;
+    font-size: 16px;
 }
 #web6 {
     color: #000;
@@ -1191,7 +1205,7 @@ body {
     width: 10vw; height: 10vw;
     left: 64%;
     top: 20%;
-    font-size: 1.5vw;
+    font-size: 25px;
     position: absolute;
 }
 .cont23 a {
@@ -1203,6 +1217,7 @@ body {
     top: 57%;
     border-bottom: 1px solid #fff;
     position: absolute;
+    font-size: 18px;
 }
 
 /* cont24 */
@@ -1244,7 +1259,7 @@ body {
     left: 33.5%;
     top: 40%;
     position: absolute;
-    font-size: 3vw;
+    font-size: 45px;
 }
 .sub_txt2 {
     color: #ffffff;
@@ -1253,7 +1268,7 @@ body {
     left: 43.5%;
     top: 85%;
     position: absolute;
-    font-size: 3vw;
+    font-size: 45px;
 }
 .cont24 p {
     color: #ffffff;
@@ -1262,6 +1277,7 @@ body {
     top: 45%;
     line-height: 1.6;
     position: absolute;
+    font-size: 16px;
 }
 #web7 {
     color: #000;
@@ -1273,7 +1289,7 @@ body {
     width: 10vw; height: 10vw;
     left: 52%;
     top: 20%;
-    font-size: 1.5vw;
+    font-size: 25px;
     position: absolute;
 }
 .cont24 a {
@@ -1285,6 +1301,7 @@ body {
     top: 57%;
     border-bottom: 1px solid #fff;
     position: absolute;
+    font-size: 18px;
 }
 
 /* cont25 */
@@ -1326,7 +1343,7 @@ body {
     left: 33.5%;
     top: 40%;
     position: absolute;
-    font-size: 3vw;
+    font-size: 45px;
 }
 .sub_txt3 {
     color: #ffffff;
@@ -1335,7 +1352,7 @@ body {
     left: 43.5%;
     top: 85%;
     position: absolute;
-    font-size: 3vw;
+    font-size: 45px;
 }
 .cont25 p {
     color: #ffffff;
@@ -1344,6 +1361,7 @@ body {
     top: 45%;
     line-height: 1.6;
     position: absolute;
+    font-size: 16px;
 }
 #web8 {
     color: #000;
@@ -1355,7 +1373,7 @@ body {
     width: 10vw; height: 10vw;
     left: 52%;
     top: 20%;
-    font-size: 1.5vw;
+    font-size: 25px;
     position: absolute;
 }
 .cont25 a {
@@ -1367,6 +1385,7 @@ body {
     top: 57%;
     border-bottom: 1px solid #fff;
     position: absolute;
+    font-size: 18px;
 }
 
 /* cont26 */
@@ -1408,7 +1427,7 @@ body {
     left: 33.5%;
     top: 40%;
     position: absolute;
-    font-size: 3vw;
+    font-size: 45px;
 }
 .sub_txt4 {
     color: #ffffff;
@@ -1417,7 +1436,7 @@ body {
     left: 43.5%;
     top: 85%;
     position: absolute;
-    font-size: 3vw;
+    font-size: 45px;
 }
 .cont26 p {
     color: #ffffff;
@@ -1426,6 +1445,7 @@ body {
     top: 45%;
     line-height: 1.6;
     position: absolute;
+    font-size: 16px;
 }
 #web9 {
     color: #000;
@@ -1437,7 +1457,7 @@ body {
     width: 10vw; height: 10vw;
     left: 52%;
     top: 20%;
-    font-size: 1.5vw;
+    font-size: 25px;
     position: absolute;
 }
 .cont26 a {
@@ -1449,6 +1469,7 @@ body {
     top: 57%;
     border-bottom: 1px solid #fff;
     position: absolute;
+    font-size: 18px;
 }
 
 /* cont27 */
@@ -1467,7 +1488,7 @@ body {
     font-family: 'Chosunilbo_myungjo';
     font-weight: normal;
     margin: 3vw 0 0 5vw;
-    font-size: 2vw;
+    font-size: 26px;
     line-height: 1.3;
 }
 .cont27 ul {
@@ -1476,7 +1497,7 @@ body {
 }
 .cont27 li {
     color: #000;
-    font-size: 1vw;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
@@ -1494,44 +1515,44 @@ body {
 }
 .cont27 p {
     color: #000;
-    font-size: 1vw;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     position: absolute;
-    top: 42.5%;
+    top: 40%;
     left: 25%;
 }
 
 .cont1 {
     color: #AAAAAA;
-    font-size: 1vw;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     position: absolute;
     left: 25%;
-    top: 48%;
+    top: 45%;
     border: 1px solid #AAAAAA;
     padding: 0.5vw 11vw 0.5vw 1vw;
 }
 .cont2 {
     color: #AAAAAA;
-    font-size: 1vw;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     position: absolute;
     left: 25%;
-    top: 55%;
+    top: 52.5%;
     border: 1px solid #AAAAAA;
     padding: 1vw 11.8vw 9vw 1vw;
 }
 .cont3 {
     color: #AAAAAA;
-    font-size: 1vw;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     position: absolute;
     left: 25%;
-    top: 81%;
+    top: 79%;
     border: 1px solid #AAAAAA;
     padding: 0.5vw 1vw 0.5vw 1vw;
 }
