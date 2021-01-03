@@ -25,4 +25,4 @@ addClass(): <a href="https://wkdddnr.github.io/dothome1/jQuery/jquery06_addClass
 
 <br>
 #포트폴리오 사이트<br>
-<a href="https://wkdddnr.github.io/dothome1/folio/index.html">바로가기</a>
+<a href="https://wkdddnr.github.io/dothome1/port/index.html">바로가기</a>
