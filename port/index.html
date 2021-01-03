@@ -42,9 +42,9 @@
         </div>
         <div id="cont4">
             <div class="tit">
-                <h2 class="abo_tit">I AM</h2>
-                <h2 class="abo_tit">PRONT-END</h2>
-                <h2 class="abo_tit">DEVELOPER</h2>
+                <h2 id="abo_tit1">I AM</h2>
+                <h2 id="abo_tit2">PRONT-END</h2>
+                <h2 id="abo_tit3">DEVELOPER</h2>
             </div>
         </div>
         <div id="cont5">
@@ -442,15 +442,16 @@
             constructor(options) {
                 this.opt = options || {}
                 this.el = this.opt.el ? this.opt.el : '.supah-scroll'
-                this.abo_tit = this.opt.abo_tit ? this.opt.abo_tit : '.supah-scroll'
                 this.speed = this.opt.speed ? this.opt.speed : 0.1
                 this.init()
             }
 
             init() {
                 this.scrollY = 0
-                this.supahScroll = document.querySelectorAll(this.el,this.abo_tit)[0]
+                this.supahScroll = document.querySelectorAll(this.el)[0]
                 this.supahScroll.classList.add('supah-scroll')
+                this.cont4 = document.querySelector("#cont4")
+                this.cont4.classList.add('supah-scroll')
                 this.events()
                 this.update()
                 this.animate()
@@ -483,6 +484,7 @@
             animate() {
                 this.scrollY += (window.scrollY - this.scrollY) * this.speed
                 this.supahScroll.style.transform = `translate3d(${-this.scrollY}px,0,0)`
+                this.cont4.style.transform = `translate3d(${-this.scrollY}px,0,0)`
                 this.raf = requestAnimationFrame(this.animate.bind(this))
             }
 
@@ -495,6 +497,7 @@
                 this.scrollY = y
                 window.scrollTo(0, y)
                 this.supahScroll.style.transform = `translate3d(0,${-y}px,0)`
+                this.cont4.style.transform = `translate3d(0,${-y}px,0)`
                 this.play()
             }
 
@@ -513,6 +516,14 @@
             speed: 0.05
         })
 
+        // window.addEventListener("scroll", () => {
+        //     let pageXOffset = (window.pageXOffset || document.documentElement.scrollTop);
+        //     document.querySelectorAll("#cont5").forEach((elem)=>{
+        //         let target = elem.childNodes[1];
+        //         let offset = (pageXOffset - elem.offsetTop) * 0.5;
+        //         target.style.transform = "translateX("+ -offset+"px)";
+        //     });
+        // });
     </script>
 </body>
 </html>
