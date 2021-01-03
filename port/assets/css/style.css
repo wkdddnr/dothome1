@@ -136,12 +136,18 @@ body {
     letter-spacing: -1vw;
     line-height: 0.9;
     z-index: 1;
+    position: fixed;
+}
+.tit h2:nth-child(1) {
+    transform: translate(0vh, 2vh);
 }
 .tit h2:nth-child(2) {
     margin-left: 25vw;
+    transform: translate(0vh, 33vh);
 }
 .tit h2:nth-child(3) {
     margin-left: 13vw;
+    transform: translate(0vh, 65vh);
 }
 
 /* cont5 */
