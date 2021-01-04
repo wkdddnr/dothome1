@@ -516,14 +516,14 @@
             speed: 0.05
         })
 
-        window.addEventListener("scroll", () => {
-            let pageXOffset = (window.pageXOffset || document.documentElement.scrollTop);
-            document.querySelectorAll("#cont5").forEach((elem)=>{
-                let target = elem.childNodes[1];
-                let offset = (pageXOffset - elem.offsetTop) * 0.5;
-                target.style.transform = "translateX("+ -offset+"px)";
-            });
-        });
+        // window.addEventListener("scroll", () => {
+        //     let pageXOffset = (window.pageXOffset || document.documentElement.scrollTop);
+        //     document.querySelectorAll("#cont5").forEach((elem)=>{
+        //         let target = elem.childNodes[1];
+        //         let offset = (pageXOffset - elem.offsetTop) * 0.5;
+        //         target.style.transform = "translateX("+ -offset+"px)";
+        //     });
+        // });
     </script>
 </body>
 </html>
