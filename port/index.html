@@ -19,18 +19,18 @@
                 <h2>PORTFOLIO</h2>
             </div>
         </div>
-        <div id="cont2">
+        <header id="cont2">
             <div class="desc">
                 <ul>
                     <a href="#">PORTFOLIO</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Script</a>
-                    <a href="#">Animation</a>
-                    <a href="#">Site</a>
-                    <a href="#">About</a>
+                    <a href="#cont27">Contact</a>
+                    <a href="#cont23">Script</a>
+                    <a href="#cont16">Animation</a>
+                    <a href="#cont10">Site</a>
+                    <a href="#cont6">About</a>
                 </ul>
             </div>
-        </div>
+        </header>
         <div id="cont3">
             <p>
                 이곳에 프론트엔드 개발자를 꿈꾸며 공부하<br>
@@ -48,7 +48,9 @@
             </div>
         </div>
         <div id="cont5">
-            <div class="sub"></div>
+            <div id="sub">
+                <div class="sub_img"></div>
+            </div>
         </div>
         <div id="cont6">
             <div class="cont6">
@@ -141,40 +143,43 @@
             <div class="cont8">
                 <ul>
                     <li>
-                        <a href="#">Web Standard</a>
+                        <a href="#cont10">Web Standard</a>
                     </li>
                     <li>
-                        <a href="#">Responsive</a>
+                        <a href="#cont11">Responsive</a>
                     </li>
                     <li>
-                        <a href="#">Mega Box</a>
+                        <a href="#cont12">Mega Box</a>
                     </li>
                     <li>
-                        <a href="#">Naver Clova</a>
+                        <a href="#cont13">Naver Clova</a>
                     </li>
                     <li>
-                        <a href="#">Cube</a>
+                        <a href="#cont14">React</a>
                     </li>
                     <li>
-                        <a href="#">Heart</a>
+                        <a href="#cont16">Cube</a>
                     </li>
                     <li>
-                        <a href="#">Tail</a>
+                        <a href="#cont17">Heart</a>
                     </li>
                     <li>
-                        <a href="#">Wave</a>
+                        <a href="#cont18">Tail</a>
                     </li>
                     <li>
-                        <a href="#">Svg Text</a>
+                        <a href="#cont19">Wave</a>
                     </li>
                     <li>
-                        <a href="#">Tentacle</a>
+                        <a href="#cont20">Svg Text</a>
                     </li>
                     <li>
-                        <a href="#">Script</a>
+                        <a href="#cont21">Tentacle</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#cont23">Script</a>
+                    </li>
+                    <li>
+                        <a href="#cont27">Contact</a>
                     </li>
                 </ul>
                 <p class="Site">SITE</p>
@@ -429,7 +434,18 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>
+        // $(window).scroll(function(){
+        //     let scrollTop = $(window).scrollTop();
+        //     let offset = (scrollTop - $("#section1").offset().top);
+        //     $(".content-item").each(function(){
+        //         let offset1 = (scrollTop - $(this).offset().top) * 0.2;
+        //         let offset2 = (scrollTop - $(this).offset().top) * 0.2;
 
+        //         $(this).find(".content-item-desc").css({transform: "translateY("+ -offset2+"px)"});
+        //         $(this).find(".content-item-num").css({transform: "translateY("+offset1+"px)"});
+        //         $(this).find(".content-item-img").css({transform: "translateY("+offset2+"px)"});
+        //     });
+        // });
             // $(window).scroll(function(){
             //         const scroll = $(window).scrollTop();
             //         $("#contents").css("left", -scroll);
@@ -447,11 +463,17 @@
             }
 
             init() {
-                this.scrollY = 0
+                this.scrollY = 0;
                 this.supahScroll = document.querySelectorAll(this.el)[0]
                 this.supahScroll.classList.add('supah-scroll')
-                this.cont4 = document.querySelector("#cont4")
-                this.cont4.classList.add('supah-scroll')
+                this.abo_tit1 = document.querySelector("#abo_tit1")
+                this.abo_tit1.classList.add('supah-scroll')
+                this.abo_tit2 = document.querySelector("#abo_tit2")
+                this.abo_tit2.classList.add('supah-scroll')
+                this.abo_tit3 = document.querySelector("#abo_tit3")
+                this.abo_tit3.classList.add('supah-scroll')
+                this.cont5 = document.querySelector(".sub_img")
+                this.cont5.classList.add('supah-scroll')
                 this.events()
                 this.update()
                 this.animate()
@@ -459,7 +481,7 @@
 
             update() {
                 if (this.supahScroll === null) return
-                document.body.style.height = `${this.supahScroll.getBoundingClientRect().width}px`
+                document.body.style.height = `${this.supahScroll.width}px`
             }
 
             pause() {
@@ -484,7 +506,10 @@
             animate() {
                 this.scrollY += (window.scrollY - this.scrollY) * this.speed
                 this.supahScroll.style.transform = `translate3d(${-this.scrollY}px,0,0)`
-                this.cont4.style.transform = `translate3d(${-this.scrollY}px,0,0)`
+                this.abo_tit1.style.transform = `translate3d(${-this.scrollY * 0.2}px,0,0)`
+                this.abo_tit2.style.transform = `translate3d(${-this.scrollY * 0.15}px,0,0)`
+                this.abo_tit3.style.transform = `translate3d(${-this.scrollY * 0.5}px,0,0)`
+                this.cont5.style.transform = `translate3d(${-this.scrollY * 0.06}px,0,0)`
                 this.raf = requestAnimationFrame(this.animate.bind(this))
             }
 
@@ -497,7 +522,6 @@
                 this.scrollY = y
                 window.scrollTo(0, y)
                 this.supahScroll.style.transform = `translate3d(0,${-y}px,0)`
-                this.cont4.style.transform = `translate3d(0,${-y}px,0)`
                 this.play()
             }
 
@@ -523,6 +547,32 @@
         //         let offset = (pageXOffset - elem.offsetTop) * 0.5;
         //         target.style.transform = "translateX("+ -offset+"px)";
         //     });
+        // });
+
+        // $("#cont2").each(function(){
+        //     let header = $(this);
+        //     let headerOffset = window.pageXOffset || document.documentElement.scrollTop;
+            
+        //     $(window).scroll(function(){
+        //         let wScroll = $(this).scrollTop();
+                
+        //         if(wScroll > headerOffset){
+        //             $("#cont2").addClass("on");
+        //         } else {
+        //             $("#cont2").removeClass("on");
+        //         }
+        //     });
+        // });
+
+        // $(".desc ul a").click(function(e){
+        //     e.preventDefault();
+        //     $(this).addClass("active").siblings().removeClass("active");
+            
+        //     let target = $(this);
+        //     let index = target.index();
+        //     let section = $("#contents > div").eq(index);
+        //     let offset = section.offset().top;
+        //     $("html, body").animate({pageXOffset: offset},600);
         // });
     </script>
 </body>
