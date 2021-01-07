@@ -12,7 +12,7 @@
 }
 
 body {
-    height: 4200vh;
+    height: 26500px;
     background: #fff;
 }
 #contents {
@@ -20,44 +20,44 @@ body {
     position: fixed;
     left: 0; top: 0;
     color: #fff;
-    width: 8000vw;
+    width: 30000px;
     height: 100vh;
 }
 /* #contents > div {height: 100vh; float: left;} */
 
 /* cont1 */
 #cont1 {
-    width: 40vw;
+    width: 518px;
     height: 100vh;
     float: left;
 }
 .main {
     background-image: url(../img/main.jpg);
     background-size: cover;
-    width: 35vw;
+
     height: 70vh;
     filter: brightness(80%);
 }
 .cir {
     background: #000;
     border-radius: 50%;
-    width: 10vw; height: 10vw;
-    margin-left: 11vw;
+    width: 150px; height: 150px;
+    margin-left: 142px;
     left: 0; top: 0;
-    transform: translate(10%, -50%);
+    transform: translate(30%, -50%);
 }
 .cir h2 {
     color: #fff;
     text-align: center;
     font-size: 20px;
-    padding-top: 4vw;
+    padding-top: 61px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
 /* cont2 */
 #cont2 {
-    width: 8vw;
+    width: 140px;
     height: 100vh;
     float: left;
 }
@@ -67,30 +67,30 @@ body {
     font-weight: 300;
     height: 100vh;
 }
-.desc ul {
-    width: 1vw;
+.desc div {
+    width: 13px;
     height: 100vh;
-    border-right: 0.1vw solid #AAAAAA;
-    padding: 0vw 1vw 0vw 1vw;
+    border-right: 1px solid #AAAAAA;
+    padding: 0px 25px 0px 40px;
     /* margin: 1.5vw 1vw 2vw 1vw; */
     
 }
 .desc a {
     writing-mode: vertical-lr; 
     transform: rotate(180deg);
-    padding: 0vw 0vw 2vw 0vw;
+    padding: 0px 0px 30px 0px;
     font-size: 16px;
     display: inline-block;
 }
 .desc a:first-child {
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 19px;
-    padding: 7vw 0vw 2vw 0vw;
+    font-size: 24px;
+    padding: 100px 0px 25px 0px;
 }
 
 /* cont3 */
 #cont3 {
-    width: 30vw;
+    width: 388.5px;
     height: 100vh;
     float: left;
 }
@@ -100,7 +100,7 @@ body {
     line-height: 1.6;
     font-size: 14px;
     letter-spacing: -0.1vw;
-    margin-top: 3vw;
+    margin-top: 39px;
 }
 #cont3 a {
     display: inline-block;
@@ -108,14 +108,14 @@ body {
     color: #000;
     font-size: 14px;
     letter-spacing: -0.1vw;
-    padding: 0 0 0.4vw 0;
+    padding: 0 0 5px 0;
     border-bottom: 1px solid #000;
-    margin-top: 2vw;
+    margin-top: 26px;
 }
 
 /* cont4 */
 #cont4 {
-    width: 125vw;
+    width: 1619px;
     height: 100vh;
     float: left;
     position: relative;
@@ -140,13 +140,13 @@ body {
     transform: translate(0vh, 1vh);
 }
 .tit h2:nth-child(2) {
-    margin-left: 25vw;
+    margin-left: 324px;
     /* transform: translate(0vh, 33vh); */
     position: absolute;
     top: 35%;
 }
 .tit h2:nth-child(3) {
-    margin-left: 13vw;
+    margin-left: 168px;
     /* transform: translate(0vh, 65vh); */
     position: absolute;
     top: 68%;
@@ -154,13 +154,13 @@ body {
 
 /* cont5 */
 #cont5 {
-    width: 45vw;
+    width: 583px;
     height: 100vh;
     float: left;
     
 }
 #sub {
-    width: 40vw;
+    width: 518px;
     height: 100vh;
     filter: saturate(30%);
     position: relative;
@@ -172,7 +172,7 @@ body {
     background-size: cover;
     background-position: 50% 0;
     filter: saturate(30%);
-    width: 45vw;
+    width: 563px;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -183,13 +183,13 @@ body {
 
 /* cont6 */
 #cont6 {
-    width: 90vw;
+    width: 1300px;
     height: 100vh;
     float: left;
 }
 .cont6 {
-    margin-top: 1.2vw;
-    padding: 0 2.5vw 0 2.5vw;
+    margin-top: 30px;
+    padding: 0 32px;
     position: relative;
 }
 .cont6 ul {}
@@ -205,15 +205,15 @@ body {
     float: left;
     font-size: 14px;
     line-height: 1.8;
-    margin-top: 5vw;
+    margin-top: 64.7px;
 }
 .cont6 li:nth-child(3) {
     color: #545454;
     float: left;
     font-size: 14px;
     line-height: 1.8;
-    margin-top: 5vw;
-    padding-left: 4vw;
+    margin-top: 64.7px;
+    padding-left: 52px;
 }
 .cont6 p {}
 .skill {
@@ -228,7 +228,7 @@ body {
 
 /* cont7 */
 #cont7 {
-    width: 46vw;
+    width: 597px;
     height: 100vh;
     float: left;
     margin: 0;
@@ -240,8 +240,8 @@ body {
     /* margin: 1vw; */
 }
 .sk_txt {
-    padding: 0 2.5vw 0 2.5vw;
-    margin-top: 3vw;
+    padding: 0 32px 0 45px;
+    margin-top: 39px;
     height: 100vh;
 }
 .sk_txt h2 {
@@ -252,7 +252,7 @@ body {
 }
 .sk_txt h3 {
     color: #545454;
-    margin-top: 3vw;
+    margin-top: 39px;
     font-size: 25px;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: normal;
@@ -261,19 +261,19 @@ body {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     font-size: 14px;
-    margin-top: 1vw;
+    margin-top: 13px;
     line-height: 1.8;
 }
 
 /* cont8 */
 #cont8 {
-    width: 40vw;
+    width: 518px;
     height: 100vh;
     float: left;
     margin: 0;
 }
 .cont8 {
-    margin-top: 3vw;
+    margin-top: 39px;
     padding: 0 2.5vw 0 2.5vw;
     font-size: 36px;
     font-family: 'Nanum Myeongjo', serif;
@@ -281,54 +281,54 @@ body {
 }
 .cont8 ul {}
 .cont8 li {
-    margin-top: 0.5vw;
+    margin-top: 6.5px;
 }
 .cont8 li:nth-child(6)::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    height: 0.1vw;
-    width: 2vw;
+    height: 1px;
+    width: 26px;
     background: #000;
 }
 .cont8 li:nth-child(7)::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    height: 0.1vw;
-    width: 2vw;
+    height: 1px;
+    width: 26px;
     background: #000;
 }
 .cont8 li:nth-child(8)::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    height: 0.1vw;
-    width: 2vw;
+    height: 1px;
+    width: 26px;
     background: #000;
 }
 .cont8 li:nth-child(9)::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    height: 0.1vw;
-    width: 2vw;
+    height: 1px;
+    width: 26px;
     background: #000;
 }
 .cont8 li:nth-child(10)::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    height: 0.1vw;
-    width: 2vw;
+    height: 1px;
+    width: 26px;
     background: #000;
 }
 .cont8 li:nth-child(11)::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    height: 0.1vw;
-    width: 2vw;
+    height: 1px;
+    width: 26px;
     background: #000;
 }
 .Site {
@@ -343,7 +343,7 @@ body {
 
 /* cont9 */
 #cont9 {
-    width: 45vw;
+    width: 583px;
     height: 100vh;
     float: left;
     margin: 0;
@@ -352,19 +352,29 @@ body {
     height: 100vh;
     position: relative;
 }
-.play {
-    width: 28vw;
-    height: 50vh;
-    background-image: url(../img/play.svg);
-    background-size: cover;
-    background-position: 50% 50%;
-    top: 25%;
+.cont9 svg {
     position: absolute;
+    top: 8%;
+}
+.play {
+    stroke: #aaa;
+    fill: none;
+    stroke-width: 2px;
+    stroke-dasharray: 2100px;
+    stroke-dashoffset: 2100px;
+    animation: play 2.7s infinite linear normal;
+}
+@keyframes play {
+    0%   {stroke-dasharray: 2100px;}
+    100%  {
+        stroke-dashoffset: 0;
+        
+    }
 }
 
 /* cont10 */
 #cont10 {
-    width: 140vw;
+    width: 1813px;
     height: 100vh;
     float: left;
     margin: 0;
@@ -379,27 +389,50 @@ body {
 .site1 h2 {
     color: #000;
     position: absolute;
-    left: -20%; top: 35%;
+    left: -32%; top: 35%;
     transform: rotate(270deg);
     font-size: 144px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
+.site1 h2::after {
+    content: '';
+    height: 1px;
+    width: 200px;
+    margin: 0 60px;
+    display: inline-block;
+    background-color: #000;
+    vertical-align: middle;
+}
+#img1 {
+    width: 660px;
+    height: 100%;
+    left: 7%;
+    position: absolute;
+    overflow: hidden;
+}
+#img2 {
+    width: 304px;
+    height: 35%;
+    left: 40%;
+    top: 45%;
+    position: absolute;
+    overflow: hidden;
+}
 .main_img1 {
     background-image: url(../img/stand01.jpg);
     background-size: cover;
-    width: 50vw;
+    width: 680px;
     height: 100%;
-    left: 8%;
+    left: 53%;
     position: absolute;
 }
 .sub_img1 {
     background-image: url(../img/stand02.jpg);
     background-size: cover;
-    width: 25vw;
-    height: 35%;
-    left: 42%;
-    top: 45%;
+    width: 324px;
+    height: 252.84px;
+    left: 120%;
     position: absolute;
 }
 .site1 p {
@@ -418,7 +451,7 @@ body {
     line-height: 10vw;
     display: inline-block;
     background: #000;
-    width: 10vw; height: 10vw;
+    width: 150px; height: 150px;
     left: 59%;
     top: 65%;
     font-size: 25px;
@@ -429,7 +462,7 @@ body {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 82%;
+    left: 85%;
     top: 44%;
     border-bottom: 1px solid #000;
     position: absolute;
@@ -446,17 +479,17 @@ body {
 }
 #next1::after {
     content: '';
-    width: 0.09vw;
-    height: 42.5vw;
+    width: 1px;
+    height: 120vh;
     background: #aaaaaa;
     position: absolute;
-    top: -20.5vw;
+    top: -28vw;
     right: -2vw;
 }
 
 /* cont11 */
 #cont11 {
-    width: 140vw;
+    width: 1813px;
     height: 100%;
     float: left;
     margin: 0;
@@ -467,39 +500,63 @@ body {
 .site2 {
     height: 100%;
     position: relative;
-    margin-left: 10vw;
+    margin-left: 129.5px;
 }
 .site2 h2 {
     color: #000;
     position: absolute;
-    left: -19%; top: 35%;
+    left: -30%;
+    top: 40%;
     transform: rotate(270deg);
     font-size: 144px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
+.site2 h2::after {
+    content: '';
+    height: 1px;
+    width: 200px;
+    margin: 0 60px;
+    display: inline-block;
+    background-color: #000;
+    vertical-align: middle;
+}
+#img3 {
+    width: 660px;
+    height: 100%;
+    left: 7%;
+    position: absolute;
+    overflow: hidden;
+}
+#img4 {
+    width: 304px;
+    height: 35%;
+    left: 42%;
+    top: 30%;
+    position: absolute;
+    overflow: hidden;
+}
 .main_img2 {
     background-image: url(../img/respon01.jpg);
     background-size: cover;
-    width: 50vw;
+    width: 680px;
     height: 100%;
-    left: 8%;
+    left: 70%;
     position: absolute;
 }
 .sub_img2 {
     background-image: url(../img/respon02.jpg);
     background-size: cover;
-    width: 25vw;
-    height: 35%;
-    left: 44%;
-    top: 30%;
+    width: 324px;
+    height: 252.84px;
+    left: 149%;
     position: absolute;
 }
 .site2 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     left: 66%;
-    top: 37%;
+    top: 40%;
     line-height: 1.6;
     position: absolute;
     font-size: 16px;
@@ -511,7 +568,7 @@ body {
     line-height: 10vw;
     display: inline-block;
     background: #000;
-    width: 10vw; height: 10vw;
+    width: 150px; height: 150px;
     left: 60%;
     top: 13%;
     font-size: 25px;
@@ -522,8 +579,8 @@ body {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 84%;
-    top: 54%;
+    left: 88%;
+    top: 58%;
     border-bottom: 1px solid #000;
     position: absolute;
     font-size: 16px;
@@ -539,17 +596,17 @@ body {
 }
 #next2::after {
     content: '';
-    width: 0.09vw;
-    height: 42.5vw;
+    width: 1px;
+    height: 120vh;
     background: #aaaaaa;
     position: absolute;
-    top: -20.5vw;
+    top: -28vw;
     right: -2vw;
 }
 
 /* cont12 */
 #cont12 {
-    width: 140vw;
+    width: 1813px;
     height: 100%;
     float: left;
     margin: 0;
@@ -560,22 +617,31 @@ body {
 .site3 {
     height: 100%;
     position: relative;
-    margin-left: 10vw;
+    margin-left: 129.5px;
 }
 .site3 h2 {
     color: #000;
     position: absolute;
-    left: -16%; top: 35%;
+    left: -27%; top: 35%;
     transform: rotate(270deg);
     font-size: 144px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
+.site3 h2::after {
+    content: '';
+    height: 1px;
+    width: 200px;
+    margin: 0 60px;
+    display: inline-block;
+    background-color: #000;
+    vertical-align: middle;
+}
 .main_img3 {
     background-image: url(../img/mega01.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 50vw;
+    width: 680px;
     height: 100%;
     left: 8%;
     position: absolute;
@@ -583,7 +649,7 @@ body {
 .sub_img3 {
     background-image: url(../img/mega02.jpg);
     background-size: cover;
-    width: 25vw;
+    width: 324px;
     height: 35%;
     left: 45%;
     top: 45%;
@@ -605,7 +671,7 @@ body {
     line-height: 10vw;
     display: inline-block;
     background: #000;
-    width: 10vw; height: 10vw;
+    width: 150px; height: 150px;
     left: 63%;
     top: 65%;
     font-size: 25px;
@@ -616,7 +682,7 @@ body {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 86%;
+    left: 89%;
     top: 57%;
     border-bottom: 1px solid #000;
     position: absolute;
@@ -633,17 +699,17 @@ body {
 }
 #next3::after {
     content: '';
-    width: 0.09vw;
-    height: 42.5vw;
+    width: 1px;
+    height: 120vh;
     background: #aaaaaa;
     position: absolute;
-    top: -20.5vw;
+    top: -28vw;
     right: -2vw;
 }
 
 /* cont13 */
 #cont13 {
-    width: 140vw;
+    width: 1813px;
     height: 100%;
     float: left;
     margin: 0;
@@ -654,21 +720,30 @@ body {
 .site4 {
     height: 100%;
     position: relative;
-    margin-left: 9vw;
+    margin-left: 129.5px;
 }
 .site4 h2 {
     color: #000;
     position: absolute;
-    left: -19%; top: 35%;
+    left: -31%; top: 35%;
     transform: rotate(270deg);
     font-size: 144px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
+.site4 h2::after {
+    content: '';
+    height: 1px;
+    width: 200px;
+    margin: 0 60px;
+    display: inline-block;
+    background-color: #000;
+    vertical-align: middle;
+}
 .main_img4 {
     background-image: url(../img/naver01.jpg);
     background-size: cover;
-    width: 50vw;
+    width: 680px;
     height: 100%;
     left: 8%;
     position: absolute;
@@ -676,7 +751,7 @@ body {
 .sub_img4 {
     background-image: url(../img/naver02.jpg);
     background-size: cover;
-    width: 25vw;
+    width: 324px;
     height: 35%;
     left: 44%;
     top: 30%;
@@ -698,7 +773,7 @@ body {
     line-height: 10vw;
     display: inline-block;
     background: #000;
-    width: 10vw; height: 10vw;
+    width: 150px; height: 150px;
     left: 59%;
     top: 13%;
     font-size: 25px;
@@ -709,7 +784,7 @@ body {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 88%;
+    left: 91%;
     top: 55%;
     border-bottom: 1px solid #000;
     position: absolute;
@@ -726,17 +801,17 @@ body {
 }
 #next4::after {
     content: '';
-    width: 0.09vw;
-    height: 42.5vw;
+    width: 1px;
+    height: 120vh;
     background: #aaaaaa;
     position: absolute;
-    top: -20.5vw;
+    top: -28vw;
     right: -2vw;
 }
 
 /* cont14 */
 #cont14 {
-    width: 140vw;
+    width: 1813px;
     height: 100%;
     float: left;
     margin: 0;
@@ -752,17 +827,26 @@ body {
 .site5 h2 {
     color: #000;
     position: absolute;
-    left: -9%; top: 35%;
+    left: -20%; top: 35%;
     transform: rotate(270deg);
     font-size: 144px;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
 }
+.site5 h2::after {
+    content: '';
+    height: 1px;
+    width: 200px;
+    margin: 0 60px;
+    display: inline-block;
+    background-color: #000;
+    vertical-align: middle;
+}
 .main_img5 {
     background-image: url(../img/react01.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 50vw;
+    width: 680px;
     height: 100%;
     left: 8%;
     position: absolute;
@@ -770,7 +854,7 @@ body {
 .sub_img5 {
     background-image: url(../img/react02.jpg);
     background-size: cover;
-    width: 25vw;
+    width: 324px;
     height: 35%;
     left: 45%;
     top: 45%;
@@ -792,7 +876,7 @@ body {
     line-height: 10vw;
     display: inline-block;
     background: #000;
-    width: 10vw; height: 10vw;
+    width: 150px; height: 150px;
     left: 63%;
     top: 65%;
     font-size: 25px;
@@ -803,7 +887,7 @@ body {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 86%;
+    left: 89%;
     top: 57%;
     border-bottom: 1px solid #000;
     position: absolute;
@@ -823,39 +907,35 @@ body {
 
 /* cont15 */
 #cont15 {
-    width: 45vw;
+    width: 583px;
     height: 100%;
     float: left;
     margin: 0;
 }
 .cont15 {
     height: 100%;
-    margin-left: 8vw;
+    margin-left: 103.6px;
 }
-.play2 {
-    width: 28vw;
-    height: 100%;
-    background-image: url(../img/play.svg);
-    background-size: cover;
-    background-position: 50% 50%;
+.cont15 svg {
+    position: absolute;
+    top: 8%;
 }
 
 /* cont16 */
 #cont16 {
-    width: 40vw;
-    height: 100%;
+    width: 580px;
+    height: 100vh;
     float: left;
     margin: 0;
-}
-.cont16 {
-    height: 90%;
     border-left: 1px solid #AAAAAA;
     border-right: 1px solid #AAAAAA;
-    margin: 1vw 0 1vw 1vw;
+}
+.cont16 {
+    margin: 0 20px;
 }
 .ani_txt1 {
-    padding: 0 2.5vw 0 2.5vw;
-    margin-top: 3vw;
+    margin-top: 30px;
+    padding: 0 32px;
     position: relative;
 }
 .ani_txt1 h2 {
@@ -868,12 +948,12 @@ body {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     font-size: 14px;
-    margin-top: 1vw;
+    margin-top: 20px;
     line-height: 1.8;
 }
 #ani_btn1 {
     position: absolute;
-    top: 19vw;
+    top: 210%;
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -882,27 +962,27 @@ body {
 .ani_img1 {
     background-image: url(../img/cube.jpg);
     background-size: cover;
-    background-position: 80% 80%;
-    width: 30vw;
-    height: 20vw;
-    margin-top: 13vw;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 240%;
 }
 
 /* cont17 */
 #cont17 {
-    width: 40vw;
-    height: 100%;
+    width: 580px;
+    height: 100vh;
     float: left;
     margin: 0;
+    border-right: 1px solid #AAAAAA;
 }
 .cont17 {
-    height: 90%;
-    border-right: 1px solid #AAAAAA;
-    margin: 1vw 1vw 1vw 0;
+    margin: 0 20px;
 }
 .ani_txt2 {
-    padding: 0 2.5vw 0 2.5vw;
-    margin-top: 3vw;
+    margin-top: 30px;
+    padding: 0 32px;
     position: relative;
 }
 .ani_txt2 h2 {
@@ -915,12 +995,12 @@ body {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     font-size: 14px;
-    margin-top: 1vw;
+    margin-top: 20px;
     line-height: 1.8;
 }
 #ani_btn2 {
     position: absolute;
-    top: 19vw;
+    top: 250%;
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -929,27 +1009,27 @@ body {
 .ani_img2 {
     background-image: url(../img/heart.jpg);
     background-size: cover;
-    background-position: 80% 80%;
-    width: 30vw;
-    height: 20vw;
-    margin-top: 14.5vw;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 285%;
 }
 
 /* cont18 */
 #cont18 {
-    width: 40vw;
-    height: 100%;
+    width: 580px;
+    height: 100vh;
     float: left;
     margin: 0;
+    border-right: 1px solid #AAAAAA;
 }
 .cont18 {
-    height: 90%;
-    border-right: 1px solid #AAAAAA;
-    margin: 1vw 1vw 1vw 0;
+    margin: 0 20px;
 }
 .ani_txt3 {
-    padding: 0 2.5vw 0 2.5vw;
-    margin-top: 3vw;
+    margin-top: 30px;
+    padding: 0 32px;
     position: relative;
 }
 .ani_txt3 h2 {
@@ -962,12 +1042,12 @@ body {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     font-size: 14px;
-    margin-top: 1vw;
+    margin-top: 20px;
     line-height: 1.8;
 }
 #ani_btn3 {
     position: absolute;
-    top: 19vw;
+    top: 250%;
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -976,27 +1056,27 @@ body {
 .ani_img3 {
     background-image: url(../img/tail.jpg);
     background-size: cover;
-    background-position: 80% 80%;
-    width: 30vw;
-    height: 20vw;
-    margin-top: 14.5vw;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 285%;
 }
 
 /* cont19 */
 #cont19 {
-    width: 40vw;
-    height: 100%;
+    width: 580px;
+    height: 100vh;
     float: left;
     margin: 0;
+    border-right: 1px solid #AAAAAA;
 }
 .cont19 {
-    height: 90%;
-    border-right: 1px solid #AAAAAA;
-    margin: 1vw 1vw 1vw 0;
+    margin: 0 20px;
 }
 .ani_txt4 {
-    padding: 0 2.5vw 0 2.5vw;
-    margin-top: 3vw;
+    margin-top: 30px;
+    padding: 0 32px;
     position: relative;
 }
 .ani_txt4 h2 {
@@ -1009,12 +1089,12 @@ body {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     font-size: 14px;
-    margin-top: 1vw;
+    margin-top: 20px;
     line-height: 1.8;
 }
 #ani_btn4 {
     position: absolute;
-    top: 19vw;
+    top: 180%;
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -1023,27 +1103,27 @@ body {
 .ani_img4 {
     background-image: url(../img/wave.jpg);
     background-size: cover;
-    background-position: 80% 80%;
-    width: 30vw;
-    height: 20vw;
-    margin-top: 11.2vw;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 205%;
 }
 
 /* cont20 */
 #cont20 {
-    width: 40vw;
-    height: 100%;
+    width: 580px;
+    height: 100vh;
     float: left;
     margin: 0;
+    border-right: 1px solid #AAAAAA;
 }
 .cont20 {
-    height: 90%;
-    border-right: 1px solid #AAAAAA;
-    margin: 1vw 1vw 1vw 0;
+    margin: 0 20px;
 }
 .ani_txt5 {
-    padding: 0 2.5vw 0 2.5vw;
-    margin-top: 3vw;
+    margin-top: 30px;
+    padding: 0 32px;
     position: relative;
 }
 .ani_txt5 h2 {
@@ -1056,12 +1136,12 @@ body {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     font-size: 14px;
-    margin-top: 1vw;
+    margin-top: 20px;
     line-height: 1.8;
 }
 #ani_btn5 {
     position: absolute;
-    top: 19vw;
+    top: 210%;
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -1070,27 +1150,27 @@ body {
 .ani_img5 {
     background-image: url(../img/svg\ text.jpg);
     background-size: cover;
-    background-position: 80% 80%;
-    width: 30vw;
-    height: 20vw;
-    margin-top: 12.8vw;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 240%;
 }
 
 /* cont21 */
 #cont21 {
-    width: 40vw;
-    height: 100%;
+    width: 580px;
+    height: 100vh;
     float: left;
     margin: 0;
+    border-right: 1px solid #AAAAAA;
 }
 .cont21 {
-    height: 90%;
-    border-right: 1px solid #AAAAAA;
-    margin: 1vw 1vw 1vw 0;
+    margin: 0 20px;
 }
 .ani_txt6 {
-    padding: 0 2.5vw 0 2.5vw;
-    margin-top: 3vw;
+    margin-top: 30px;
+    padding: 0 32px;
     position: relative;
 }
 .ani_txt6 h2 {
@@ -1103,12 +1183,12 @@ body {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     font-size: 14px;
-    margin-top: 1vw;
+    margin-top: 20px;
     line-height: 1.8;
 }
 #ani_btn6 {
     position: absolute;
-    top: 19vw;
+    top: 210%;
     border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -1117,15 +1197,15 @@ body {
 .ani_img6 {
     background-image: url(../img/tentacle.jpg);
     background-size: cover;
-    background-position: 80% 80%;
-    width: 30vw;
-    height: 20vw;
-    margin-top: 12.8vw;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 240%;
 }
 .script {
     position: absolute;
     color: #000;
-    top: 45%;
+    top: 200%;
     left: 150%;
     font-family: Poppins, sans-serif;
     font-weight: 300;
@@ -1134,27 +1214,25 @@ body {
 
 /* cont22 */
 #cont22 {
-    width: 45vw;
+    width: 583px;
     height: 100%;
     float: left;
     margin: 0;
-    margin-left: 18vw;
+    margin-left: 233px;
 }
 .cont22 {
     height: 100%;
-    margin-left: 8vw;
+    margin-left: 103.6px;
 }
-.play3 {
-    width: 28vw;
-    height: 100%;
-    background-image: url(../img/play.svg);
-    background-size: cover;
-    background-position: 50% 50%;
+.cont22 svg {
+    position: absolute;
+    top: 8%;
 }
+
 
 /* cont23 */
 #cont23 {
-    width: 131vw;
+    width: 1697px;
     height: 100%;
     float: left;
     margin: 0;
@@ -1178,7 +1256,7 @@ body {
     background-image: url(../img/parallax01.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 35vw;
+    width: 453px;
     height: 40%;
     left: 20%;
     top: 8%;
@@ -1188,7 +1266,7 @@ body {
     background-image: url(../img/parallax02.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 35vw;
+    width: 453px;
     height: 40%;
     left: 30%;
     top: 53%;
@@ -1228,7 +1306,7 @@ body {
     line-height: 10vw;
     display: inline-block;
     background: #fff;
-    width: 10vw; height: 10vw;
+    width: 150px; height:150px;
     left: 64%;
     top: 20%;
     font-size: 25px;
@@ -1239,7 +1317,7 @@ body {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 85%;
+    left: 88%;
     top: 57%;
     border-bottom: 1px solid #fff;
     position: absolute;
@@ -1262,7 +1340,7 @@ body {
     background-image: url(../img/mouse01.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 35vw;
+    width: 453px;
     height: 40%;
     left: 0%;
     top: 8%;
@@ -1272,7 +1350,7 @@ body {
     background-image: url(../img/mouse02.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 35vw;
+    width: 453px;
     height: 40%;
     left: 10%;
     top: 53%;
@@ -1312,7 +1390,7 @@ body {
     line-height: 10vw;
     display: inline-block;
     background: #fff;
-    width: 10vw; height: 10vw;
+    width: 150px; height: 150px;
     left: 52%;
     top: 20%;
     font-size: 25px;
@@ -1323,7 +1401,7 @@ body {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 80%;
+    left: 84%;
     top: 57%;
     border-bottom: 1px solid #fff;
     position: absolute;
@@ -1346,7 +1424,7 @@ body {
     background-image: url(../img/quiz01.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 35vw;
+    width: 453px;
     height: 40%;
     left: 0%;
     top: 8%;
@@ -1356,7 +1434,7 @@ body {
     background-image: url(../img/quiz02.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 35vw;
+    width: 453px;
     height: 40%;
     left: 10%;
     top: 53%;
@@ -1396,7 +1474,7 @@ body {
     line-height: 10vw;
     display: inline-block;
     background: #fff;
-    width: 10vw; height: 10vw;
+    width: 150px; height: 150px;
     left: 52%;
     top: 20%;
     font-size: 25px;
@@ -1407,7 +1485,7 @@ body {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 80%;
+    left: 82%;
     top: 57%;
     border-bottom: 1px solid #fff;
     position: absolute;
@@ -1430,7 +1508,7 @@ body {
     background-image: url(../img/slider01.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 35vw;
+    width: 453px;
     height: 40%;
     left: 0%;
     top: 8%;
@@ -1440,7 +1518,7 @@ body {
     background-image: url(../img/slider02.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 35vw;
+    width: 453px;
     height: 40%;
     left: 10%;
     top: 53%;
@@ -1480,7 +1558,7 @@ body {
     line-height: 10vw;
     display: inline-block;
     background: #fff;
-    width: 10vw; height: 10vw;
+    width: 150px; height: 150px;
     left: 52%;
     top: 20%;
     font-size: 25px;
@@ -1491,7 +1569,7 @@ body {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 80%;
+    left: 84%;
     top: 57%;
     border-bottom: 1px solid #fff;
     position: absolute;
@@ -1500,7 +1578,7 @@ body {
 
 /* cont27 */
 #cont27 {
-    width: 100vw;
+    width: 1295px;
     height: 100%;
     float: left;
     margin: 0;
@@ -1513,12 +1591,12 @@ body {
     color: #000;
     font-family: 'Chosunilbo_myungjo';
     font-weight: normal;
-    margin: 3vw 0 0 5vw;
+    margin: 39px 0 0 65px;
     font-size: 25px;
     line-height: 1.3;
 }
 .cont27 ul {
-    margin: 7vw 0 0 5vw;
+    margin: 117px 0 0 65px;
     position: absolute;
 }
 .cont27 li {
@@ -1528,10 +1606,10 @@ body {
     font-weight: 300;
 }
 .cont27 li:nth-child(1) {
-    padding-bottom: 1vw;
+    padding-bottom: 13px;
 }
 .cont27 li:nth-child(4) {
-    padding-bottom: 1vw;
+    padding-bottom: 13px;
 }
 .cont27 li:nth-child(5) {
     border-bottom: 1px solid #000000;
