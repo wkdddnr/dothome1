@@ -438,6 +438,11 @@ body {
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
+    animation: site1 10s infinite normal linear;
+}
+@keyframes site1 {
+    0% {top: 0%;}
+    100% {top: 100%;}
 }
 .site1 h2::after {
     content: '';
@@ -556,6 +561,11 @@ body {
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
+    animation: site2 10s infinite normal linear;
+}
+@keyframes site2 {
+    0% {top: 0%;}
+    100% {top: 100%;}
 }
 .site2 h2::after {
     content: '';
@@ -671,6 +681,11 @@ body {
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
+    animation: site3 10s infinite normal linear;
+}
+@keyframes site3 {
+    0% {top: 0%;}
+    100% {top: 100%;}
 }
 .site3 h2::after {
     content: '';
@@ -781,6 +796,11 @@ body {
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
+    animation: site4 10s infinite normal linear;
+}
+@keyframes site4 {
+    0% {top: 0%;}
+    100% {top: 100%;}
 }
 .site4 h2::after {
     content: '';
@@ -891,6 +911,11 @@ body {
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
+    animation: site5 10s infinite normal linear;
+}
+@keyframes site5 {
+    0% {top: 0%;}
+    100% {top: 100%;}
 }
 .site5 h2::after {
     content: '';
