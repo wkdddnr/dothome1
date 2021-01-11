@@ -196,7 +196,7 @@ body {
     height: 100vh;
     position: absolute;
     top: 0;
-    left: 10%;
+    left: 17%;
     right: 0%;
     bottom: 0;
 }
@@ -477,7 +477,7 @@ body {
     background-size: cover;
     width: 30vw;
     height: 40vh;
-    left: 60%;
+    left: 115%;
     position: absolute;
 }
 .site1 p {
@@ -594,7 +594,7 @@ body {
     background-size: cover;
     width: 30vw;
     height: 40vh;
-    left: 85%;
+    left: 155%;
     position: absolute;
 }
 .site2 p {
@@ -704,7 +704,7 @@ body {
     background-position: 50% 50%;
     width: 30vw;
     height: 40vh;
-    left: 110%;
+    left: 193%;
     position: absolute;
 }
 .site3 p {
@@ -802,6 +802,7 @@ body {
 .main_img4 {
     background-image: url(../img/naver01.jpg);
     background-size: cover;
+    background-position: 50% 50%;
     width: 50vw;
     height: 100vh;
     left: 12%;
@@ -813,7 +814,7 @@ body {
     background-position: 50% 50%;
     width: 30vw;
     height: 40vh;
-    left: 129%;
+    left: 233%;
     position: absolute;
 }
 .site4 p {
@@ -923,7 +924,7 @@ body {
     background-position: 50% 50%;
     width: 30vw;
     height: 40vh;
-    left: 155%;
+    left: 272%;
     position: absolute;
 }
 .site5 p {
@@ -982,6 +983,364 @@ body {
     position: relative;
 }
 .cont16 svg {
+    top: 10%;
+    left: 10%;
+    height: 80vh;
+    position: absolute;
+}
+
+/* cont17 */
+#cont17 {
+    width: 38vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #AAAAAA;
+}
+.cont17 {
+    margin: 0 1.5vw;
+}
+.ani_txt1 {
+    margin-top: 4vh;
+    padding: 0 2vw;
+    position: relative;
+}
+.ani_txt1 h2 {
+    color: #000;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt1 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 3vh;
+    line-height: 1.8;
+}
+#ani_btn1 {
+    position: absolute;
+    top: 210%;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+/* .ani_img1 {
+    background-image: url(../img/cube.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 240%;
+} */
+.ani_txt1 iframe {
+    width: 31vw;
+    height: 40vh;
+    position: absolute;
+    top: 240%;
+}
+
+/* cont18 */
+#cont18 {
+    width: 38vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    border-right: 1px solid #AAAAAA;
+}
+.cont18 {
+    margin: 0 1.5vw;
+}
+.ani_txt2 {
+    margin-top: 4vh;
+    padding: 0 2vw;
+    position: relative;
+}
+.ani_txt2 h2 {
+    color: #000;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt2 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 3vh;
+    line-height: 1.8;
+}
+#ani_btn2 {
+    position: absolute;
+    top: 250%;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+/* .ani_img2 {
+    background-image: url(../img/heart.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 285%;
+} */
+.ani_txt2 iframe {
+    width: 31vw;
+    height: 40vh;
+    position: absolute;
+    top: 285%;
+}
+
+/* cont19 */
+#cont19 {
+    width: 38vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    border-right: 1px solid #AAAAAA;
+}
+.cont19 {
+    margin: 0 1.5vw;
+}
+.ani_txt3 {
+    margin-top: 4vh;
+    padding: 0 2vw;
+    position: relative;
+}
+.ani_txt3 h2 {
+    color: #000;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt3 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 3vh;
+    line-height: 1.8;
+}
+#ani_btn3 {
+    position: absolute;
+    top: 250%;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+/* .ani_img2 {
+    background-image: url(../img/heart.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 285%;
+} */
+.ani_txt3 iframe {
+    width: 31vw;
+    height: 40vh;
+    position: absolute;
+    top: 285%;
+}
+
+/* cont20 */
+#cont20 {
+    width: 38vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    border-right: 1px solid #AAAAAA;
+}
+.cont20 {
+    margin: 0 1.5vw;
+}
+.ani_txt4 {
+    margin-top: 4vh;
+    padding: 0 2vw;
+    position: relative;
+}
+.ani_txt4 h2 {
+    color: #000;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt4 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 3vh;
+    line-height: 1.8;
+}
+#ani_btn4 {
+    position: absolute;
+    top: 180%;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+/* .ani_img2 {
+    background-image: url(../img/heart.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 285%;
+} */
+.ani_txt4 iframe {
+    width: 31vw;
+    height: 40vh;
+    position: absolute;
+    top: 205%;
+}
+
+/* cont21 */
+#cont21 {
+    width: 38vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    border-right: 1px solid #AAAAAA;
+}
+.cont21 {
+    margin: 0 1.5vw;
+}
+.ani_txt5 {
+    margin-top: 4vh;
+    padding: 0 2vw;
+    position: relative;
+}
+.ani_txt5 h2 {
+    color: #000;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt5 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 3vh;
+    line-height: 1.8;
+}
+#ani_btn5 {
+    position: absolute;
+    top: 210%;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+/* .ani_img2 {
+    background-image: url(../img/heart.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 285%;
+} */
+.ani_txt5 iframe {
+    width: 31vw;
+    height: 40vh;
+    position: absolute;
+    top: 240%;
+}
+
+/* cont22 */
+#cont22 {
+    width: 38vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+    border-right: 1px solid #AAAAAA;
+}
+.cont22 {
+    margin: 0 1.5vw;
+}
+.ani_txt6 {
+    margin-top: 4vh;
+    padding: 0 2vw;
+    position: relative;
+}
+.ani_txt6 h2 {
+    color: #000;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 3vw;
+    font-weight: normal;
+}
+.ani_txt6 p {
+    color: #545454;
+    font-family: 'Chosunilbo_myungjo';
+    font-size: 0.9vw;
+    margin-top: 3vh;
+    line-height: 1.8;
+}
+#ani_btn6 {
+    position: absolute;
+    top: 210%;
+    border-bottom: 1px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9vw;
+}
+/* .ani_img2 {
+    background-image: url(../img/heart.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 476px;
+    height: 300px;
+    position: absolute;
+    top: 285%;
+} */
+.ani_txt6 iframe {
+    width: 31vw;
+    height: 40vh;
+    position: absolute;
+    top: 240%;
+}
+
+/* cont23 */
+#cont23 {
+    width: 25vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+}
+.cont23 {
+    position: relative;
+    height: 100vh;
+}
+.script {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 0.9vw;
+    color: #000;
+}
+
+/* cont24 */
+#cont24 {
+    width: 32vw;
+    height: 100vh;
+    float: left;
+    margin: 0;
+}
+.cont24 {
+    height: 100vh;
+    position: relative;
+}
+.cont24 svg {
     top: 10%;
     left: 10%;
     height: 80vh;
