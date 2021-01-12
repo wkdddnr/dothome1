@@ -1643,14 +1643,14 @@ body {
     position: relative;
 }
 .main_scr4 {
-    width: 453px;
+    width: 40vw;
     height: 40%;
     left: 0%;
     top: 8%;
     position: absolute;
 }
 .sub_scr4 {
-    width: 453px;
+    width: 40vw;
     height: 40%;
     left: 10%;
     top: 53%;
