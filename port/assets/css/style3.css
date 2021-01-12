@@ -1486,20 +1486,14 @@ body {
     background: #1e1e1e;
     position: relative;
 }
-.scr_main2 {
-    background-image: url(../img/mouse01.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
+.main_scr2 {
     width: 453px;
     height: 40%;
     left: 0%;
     top: 8%;
     position: absolute;
 }
-.scr_sub2 {
-    background-image: url(../img/mouse02.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
+.sub_scr2 {
     width: 453px;
     height: 40%;
     left: 10%;
