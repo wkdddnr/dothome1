@@ -270,7 +270,7 @@ body {
     stroke-dashoffset: 140vw;
     animation: play 2.7s 1 linear both;
 } */
-.play.show {
+/* .play.active {
     stroke: #aaa;
     fill: none;
     stroke-width: 0.1vw;
@@ -281,7 +281,7 @@ body {
 @keyframes play {
     0%   {stroke-dasharray: 140vw;}
     100%  {stroke-dashoffset: 0;}
-}
+} */
 
 /* cont8 */
 #cont8 {
@@ -1230,7 +1230,7 @@ body {
 .ani04 {
     width: 31vw;
     height: 40vh;
-    top: 206%;
+    top: 204%;
     position: absolute;
     overflow: hidden;
 }
@@ -1290,7 +1290,7 @@ body {
 .ani05 {
     width: 31vw;
     height: 40vh;
-    top: 240%;
+    top: 239%;
     position: absolute;
     overflow: hidden;
 }
@@ -1347,11 +1347,18 @@ body {
     position: absolute;
     top: 285%;
 } */
-.ani_txt6 iframe {
+.ani06 {
     width: 31vw;
     height: 40vh;
-    position: absolute;
     top: 240%;
+    position: absolute;
+    overflow: hidden;
+}
+.ani_img06 {
+    width: 42vw;
+    height: 40vh;
+    left: 278%;
+    position: absolute;
 }
 
 /* cont23 */

@@ -358,7 +358,9 @@
                         릭터의 눈, 입, 다리를 animation과 keyframes을 사용하여 살아있는 듯한 캐릭터<br>
                         의 움직임을 자연스럽게 표현하였습니다.</p>
                     <a href="#" id="ani_btn6">Code View</a>
-                    <iframe src="https://wkdddnr.github.io/dothome1/react/ani10.html" frameborder="0" scrolling="no"></iframe>
+                    <div class="ani06">
+                        <iframe class="ani_img06" src="https://wkdddnr.github.io/dothome1/react/ani10.html" frameborder="0" scrolling="no"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -487,6 +489,7 @@
                 this.img4.classList.add('supah-scroll')
                 this.img5 = document.querySelector(".sub_img5")
                 this.img5.classList.add('supah-scroll')
+                /* animation */
                 this.ani1 = document.querySelector(".ani_img01")
                 this.ani1.classList.add('supah-scroll')
                 this.ani2 = document.querySelector(".ani_img02")
@@ -497,6 +500,8 @@
                 this.ani4.classList.add('supah-scroll')
                 this.ani5 = document.querySelector(".ani_img05")
                 this.ani5.classList.add('supah-scroll')
+                this.ani6 = document.querySelector(".ani_img06")
+                this.ani6.classList.add('supah-scroll')
                 this.events()
                 this.update()
                 this.animate()
@@ -545,6 +550,7 @@
                 this.ani3.style.transform = `translate3d(${-this.scrollY * 0.07}px,0,0)`
                 this.ani4.style.transform = `translate3d(${-this.scrollY * 0.07}px,0,0)`
                 this.ani5.style.transform = `translate3d(${-this.scrollY * 0.07}px,0,0)`
+                this.ani6.style.transform = `translate3d(${-this.scrollY * 0.07}px,0,0)`
                 this.raf = requestAnimationFrame(this.animate.bind(this))
             }
 
@@ -590,10 +596,10 @@
         //     let scrollTop = document.documentElement.scrollTop;
 
         //     document.querySelectorAll(".play").forEach(elem => {
-        //         if(scrollTop){
-        //             elem.classList.add("show");
+        //         if(scrollTop > window.innerHeight){
+        //             elem.classList.add("active");
         //         } else {
-        //             elem.classList.remove("show");
+        //             elem.classList.remove("active");
         //         }
         //     });
         // });
