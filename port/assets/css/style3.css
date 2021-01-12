@@ -1660,40 +1660,40 @@ body {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    left: 33.5%;
+    left: 41.5%;
     top: 40%;
     position: absolute;
-    font-size: 43px;
+    font-size: 3vw;
 }
 .sub_txt4 {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    left: 43.5%;
+    left: 51.5%;
     top: 85%;
     position: absolute;
-    font-size: 43px;
+    font-size: 3vw;
 }
 .cont28 p {
     color: #ffffff;
     font-family: 'Chosunilbo_myungjo';
-    left: 59%;
+    left: 67%;
     top: 45%;
     line-height: 1.6;
     position: absolute;
-    font-size: 16px;
+    font-size: 1.1vw;
 }
 #web9 {
     color: #000;
     text-align: center;
     border-radius: 50%;
-    line-height: 10vw;
+    line-height: 9vw;
     display: inline-block;
     background: #fff;
-    width: 150px; height: 150px;
-    left: 52%;
+    width: 9vw; height: 9vw;
+    left: 59%;
     top: 20%;
-    font-size: 25px;
+    font-size: 1.5vw;
     position: absolute;
 }
 .cont28 a {
@@ -1701,9 +1701,9 @@ body {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 84%;
+    left: 89%;
     top: 57%;
     border-bottom: 1px solid #fff;
     position: absolute;
-    font-size: 16px;
+    font-size: 1.1vw;
 }
