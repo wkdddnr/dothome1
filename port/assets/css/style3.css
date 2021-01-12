@@ -480,7 +480,8 @@ body {
 .sub_img1 {
     background-image: url(../img/stand02.jpg);
     background-size: cover;
-    width: 30vw;
+    background-position: 50% 50%;
+    width: 35vw;
     height: 40vh;
     left: 115%;
     position: absolute;
@@ -602,7 +603,8 @@ body {
 .sub_img2 {
     background-image: url(../img/respon02.jpg);
     background-size: cover;
-    width: 30vw;
+    background-position: 50% 50%;
+    width: 35vw;
     height: 40vh;
     left: 155%;
     position: absolute;
@@ -717,7 +719,7 @@ body {
     background-image: url(../img/mega02.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 30vw;
+    width: 35vw;
     height: 40vh;
     left: 193%;
     position: absolute;
@@ -832,7 +834,7 @@ body {
     background-image: url(../img/naver02.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 30vw;
+    width: 35vw;
     height: 40vh;
     left: 233%;
     position: absolute;
@@ -947,7 +949,7 @@ body {
     background-image: url(../img/react02.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    width: 30vw;
+    width: 35vw;
     height: 40vh;
     left: 272%;
     position: absolute;
@@ -1061,11 +1063,19 @@ body {
     position: absolute;
     top: 240%;
 } */
-.ani_txt1 iframe {
+.ani01 {
     width: 31vw;
     height: 40vh;
-    position: absolute;
     top: 240%;
+    position: absolute;
+    overflow: hidden;
+}
+.ani_img01 {
+    width: 40vw;
+    height: 40vh;
+    left: 240%;
+    position: absolute;
+    
 }
 
 /* cont18 */
@@ -1105,20 +1115,19 @@ body {
     font-weight: 400;
     font-size: 0.9vw;
 }
-/* .ani_img2 {
-    background-image: url(../img/heart.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 476px;
-    height: 300px;
-    position: absolute;
-    top: 285%;
-} */
-.ani_txt2 iframe {
+.ani02 {
     width: 31vw;
     height: 40vh;
-    position: absolute;
     top: 285%;
+    position: absolute;
+    overflow: hidden;
+}
+.ani_img02 {
+    width: 42vw;
+    height: 40vh;
+    left: 245%;
+    position: absolute;
+    
 }
 
 /* cont19 */
@@ -1158,20 +1167,18 @@ body {
     font-weight: 400;
     font-size: 0.9vw;
 }
-/* .ani_img2 {
-    background-image: url(../img/heart.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 476px;
-    height: 300px;
-    position: absolute;
-    top: 285%;
-} */
-.ani_txt3 iframe {
+.ani03 {
     width: 31vw;
     height: 40vh;
-    position: absolute;
     top: 285%;
+    position: absolute;
+    overflow: hidden;
+}
+.ani_img03 {
+    width: 42vw;
+    height: 40vh;
+    left: 255%;
+    position: absolute;
 }
 
 /* cont20 */
@@ -1220,11 +1227,18 @@ body {
     position: absolute;
     top: 285%;
 } */
-.ani_txt4 iframe {
+.ani04 {
     width: 31vw;
     height: 40vh;
+    top: 206%;
     position: absolute;
-    top: 205%;
+    overflow: hidden;
+}
+.ani_img04 {
+    width: 42vw;
+    height: 40vh;
+    left: 265%;
+    position: absolute;
 }
 
 /* cont21 */
@@ -1273,11 +1287,18 @@ body {
     position: absolute;
     top: 285%;
 } */
-.ani_txt5 iframe {
+.ani05 {
     width: 31vw;
     height: 40vh;
-    position: absolute;
     top: 240%;
+    position: absolute;
+    overflow: hidden;
+}
+.ani_img05 {
+    width: 42vw;
+    height: 40vh;
+    left: 275%;
+    position: absolute;
 }
 
 /* cont22 */
@@ -1728,7 +1749,7 @@ body {
     line-height: 1.3;
 }
 .cont29 ul {
-    margin: 6vw 0 0 4vw;
+    margin: 6.2vw 0 0 4vw;
     position: absolute;
 }
 .cont29 li {
