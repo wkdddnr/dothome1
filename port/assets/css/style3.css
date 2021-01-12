@@ -1409,20 +1409,14 @@ body {
     vertical-align: middle;
 }
 .main_scr1 {
-    /* background-image: url(../img/parallax01.jpg);
-    background-size: cover;
-    background-position: 50% 50%; */
-    width: 30vw;
+    width: 40vw;
     height: 40%;
     left: 20%;
     top: 8%;
     position: absolute;
 }
 .sub_scr1 {
-    /* background-image: url(../img/parallax02.jpg);
-    background-size: cover;
-    background-position: 50% 50%; */
-    width: 30vw;
+    width: 40vw;
     height: 40%;
     left: 30%;
     top: 53%;
