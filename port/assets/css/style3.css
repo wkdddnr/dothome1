@@ -1371,3 +1371,111 @@ body {
     height: 80vh;
     position: absolute;
 }
+
+/* cont25 */
+#cont25 {
+    width: 1697px;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont25 {
+    height: 100%;
+    background: #1e1e1e;
+    position: relative;
+}
+.cont25 h2 {
+    color: #fff;
+    position: absolute;
+    left: -10%;
+    top: 35%;
+    transform: rotate(270deg);
+    font-size: 9vw;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    animation: cont25 10s infinite normal linear;
+}
+@keyframes cont25 {
+    0% {top: 0%;}
+    100% {top: 100%;}
+}
+.cont25 h2::after {
+    content: '';
+    height: 0.1vh;
+    width: 15vw;
+    margin: 0 3vw;
+    display: inline-block;
+    background-color: #fff;
+    vertical-align: middle;
+}
+.cont25 iframe {
+    /* background-image: url(../img/parallax01.jpg);
+    background-size: cover;
+    background-position: 50% 50%; */
+    width: 453px;
+    height: 40%;
+    left: 20%;
+    top: 8%;
+    position: absolute;
+}
+.scr_sub1 {
+    background-image: url(../img/parallax02.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 453px;
+    height: 40%;
+    left: 30%;
+    top: 53%;
+    position: absolute;
+}
+.main_txt1 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 45.5%;
+    top: 40%;
+    position: absolute;
+    font-size: 43px;
+}
+.sub_txt1 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 55.5%;
+    top: 85%;
+    position: absolute;
+    font-size: 43px;
+}
+.cont25 p {
+    color: #ffffff;
+    font-family: 'Chosunilbo_myungjo';
+    left: 70%;
+    top: 45%;
+    line-height: 1.6;
+    position: absolute;
+    font-size: 16px;
+}
+#web6 {
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 10vw;
+    display: inline-block;
+    background: #fff;
+    width: 150px; height:150px;
+    left: 64%;
+    top: 20%;
+    font-size: 25px;
+    position: absolute;
+}
+.cont25 a {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    left: 88%;
+    top: 57%;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    font-size: 16px;
+}
