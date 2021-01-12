@@ -11,7 +11,7 @@
 }
 
 body {
-    height: 26500px;
+    height: 30000px;
     background: #fff;
 }
 #contents {
@@ -1582,12 +1582,90 @@ body {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
+    left: 41.5%;
+    top: 40%;
+    position: absolute;
+    font-size: 3vw;
+}
+.sub_txt3 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
+    left: 51.5%;
+    top: 85%;
+    position: absolute;
+    font-size: 3vw;
+}
+.cont27 p {
+    color: #ffffff;
+    font-family: 'Chosunilbo_myungjo';
+    left: 67%;
+    top: 45%;
+    line-height: 1.6;
+    position: absolute;
+    font-size: 1.1vw;
+}
+#web8 {
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 9vw;
+    display: inline-block;
+    background: #fff;
+    width: 9vw; height: 9vw;
+    left: 59%;
+    top: 20%;
+    font-size: 1.5vw;
+    position: absolute;
+}
+.cont27 a {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    left: 87%;
+    top: 57%;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    font-size: 1.1vw;
+}
+
+/* cont28 */
+#cont28 {
+    width: 100vw;
+    height: 100%;
+    float: left;
+    margin: 0;
+}
+.cont28 {
+    height: 100%;
+    background: #1e1e1e;
+    position: relative;
+}
+.main_scr4 {
+    width: 453px;
+    height: 40%;
+    left: 0%;
+    top: 8%;
+    position: absolute;
+}
+.sub_scr4 {
+    width: 453px;
+    height: 40%;
+    left: 10%;
+    top: 53%;
+    position: absolute;
+}
+.main_txt4 {
+    color: #ffffff;
+    font-family: 'GT Super Ds Trial';
+    font-weight: 100;
     left: 33.5%;
     top: 40%;
     position: absolute;
     font-size: 43px;
 }
-.sub_txt3 {
+.sub_txt4 {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
@@ -1596,7 +1674,7 @@ body {
     position: absolute;
     font-size: 43px;
 }
-.cont27 p {
+.cont28 p {
     color: #ffffff;
     font-family: 'Chosunilbo_myungjo';
     left: 59%;
@@ -1605,7 +1683,7 @@ body {
     position: absolute;
     font-size: 16px;
 }
-#web8 {
+#web9 {
     color: #000;
     text-align: center;
     border-radius: 50%;
@@ -1615,15 +1693,15 @@ body {
     width: 150px; height: 150px;
     left: 52%;
     top: 20%;
-    font-size: 27px;
+    font-size: 25px;
     position: absolute;
 }
-.cont27 a {
+.cont28 a {
     color: #fff;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 82%;
+    left: 84%;
     top: 57%;
     border-bottom: 1px solid #fff;
     position: absolute;
