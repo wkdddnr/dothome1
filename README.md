@@ -16,13 +16,13 @@
 <a href="https://wkdddnr.github.io/dothome1/effect/parallax01-jquery.html">바로가기</a>
 
 #mouse<br>
-<a href="https://wkdddnr.github.io/dothome1/effect/mouse01-jquery.html">바로가기</a>
+<a href="https://wkdddnr.github.io/dothome1/effect/mouseEffect01-jquery.html">바로가기</a>
 
 #quiz<br>
-<a href="https://wkdddnr.github.io/dothome1/effect/quiz01-jquery.html">바로가기</a>
+<a href="https://wkdddnr.github.io/dothome1/effect/quizEffect01-jquery.html">바로가기</a>
 
 #slider<br>
-<a href="https://wkdddnr.github.io/dothome1/effect/slider01-jquery.html">바로가기</a>
+<a href="https://wkdddnr.github.io/dothome1/effect/sliderEffect01-jquery.html">바로가기</a>
 
 
 <br>
