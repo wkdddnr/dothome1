@@ -9,6 +9,9 @@
 #megabox<br>
 <a href="https://wkdddnr.github.io/dothome1/megabox/index02.html">바로가기</a>
 
+#naverclova<br>
+<a href="https://wkdddnr.github.io/dothome1/test/test19.html">바로가기</a>
+
 
 <br>
 
