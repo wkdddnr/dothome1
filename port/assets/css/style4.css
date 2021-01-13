@@ -506,18 +506,38 @@ body {
     left: 60%;
     top: 73%;
     font-size: 1.5vw;
+    border: 1px solid #000;
     position: absolute;
+    transition: all 0.6s;
 }
-.site1 a {
+#web1:hover {
+    background: #fff;
+    color: #000;
+}
+#figma1 {
     color: #000;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     left: 83%;
     top: 45%;
-    border-bottom: 1px solid #000;
     position: absolute;
     font-size: 1.1vw;
+}
+#figma1::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#figma1:hover::after {
+    width: 0;
 }
 #next1 {
     color: #000;
@@ -629,18 +649,38 @@ body {
     left: 61%;
     top: 12%;
     font-size: 1.5vw;
+    border: 1px solid #000;
     position: absolute;
+    transition: all 0.6s;
 }
-.site2 a {
+#web2:hover {
+    background: #fff;
+    color: #000;
+}
+#figma2 {
     color: #000;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     left: 84.5%;
     top: 58%;
-    border-bottom: 1px solid #000;
     position: absolute;
     font-size: 1.1vw;
+}
+#figma2::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#figma2:hover::after {
+    width: 0;
 }
 #next2 {
     color: #000;
@@ -744,7 +784,13 @@ body {
     left: 63%;
     top: 73%;
     font-size: 1.5vw;
+    border: 1px solid #000;
     position: absolute;
+    transition: all 0.6s;
+}
+#web3:hover {
+    background: #fff;
+    color: #000;
 }
 /* .site3 a {
     color: #000;
@@ -859,7 +905,13 @@ body {
     left: 61%;
     top: 12%;
     font-size: 1.5vw;
+    border: 1px solid #000;
     position: absolute;
+    transition: all 0.6s;
+}
+#web4:hover {
+    background: #fff;
+    color: #000;
 }
 /* .site4 a {
     color: #000;
@@ -974,7 +1026,13 @@ body {
     left: 60%;
     top: 73%;
     font-size: 1.5vw;
+    border: 1px solid #000;
     position: absolute;
+    transition: all 0.6s;
+}
+#web5:hover {
+    background: #fff;
+    color: #000;
 }
 /* .site5 a {
     color: #000;
@@ -1049,10 +1107,24 @@ body {
 #ani_btn1 {
     position: absolute;
     top: 210%;
-    border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
+}
+#ani_btn1::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#ani_btn1:hover::after {
+    width: 0;
 }
 /* .ani_img1 {
     background-image: url(../img/cube.jpg);
@@ -1110,10 +1182,24 @@ body {
 #ani_btn2 {
     position: absolute;
     top: 250%;
-    border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
+}
+#ani_btn2::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#ani_btn2:hover::after {
+    width: 0;
 }
 .ani02 {
     width: 31vw;
@@ -1162,10 +1248,24 @@ body {
 #ani_btn3 {
     position: absolute;
     top: 250%;
-    border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
+}
+#ani_btn3::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#ani_btn3:hover::after {
+    width: 0;
 }
 .ani03 {
     width: 31vw;
@@ -1213,10 +1313,24 @@ body {
 #ani_btn4 {
     position: absolute;
     top: 180%;
-    border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
+}
+#ani_btn4::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#ani_btn4:hover::after {
+    width: 0;
 }
 /* .ani_img2 {
     background-image: url(../img/heart.jpg);
@@ -1273,10 +1387,24 @@ body {
 #ani_btn5 {
     position: absolute;
     top: 210%;
-    border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
+}
+#ani_btn5::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#ani_btn5:hover::after {
+    width: 0;
 }
 /* .ani_img2 {
     background-image: url(../img/heart.jpg);
@@ -1333,10 +1461,24 @@ body {
 #ani_btn6 {
     position: absolute;
     top: 210%;
-    border-bottom: 1px solid;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
+}
+#ani_btn6::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#ani_btn6:hover::after {
+    width: 0;
 }
 /* .ani_img2 {
     background-image: url(../img/heart.jpg);
@@ -1402,7 +1544,7 @@ body {
 
 /* cont25 */
 #cont25 {
-    width: 130vw;
+    width: 125vw;
     height: 100%;
     float: left;
     margin: 0;
@@ -1454,7 +1596,7 @@ body {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    left: 51.5%;
+    left: 48.5%;
     top: 40%;
     position: absolute;
     font-size: 3vw;
@@ -1463,7 +1605,7 @@ body {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    left: 61.5%;
+    left: 58.5%;
     top: 85%;
     position: absolute;
     font-size: 3vw;
@@ -1471,7 +1613,7 @@ body {
 .cont25 p {
     color: #ffffff;
     font-family: 'Chosunilbo_myungjo';
-    left: 74%;
+    left: 72%;
     top: 45%;
     line-height: 1.6;
     position: absolute;
@@ -1481,25 +1623,45 @@ body {
     color: #000;
     text-align: center;
     border-radius: 50%;
-    line-height: 9vw;
+    line-height: 8vw;
     display: inline-block;
     background: #fff;
-    width: 9vw; height: 9vw;
-    left: 68%;
-    top: 20%;
+    width: 8vw; height: 8vw;
+    left: 65.5%;
+    top: 28%;
     font-size: 1.5vw;
+    border: 1px solid #fff;
     position: absolute;
+    transition: all 0.6s;
 }
-.cont25 a {
+#web6:hover {
+    background: #1e1e1e;
+    color: #fff;
+}
+#figma3 {
     color: #fff;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 90%;
+    left: 89%;
     top: 57%;
-    border-bottom: 1px solid #fff;
     position: absolute;
     font-size: 1.1vw;
+}
+#figma3::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#figma3:hover::after {
+    width: 0;
 }
 
 /* cont26 */
@@ -1532,7 +1694,7 @@ body {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    left: 41.5%;
+    left: 35.5%;
     top: 40%;
     position: absolute;
     font-size: 3vw;
@@ -1541,7 +1703,7 @@ body {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    left: 51.5%;
+    left: 45.5%;
     top: 85%;
     position: absolute;
     font-size: 3vw;
@@ -1549,7 +1711,7 @@ body {
 .cont26 p {
     color: #ffffff;
     font-family: 'Chosunilbo_myungjo';
-    left: 67%;
+    left: 63%;
     top: 45%;
     line-height: 1.6;
     position: absolute;
@@ -1559,25 +1721,45 @@ body {
     color: #000;
     text-align: center;
     border-radius: 50%;
-    line-height: 9vw;
+    line-height: 8vw;
     display: inline-block;
     background: #fff;
-    width: 9vw; height: 9vw;
-    left: 59%;
-    top: 20%;
+    width: 8vw; height: 8vw;
+    left: 55%;
+    top: 28%;
     font-size: 1.5vw;
+    border: 1px solid #fff;
+    transition: all 0.6s;
     position: absolute;
 }
-.cont26 a {
+#web7:hover {
+    background: #1e1e1e;
+    color: #fff;
+}
+#figma4 {
     color: #fff;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 89%;
+    left: 85%;
     top: 57%;
-    border-bottom: 1px solid #fff;
     position: absolute;
     font-size: 1.1vw;
+}
+#figma4::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#figma4:hover::after {
+    width: 0;
 }
 
 /* cont27 */
@@ -1610,7 +1792,7 @@ body {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    left: 41.5%;
+    left: 35.5%;
     top: 40%;
     position: absolute;
     font-size: 3vw;
@@ -1619,7 +1801,7 @@ body {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    left: 51.5%;
+    left: 45.5%;
     top: 85%;
     position: absolute;
     font-size: 3vw;
@@ -1627,7 +1809,7 @@ body {
 .cont27 p {
     color: #ffffff;
     font-family: 'Chosunilbo_myungjo';
-    left: 67%;
+    left: 63%;
     top: 45%;
     line-height: 1.6;
     position: absolute;
@@ -1637,25 +1819,45 @@ body {
     color: #000;
     text-align: center;
     border-radius: 50%;
-    line-height: 9vw;
+    line-height: 8vw;
     display: inline-block;
     background: #fff;
-    width: 9vw; height: 9vw;
-    left: 59%;
-    top: 20%;
+    width: 8vw; height: 8vw;
+    left: 55%;
+    top: 28%;
     font-size: 1.5vw;
+    border: 1px solid #fff;
+    transition: all 0.6s;
     position: absolute;
 }
-.cont27 a {
+#web8:hover {
+    background: #1e1e1e;
+    color: #fff;
+}
+#figma5 {
     color: #fff;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 87%;
+    left: 83%;
     top: 57%;
-    border-bottom: 1px solid #fff;
     position: absolute;
     font-size: 1.1vw;
+}
+#figma5::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#figma5:hover::after {
+    width: 0;
 }
 
 /* cont28 */
@@ -1688,7 +1890,7 @@ body {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    left: 41.5%;
+    left: 35.5%;
     top: 40%;
     position: absolute;
     font-size: 3vw;
@@ -1697,7 +1899,7 @@ body {
     color: #ffffff;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    left: 51.5%;
+    left: 45.5%;
     top: 85%;
     position: absolute;
     font-size: 3vw;
@@ -1705,7 +1907,7 @@ body {
 .cont28 p {
     color: #ffffff;
     font-family: 'Chosunilbo_myungjo';
-    left: 67%;
+    left: 63%;
     top: 45%;
     line-height: 1.6;
     position: absolute;
@@ -1715,25 +1917,45 @@ body {
     color: #000;
     text-align: center;
     border-radius: 50%;
-    line-height: 9vw;
+    line-height: 8vw;
     display: inline-block;
     background: #fff;
-    width: 9vw; height: 9vw;
-    left: 59%;
-    top: 20%;
+    width: 8vw; height: 8vw;
+    left: 55%;
+    top: 28%;
     font-size: 1.5vw;
+    border: 1px solid #fff;
+    transition: all 0.6s;
     position: absolute;
 }
-.cont28 a {
+#web9:hover {
+    background: #1e1e1e;
+    color: #fff;
+}
+#figma6 {
     color: #fff;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    left: 89%;
+    left: 85%;
     top: 57%;
-    border-bottom: 1px solid #fff;
     position: absolute;
     font-size: 1.1vw;
+}
+#figma6::after {
+    content: "";
+    position: absolute;
+    border-bottom: solid 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    transition: all 0.5s;
+}
+#figma6:hover::after {
+    width: 0;
 }
 
 /* cont29 */
