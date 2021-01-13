@@ -12,6 +12,18 @@
 #naverclova<br>
 <a href="https://wkdddnr.github.io/dothome1/test/test19.html">바로가기</a>
 
+#parallax<br>
+<a href="https://wkdddnr.github.io/dothome1/effect/parallax01-jquery.html">바로가기</a>
+
+#mouse<br>
+<a href="https://wkdddnr.github.io/dothome1/effect/mouse01-jquery.html">바로가기</a>
+
+#quiz<br>
+<a href="https://wkdddnr.github.io/dothome1/effect/quiz01-jquery.html">바로가기</a>
+
+#slider<br>
+<a href="https://wkdddnr.github.io/dothome1/effect/slider01-jquery.html">바로가기</a>
+
 
 <br>
 
