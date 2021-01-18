@@ -10,6 +10,35 @@
     font-family: 'GT Super Ds Trial';
 }
 
+/* reveal */
+.reveal{
+    opacity: 0;
+}
+.reveal.show {
+    opacity: 1;
+    animation: opacity 5000ms linear forwards;
+}
+.reveal {
+    position: relative;
+}
+.reveal::before {
+    content: '';
+    position: absolute;
+    right: 0; top: 0;
+    height: 100%;
+    z-index: 100;
+    background: black;
+}
+.reveal.show::before {
+    animation: reveal 1500ms cubic-bezier(.77,0,.18,1);
+}
+@keyframes reveal {
+    0% {width: 100%; right: 0;}
+    50% {width: 100%; right: 0;}
+    80% {width: 100%; right: 0;}
+    100% {width: 0; right: 100%;}
+}
+
 .supah-scroll {
     position: fixed;
     z-index: 1;

@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style7.css">
 </head>
-<body>
-
-
+<body class="reveal">
     <main id="contents">
         <div id="section1">
             <div class="about">
@@ -514,6 +512,16 @@
             el: 'main',
             speed: 0.05
         })
+
+        /* reveal */
+        const reveal = document.querySelectorAll(".reveal");
+        reveal.forEach(elem => {
+            let scrollTop = window.innerHeight/2;
+            
+            if(scrollTop){
+                elem.classList.add("show");
+            }
+        });
     </script>
 </body>
 </html>
