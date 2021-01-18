@@ -10,107 +10,100 @@
     font-family: 'GT Super Ds Trial';
 }
 
-body {
-    height: 1900vw;
-    background: #fff;
-}
-#contents {
+.supah-scroll {
     position: fixed;
-    width: 2000vw;
-    height: 100vh;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    will-change: transform;
+    overflow: hidden;
 }
 
+#contents {width: 30000px;}
+#section1 {height: 100vh; float: left;}
+#section2 {height: 100vh; float: left;}
+#section3 {height: 100vh; float: left;}
+#section4 {background: #444; width: 1800px; height: 100vh; float: left;}
+#section5 {background: #555; width: 1800px; height: 100vh; float: left;}
+#section6 {background: #666; width: 1800px; height: 100vh; float: left;}
 
-/* reveal */
-.reveal{
-    opacity: 0;
-}
-.reveal.show {
-    opacity: 1;
-    animation: opacity 5000ms linear forwards;
-}
-.reveal {
-    position: relative;
-}
-.reveal::before {
-    content: '';
-    position: absolute;
-    right: 0; top: 0;
-    height: 100%;
-    z-index: 100;
-    background: black;
-}
-.reveal.show::before {
-    animation: reveal 1500ms cubic-bezier(.77,0,.18,1);
-}
-@keyframes reveal {
-    0% {width: 100%; right: 0;}
-    50% {width: 100%; right: 0;}
-    80% {width: 100%; right: 0;}
-    100% {width: 0; right: 100%;}
-}
-
-/* cont1 */
+/* about */
 #cont1 {
-    width: 35vw;
+    width: 75vh; 
     height: 100vh;
     float: left;
+    position: relative;
 }
 .main {
     background-image: url(../img/main.jpg);
     background-size: cover;
-    width: 100%;
+    width: 75vh;
     height: 70vh;
     filter: brightness(80%);
 }
 .cir {
     background: #000;
     border-radius: 50%;
-    width: 10vw; height: 10vw;
-    margin-left: 10vw;
-    transform: translate(20%, -50%);
+    width: 150px; height: 150px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%; top: 70%;
 }
 .cir h2 {
     color: #fff;
     text-align: center;
-    font-size: 1.3vw;
-    padding-top: 4vw;
+    font-size: 20px;
+    padding-top: 60px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
 /* nav-cont2 */
 #nav {
-    width: 8vw;
+    width: 125px;
     height: 100vh;
     float: left;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     border-right: 1px solid #AAAAAA;
 }
 .logo {
-    position: absolute;
-    top: 13%; left: 70%;
-    transform: translate(-50%, -50%) rotate(-90deg);
-    font-size: 1.5vw;
+    transform: rotate(-90deg);
     font-family: 'Nanum Myeongjo', serif;
+    font-size: 24px;
+    display: inline-block;
+    padding: 90px 0;
 }
-.nav {
-    position: absolute;
-    top: 65%; left: 70%;
-    transform: translate(-50%, -50%) rotate(-90deg);
-    width: 100vh;
-    font-size: 1.1vw;
+#nav ul {
     text-align: center;
+}
+#nav ul li {
+    display: inline-block;
+    transform: rotate(-90deg);
+}
+#nav ul li a {
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    font-size: 16px;
+    padding: 35px 0;
+    margin: 0 20px;
 }
-.nav a {
-    padding-right: 2vw;
-}
+/* font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+position: relative;
+    display: block;
+    padding: 1.25rem 0;
+    margin: 0 1.25rem; */
+
 
 /* cont3 */
 #cont3 {
-    width: 25vw;
+    width: 350px;
     height: 100vh;
     float: left;
 }
@@ -118,64 +111,66 @@ body {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     line-height: 1.6;
-    font-size: 0.9vw;
-    letter-spacing: -0.1vw;
-    margin-top: 2.5vh;
-    margin-left: 2vw;
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin-top: 20px;
+    margin-left: 35px;
 }
-#cont3 a {
+#cont3 span {
     display: inline-block;
     font-family: 'Chosunilbo_myungjo';
     color: #000;
-    font-size: 0.9vw;
-    letter-spacing: -0.1vw;
-    padding: 0vw 0vw 0.4vw 0vw;
-    border-bottom: 0.1vw solid #000;
-    margin-top: 2.5vh;
-    margin-left: 2vw;
+    font-size: 14px;
+    letter-spacing: -1px;
+    padding: 0px 0px 4px 0px;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+    margin-left: 35px;
 }
 
 /* cont4 */
 #cont4 {
-    width: 110vw;
-    height: 100vh;
+    width: 250vh;
     float: left;
 }
 .tit {
 
 }
 .tit h2 {
+    height: 33.33333vh;
+    line-height: .8;
+    letter-spacing: -20px;
     color: #000;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: normal;
-    font-size: 19vw;
+    text-transform: uppercase;
+    font-size: 41vh;
     white-space: nowrap;
-    letter-spacing: -1vw;
-    line-height: 0.9;
     z-index: 1;
     position: relative;
+
 }
 .tit h2:nth-child(1) {
-    height: 33vh;
+
 }
 .tit h2:nth-child(2) {
-    margin-left: 24vw;
-    height: 33vh;
+    margin-left: 370px;
+
 }
 .tit h2:nth-child(3) {
-    margin-left: 13vw;
-    height: 33vh;
+    margin-left: 200px;
+
 }
 
 /* cont5 */
 #cont5 {
-    width: 40vw;
+    width: 80vh;
     height: 100vh;
     float: left;
     z-index: -1;
 }
 #sub {
-    width: 40vw;
+    width: 80vh;
     height: 100vh;
     filter: saturate(30%);
     position: relative;
@@ -185,13 +180,13 @@ body {
 .sub_img {
     background-image: url(../img/sub.JPG);
     background-size: cover;
-    background-position: 0% 0%;
+    /* background-position: 0% 10%; */
     filter: saturate(30%);
-    width: 50vw;
+    width: 100vh;
     height: 100vh;
     position: absolute;
     top: 0;
-    left: 17%;
+    left: 23%;
     right: 0%;
     bottom: 0;
 }
@@ -242,7 +237,7 @@ body {
 
 /* cont7 */
 #cont7 {
-    width: 32vw;
+    width: 500px;
     height: 100vh;
     float: left;
     margin: 0;
@@ -323,13 +318,13 @@ body {
     height: 100vh;
     float: left;
     margin: 0;
+    position: relative;
 }
 .cont9 {
     margin-top: 5vh;
     padding: 0 2.5vw 0 2.5vw;
     font-size: 2.3vw;
     font-family: 'Nanum Myeongjo', serif;
-    position: relative;
 }
 .cont9 ul {}
 .cont9 li {
@@ -395,7 +390,7 @@ body {
 
 /* cont10 */
 #cont10 {
-    width: 32vw;
+    width: 500px;
     height: 100vh;
     float: left;
     margin: 0;
@@ -411,6 +406,7 @@ body {
     position: absolute;
 }
 
+/* site */
 /* cont11 */
 #cont11 {
     width: 140vw;
@@ -421,11 +417,12 @@ body {
 .cont11 {
     height: 100vh;
 }
-.site1 {
+.site01 {
     height: 100vh;
     position: relative;
+    border-right: 1px solid #aaaaaa;
 }
-.site1 h2 {
+.site01 h2 {
     color: #000;
     position: absolute;
     left: -23%; top: 35%;
@@ -435,11 +432,7 @@ body {
     font-weight: 100;
     animation: site1 10s infinite normal linear;
 }
-@keyframes site1 {
-    0% {top: 0%;}
-    100% {top: 100%;}
-}
-.site1 h2::after {
+.site01 h2::after {
     content: '';
     height: 0.1vh;
     width: 15vw;
@@ -448,13 +441,6 @@ body {
     background-color: #000;
     vertical-align: middle;
 }
-/* #img1 {
-    width: 660px;
-    height: 100%;
-    left: 7%;
-    position: absolute;
-    overflow: hidden;
-} */
 #img2 {
     width: 25vw;
     height: 40vh;
@@ -478,10 +464,10 @@ body {
     background-position: 50% 50%;
     width: 35vw;
     height: 40vh;
-    left: 115%;
+    left: 113%;
     position: absolute;
 }
-.site1 p {
+.site01 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     left: 65%;
@@ -504,10 +490,7 @@ body {
     border: 1px solid #000;
     position: absolute;
     transition: all 0.6s;
-}
-#web1:hover {
-    background: #fff;
-    color: #000;
+    z-index: 1;
 }
 #figma1 {
     color: #000;
@@ -531,9 +514,6 @@ body {
     height: 1px;
     transition: all 0.5s;
 }
-#figma1:hover::after {
-    width: 0;
-}
 #next1 {
     color: #000;
     font-family: 'Poppins', sans-serif;
@@ -542,15 +522,6 @@ body {
     left: 98%;
     top: 50%;
     font-size: 0.9vw;
-}
-#next1::after {
-    content: '';
-    width: 0.01vw;
-    height: 120vh;
-    background: #aaaaaa;
-    position: absolute;
-    top: -28vw;
-    right: -2vw;
 }
 
 /* cont12 */
@@ -563,12 +534,13 @@ body {
 .cont12 {
     height: 100vh;
 }
-.site2 {
+.site02 {
     height: 100vh;
     position: relative;
     /* margin-left: 129.5px; */
+    border-right: 1px solid #aaaaaa;
 }
-.site2 h2 {
+.site02 h2 {
     color: #000;
     position: absolute;
     left: -17%;
@@ -579,11 +551,7 @@ body {
     font-weight: 100;
     animation: site2 10s infinite normal linear;
 }
-@keyframes site2 {
-    0% {top: 0%;}
-    100% {top: 100%;}
-}
-.site2 h2::after {
+.site02 h2::after {
     content: '';
     height: 0.1vh;
     width: 15vw;
@@ -592,13 +560,6 @@ body {
     background-color: #000;
     vertical-align: middle;
 }
-/* #img3 {
-    width: 660px;
-    height: 100%;
-    left: 7%;
-    position: absolute;
-    overflow: hidden;
-} */
 #img4 {
     width: 25vw;
     height: 40vh;
@@ -621,10 +582,10 @@ body {
     background-position: 50% 50%;
     width: 35vw;
     height: 40vh;
-    left: 155%;
+    left: 153%;
     position: absolute;
 }
-.site2 p {
+.site02 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     left: 66%;
@@ -647,10 +608,7 @@ body {
     border: 1px solid #000;
     position: absolute;
     transition: all 0.6s;
-}
-#web2:hover {
-    background: #fff;
-    color: #000;
+    z-index: 1;
 }
 #figma2 {
     color: #000;
@@ -674,9 +632,6 @@ body {
     height: 1px;
     transition: all 0.5s;
 }
-#figma2:hover::after {
-    width: 0;
-}
 #next2 {
     color: #000;
     font-family: 'Poppins', sans-serif;
@@ -685,15 +640,6 @@ body {
     left: 98%;
     top: 50%;
     font-size: 0.9vw;
-}
-#next2::after {
-    content: '';
-    width: 0.01vw;
-    height: 120vh;
-    background: #aaaaaa;
-    position: absolute;
-    top: -28vw;
-    right: -2vw;
 }
 
 /* cont13 */
@@ -706,11 +652,12 @@ body {
 .cont13 {
     height: 100vh;
 }
-.site3 {
+.site03 {
     height: 100vh;
     position: relative;
+    border-right: 1px solid #aaaaaa;
 }
-.site3 h2 {
+.site03 h2 {
     color: #000;
     position: absolute;
     left: -15%; top: 35%;
@@ -720,11 +667,7 @@ body {
     font-weight: 100;
     animation: site3 10s infinite normal linear;
 }
-@keyframes site3 {
-    0% {top: 0%;}
-    100% {top: 100%;}
-}
-.site3 h2::after {
+.site03 h2::after {
     content: '';
     height: 0.1vh;
     width: 15vw;
@@ -759,7 +702,7 @@ body {
     left: 193%;
     position: absolute;
 }
-.site3 p {
+.site03 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     left: 68%;
@@ -782,22 +725,8 @@ body {
     border: 1px solid #000;
     position: absolute;
     transition: all 0.6s;
+    z-index: 1;
 }
-#web3:hover {
-    background: #fff;
-    color: #000;
-}
-/* .site3 a {
-    color: #000;
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    left: 89%;
-    top: 57%;
-    border-bottom: 1px solid #000;
-    position: absolute;
-    font-size: 1.1vw;
-} */
 #next3 {
     color: #000;
     font-family: 'Poppins', sans-serif;
@@ -806,15 +735,6 @@ body {
     left: 98%;
     top: 50%;
     font-size: 0.9vw;
-}
-#next3::after {
-    content: '';
-    width: 0.01vw;
-    height: 120vh;
-    background: #aaaaaa;
-    position: absolute;
-    top: -28vw;
-    right: -2vw;
 }
 
 /* cont14 */
@@ -827,11 +747,12 @@ body {
 .cont14 {
     height: 100vh;
 }
-.site4 {
+.site04 {
     height: 100vh;
     position: relative;
+    border-right: 1px solid #aaaaaa;
 }
-.site4 h2 {
+.site04 h2 {
     color: #000;
     position: absolute;
     left: -18%; top: 35%;
@@ -841,11 +762,7 @@ body {
     font-weight: 100;
     animation: site4 10s infinite normal linear;
 }
-@keyframes site4 {
-    0% {top: 0%;}
-    100% {top: 100%;}
-}
-.site4 h2::after {
+.site04 h2::after {
     content: '';
     height: 0.1vh;
     width: 15vw;
@@ -880,7 +797,7 @@ body {
     left: 233%;
     position: absolute;
 }
-.site4 p {
+.site04 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     left: 70%;
@@ -903,22 +820,8 @@ body {
     border: 1px solid #000;
     position: absolute;
     transition: all 0.6s;
+    z-index: 1;
 }
-#web4:hover {
-    background: #fff;
-    color: #000;
-}
-/* .site4 a {
-    color: #000;
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    left: 91%;
-    top: 55%;
-    border-bottom: 1px solid #000;
-    position: absolute;
-    font-size: 1.1vw;
-} */
 #next4 {
     color: #000;
     font-family: 'Poppins', sans-serif;
@@ -927,15 +830,6 @@ body {
     left: 98%;
     top: 50%;
     font-size: 0.9vw;
-}
-#next4::after {
-    content: '';
-    width: 0.01vw;
-    height: 120vh;
-    background: #aaaaaa;
-    position: absolute;
-    top: -28vw;
-    right: -2vw;
 }
 
 /* cont15 */
@@ -948,11 +842,11 @@ body {
 .cont15 {
     height: 100vh;
 }
-.site5 {
+.site05 {
     height: 100vh;
     position: relative;
 }
-.site5 h2 {
+.site05 h2 {
     color: #000;
     position: absolute;
     left: -9%; top: 35%;
@@ -962,11 +856,7 @@ body {
     font-weight: 100;
     animation: site5 10s infinite normal linear;
 }
-@keyframes site5 {
-    0% {top: 0%;}
-    100% {top: 100%;}
-}
-.site5 h2::after {
+.site05 h2::after {
     content: '';
     height: 0.1vh;
     width: 15vw;
@@ -1001,7 +891,7 @@ body {
     left: 272%;
     position: absolute;
 }
-.site5 p {
+.site05 p {
     color: #545454;
     font-family: 'Chosunilbo_myungjo';
     left: 68%;
@@ -1024,22 +914,8 @@ body {
     border: 1px solid #000;
     position: absolute;
     transition: all 0.6s;
+    z-index: 1;
 }
-#web5:hover {
-    background: #fff;
-    color: #000;
-}
-/* .site5 a {
-    color: #000;
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    left: 89%;
-    top: 57%;
-    border-bottom: 1px solid #000;
-    position: absolute;
-    font-size: 1.1vw;
-} */
 #next5 {
     color: #000;
     font-family: 'Poppins', sans-serif;
@@ -1053,7 +929,7 @@ body {
 
 /* cont16 */
 #cont16 {
-    width: 32vw;
+    width: 500px;
     height: 100vh;
     float: left;
     margin: 0;
@@ -1069,6 +945,8 @@ body {
     position: absolute;
 }
 
+/* animation */
+
 /* cont17 */
 #cont17 {
     width: 38vw;
@@ -1080,8 +958,10 @@ body {
 }
 .cont17 {
     margin: 0 1.5vw;
+    height: 100vh;
 }
 .ani_txt1 {
+    height: 100vh;
     margin-top: 4vh;
     padding: 0 2vw;
     position: relative;
@@ -1101,7 +981,9 @@ body {
 }
 #ani_btn1 {
     position: absolute;
-    top: 210%;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 13%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
@@ -1133,16 +1015,17 @@ body {
 .ani01 {
     width: 31vw;
     height: 40vh;
-    top: 240%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
     position: absolute;
     overflow: hidden;
 }
 .ani_img01 {
     width: 40vw;
     height: 40vh;
-    left: 240%;
+    left: 0%;
     position: absolute;
-    
 }
 
 /* cont18 */
@@ -1154,9 +1037,11 @@ body {
     border-right: 1px solid #AAAAAA;
 }
 .cont18 {
+    height: 100vh;
     margin: 0 1.5vw;
 }
 .ani_txt2 {
+    height: 100vh;
     margin-top: 4vh;
     padding: 0 2vw;
     position: relative;
@@ -1176,7 +1061,9 @@ body {
 }
 #ani_btn2 {
     position: absolute;
-    top: 250%;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 13%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
@@ -1199,16 +1086,17 @@ body {
 .ani02 {
     width: 31vw;
     height: 40vh;
-    top: 285%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
     position: absolute;
     overflow: hidden;
 }
 .ani_img02 {
     width: 42vw;
     height: 40vh;
-    left: 245%;
+    left: 0%;
     position: absolute;
-    
 }
 
 /* cont19 */
@@ -1221,8 +1109,10 @@ body {
 }
 .cont19 {
     margin: 0 1.5vw;
+    height: 100vh;
 }
 .ani_txt3 {
+    height: 100vh;
     margin-top: 4vh;
     padding: 0 2vw;
     position: relative;
@@ -1242,7 +1132,9 @@ body {
 }
 #ani_btn3 {
     position: absolute;
-    top: 250%;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 13%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
@@ -1265,14 +1157,16 @@ body {
 .ani03 {
     width: 31vw;
     height: 40vh;
-    top: 285%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
     position: absolute;
     overflow: hidden;
 }
 .ani_img03 {
     width: 42vw;
     height: 40vh;
-    left: 255%;
+    left: 0%;
     position: absolute;
 }
 
@@ -1285,9 +1179,11 @@ body {
     border-right: 1px solid #AAAAAA;
 }
 .cont20 {
+    height: 100vh;
     margin: 0 1.5vw;
 }
 .ani_txt4 {
+    height: 100vh;
     margin-top: 4vh;
     padding: 0 2vw;
     position: relative;
@@ -1307,7 +1203,9 @@ body {
 }
 #ani_btn4 {
     position: absolute;
-    top: 180%;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 13%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
@@ -1339,14 +1237,16 @@ body {
 .ani04 {
     width: 31vw;
     height: 40vh;
-    top: 204%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
     position: absolute;
     overflow: hidden;
 }
 .ani_img04 {
     width: 42vw;
     height: 40vh;
-    left: 265%;
+    left: 0%;
     position: absolute;
 }
 
@@ -1359,9 +1259,11 @@ body {
     border-right: 1px solid #AAAAAA;
 }
 .cont21 {
+    height: 100vh;
     margin: 0 1.5vw;
 }
 .ani_txt5 {
+    height: 100vh;
     margin-top: 4vh;
     padding: 0 2vw;
     position: relative;
@@ -1381,7 +1283,9 @@ body {
 }
 #ani_btn5 {
     position: absolute;
-    top: 210%;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 13%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
@@ -1413,14 +1317,16 @@ body {
 .ani05 {
     width: 31vw;
     height: 40vh;
-    top: 239%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
     position: absolute;
     overflow: hidden;
 }
 .ani_img05 {
     width: 42vw;
     height: 40vh;
-    left: 275%;
+    left: 0%;
     position: absolute;
 }
 
@@ -1433,9 +1339,11 @@ body {
     border-right: 1px solid #AAAAAA;
 }
 .cont22 {
+    height: 100vh;
     margin: 0 1.5vw;
 }
 .ani_txt6 {
+    height: 100vh;
     margin-top: 4vh;
     padding: 0 2vw;
     position: relative;
@@ -1455,7 +1363,9 @@ body {
 }
 #ani_btn6 {
     position: absolute;
-    top: 210%;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 13%;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
@@ -1487,553 +1397,32 @@ body {
 .ani06 {
     width: 31vw;
     height: 40vh;
-    top: 240%;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
     position: absolute;
     overflow: hidden;
 }
 .ani_img06 {
     width: 42vw;
     height: 40vh;
-    left: 278%;
-    position: absolute;
-}
-
-/* cont23 */
-#cont23 {
-    width: 25vw;
-    height: 100vh;
-    float: left;
-    margin: 0;
-}
-.cont23 {
-    position: relative;
-    height: 100vh;
-}
-.script {
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 0.9vw;
-    color: #000;
-}
-
-/* cont24 */
-#cont24 {
-    width: 32vw;
-    height: 100vh;
-    float: left;
-    margin: 0;
-}
-.cont24 {
-    height: 100vh;
-    position: relative;
-}
-.cont24 svg {
-    top: 10%;
-    left: 10%;
-    height: 80vh;
-    position: absolute;
-}
-
-/* cont25 */
-#cont25 {
-    width: 125vw;
-    height: 100%;
-    float: left;
-    margin: 0;
-}
-.cont25 {
-    height: 100%;
-    background: #1e1e1e;
-    position: relative;
-}
-.cont25 h2 {
-    color: #fff;
-    position: absolute;
-    left: -10%;
-    top: 35%;
-    transform: rotate(270deg);
-    font-size: 9vw;
-    font-family: 'GT Super Ds Trial';
-    font-weight: 100;
-    animation: cont25 10s infinite normal linear;
-}
-@keyframes cont25 {
-    0% {top: 0%;}
-    100% {top: 100%;}
-}
-.cont25 h2::after {
-    content: '';
-    height: 0.1vh;
-    width: 15vw;
-    margin: 0 3vw;
-    display: inline-block;
-    background-color: #fff;
-    vertical-align: middle;
-}
-.main_scr1 {
-    width: 35vw;
-    height: 40%;
-    left: 20%;
-    top: 8%;
-    position: absolute;
-}
-.sub_scr1 {
-    width: 35vw;
-    height: 40%;
-    left: 30%;
-    top: 53%;
-    position: absolute;
-}
-.main_txt1 {
-    color: #ffffff;
-    font-family: 'GT Super Ds Trial';
-    font-weight: 100;
-    left: 48.5%;
-    top: 40%;
-    position: absolute;
-    font-size: 3vw;
-}
-.sub_txt1 {
-    color: #ffffff;
-    font-family: 'GT Super Ds Trial';
-    font-weight: 100;
-    left: 58.5%;
-    top: 85%;
-    position: absolute;
-    font-size: 3vw;
-}
-.cont25 p {
-    color: #ffffff;
-    font-family: 'Chosunilbo_myungjo';
-    left: 72%;
-    top: 45%;
-    line-height: 1.6;
-    position: absolute;
-    font-size: 1.1vw;
-}
-#web6 {
-    color: #000;
-    text-align: center;
-    border-radius: 50%;
-    line-height: 8vw;
-    display: inline-block;
-    background: #fff;
-    width: 8vw; height: 8vw;
-    left: 65.5%;
-    top: 28%;
-    font-size: 1.5vw;
-    border: 1px solid #fff;
-    position: absolute;
-    transition: all 0.6s;
-}
-#web6:hover {
-    background: #1e1e1e;
-    color: #fff;
-}
-#figma3 {
-    color: #fff;
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    left: 89%;
-    top: 57%;
-    position: absolute;
-    font-size: 1.1vw;
-}
-#figma3::after {
-    content: "";
-    position: absolute;
-    border-bottom: solid 1px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 1px;
-    transition: all 0.5s;
-}
-#figma3:hover::after {
-    width: 0;
-}
-
-/* cont26 */
-#cont26 {
-    width: 100vw;
-    height: 100%;
-    float: left;
-    margin: 0;
-}
-.cont26 {
-    height: 100%;
-    background: #1e1e1e;
-    position: relative;
-}
-.main_scr2 {
-    width: 35vw;
-    height: 40%;
     left: 0%;
-    top: 8%;
     position: absolute;
-}
-.sub_scr2 {
-    width: 35vw;
-    height: 40%;
-    left: 10%;
-    top: 53%;
-    position: absolute;
-}
-.main_txt2 {
-    color: #ffffff;
-    font-family: 'GT Super Ds Trial';
-    font-weight: 100;
-    left: 35.5%;
-    top: 40%;
-    position: absolute;
-    font-size: 3vw;
-}
-.sub_txt2 {
-    color: #ffffff;
-    font-family: 'GT Super Ds Trial';
-    font-weight: 100;
-    left: 45.5%;
-    top: 85%;
-    position: absolute;
-    font-size: 3vw;
-}
-.cont26 p {
-    color: #ffffff;
-    font-family: 'Chosunilbo_myungjo';
-    left: 63%;
-    top: 45%;
-    line-height: 1.6;
-    position: absolute;
-    font-size: 1.1vw;
-}
-#web7 {
-    color: #000;
-    text-align: center;
-    border-radius: 50%;
-    line-height: 8vw;
-    display: inline-block;
-    background: #fff;
-    width: 8vw; height: 8vw;
-    left: 55%;
-    top: 28%;
-    font-size: 1.5vw;
-    border: 1px solid #fff;
-    transition: all 0.6s;
-    position: absolute;
-}
-#web7:hover {
-    background: #1e1e1e;
-    color: #fff;
-}
-#figma4 {
-    color: #fff;
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    left: 85%;
-    top: 57%;
-    position: absolute;
-    font-size: 1.1vw;
-}
-#figma4::after {
-    content: "";
-    position: absolute;
-    border-bottom: solid 1px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 1px;
-    transition: all 0.5s;
-}
-#figma4:hover::after {
-    width: 0;
 }
 
-/* cont27 */
-#cont27 {
-    width: 100vw;
-    height: 100%;
-    float: left;
-    margin: 0;
-}
-.cont27 {
-    height: 100%;
-    background: #1e1e1e;
-    position: relative;
-}
-.main_scr3 {
-    width: 35vw;
-    height: 40%;
-    left: 0%;
-    top: 8%;
-    position: absolute;
-}
-.sub_scr3 {
-    width: 35vw;
-    height: 40%;
-    left: 10%;
-    top: 53%;
-    position: absolute;
-}
-.main_txt3 {
-    color: #ffffff;
-    font-family: 'GT Super Ds Trial';
-    font-weight: 100;
-    left: 35.5%;
-    top: 40%;
-    position: absolute;
-    font-size: 3vw;
-}
-.sub_txt3 {
-    color: #ffffff;
-    font-family: 'GT Super Ds Trial';
-    font-weight: 100;
-    left: 45.5%;
-    top: 85%;
-    position: absolute;
-    font-size: 3vw;
-}
-.cont27 p {
-    color: #ffffff;
-    font-family: 'Chosunilbo_myungjo';
-    left: 63%;
-    top: 45%;
-    line-height: 1.6;
-    position: absolute;
-    font-size: 1.1vw;
-}
-#web8 {
-    color: #000;
-    text-align: center;
-    border-radius: 50%;
-    line-height: 8vw;
-    display: inline-block;
-    background: #fff;
-    width: 8vw; height: 8vw;
-    left: 55%;
-    top: 28%;
-    font-size: 1.5vw;
-    border: 1px solid #fff;
-    transition: all 0.6s;
-    position: absolute;
-}
-#web8:hover {
-    background: #1e1e1e;
-    color: #fff;
-}
-#figma5 {
-    color: #fff;
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    left: 83%;
-    top: 57%;
-    position: absolute;
-    font-size: 1.1vw;
-}
-#figma5::after {
-    content: "";
-    position: absolute;
-    border-bottom: solid 1px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 1px;
-    transition: all 0.5s;
-}
-#figma5:hover::after {
-    width: 0;
-}
 
-/* cont28 */
-#cont28 {
-    width: 100vw;
-    height: 100%;
-    float: left;
-    margin: 0;
-}
-.cont28 {
-    height: 100%;
-    background: #1e1e1e;
-    position: relative;
-}
-.main_scr4 {
-    width: 35vw;
-    height: 40%;
-    left: 0%;
-    top: 8%;
-    position: absolute;
-}
-.sub_scr4 {
-    width: 35vw;
-    height: 40%;
-    left: 10%;
-    top: 53%;
-    position: absolute;
-}
-.main_txt4 {
-    color: #ffffff;
-    font-family: 'GT Super Ds Trial';
-    font-weight: 100;
-    left: 35.5%;
-    top: 40%;
-    position: absolute;
-    font-size: 3vw;
-}
-.sub_txt4 {
-    color: #ffffff;
-    font-family: 'GT Super Ds Trial';
-    font-weight: 100;
-    left: 45.5%;
-    top: 85%;
-    position: absolute;
-    font-size: 3vw;
-}
-.cont28 p {
-    color: #ffffff;
-    font-family: 'Chosunilbo_myungjo';
-    left: 63%;
-    top: 45%;
-    line-height: 1.6;
-    position: absolute;
-    font-size: 1.1vw;
-}
-#web9 {
-    color: #000;
-    text-align: center;
-    border-radius: 50%;
-    line-height: 8vw;
-    display: inline-block;
-    background: #fff;
-    width: 8vw; height: 8vw;
-    left: 55%;
-    top: 28%;
-    font-size: 1.5vw;
-    border: 1px solid #fff;
-    transition: all 0.6s;
-    position: absolute;
-}
-#web9:hover {
-    background: #1e1e1e;
-    color: #fff;
-}
-#figma6 {
-    color: #fff;
-    display: inline-block;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    left: 85%;
-    top: 57%;
-    position: absolute;
-    font-size: 1.1vw;
-}
-#figma6::after {
-    content: "";
-    position: absolute;
-    border-bottom: solid 1px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 1px;
-    transition: all 0.5s;
-}
-#figma6:hover::after {
-    width: 0;
-}
 
-/* cont29 */
-#cont29 {
-    width: 100vw;
-    height: 100%;
-    float: left;
-    margin: 0;
-}
-.cont29 {
-    height: 100%;
-    position: relative;
-}
-.cont29 h2 {
-    color: #000;
-    font-family: 'Chosunilbo_myungjo';
-    font-weight: normal;
-    margin: 2vw 0 0 4vw;
-    font-size: 2vw;
-    line-height: 1.3;
-}
-.cont29 ul {
-    margin: 6.2vw 0 0 4vw;
-    position: absolute;
-}
-.cont29 li {
-    color: #000;
-    font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-}
-.cont29 li:nth-child(1) {
-    padding-bottom: 3vh;
-}
-.cont29 li:nth-child(4) {
-    padding-bottom: 3vh;
-}
-.cont29 li:nth-child(5) {
-    border-bottom: 1px solid #000000;
-}
-.cont29 li:nth-child(6) {
-    border-bottom: 1px solid #000000;
-}
-.cont29 p {
-    color: #000;
-    font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    position: absolute;
-    top: 39%;
-    left: 25%;
-}
 
-.footer1 {
-    color: #AAAAAA;
-    font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    position: absolute;
-    left: 25%;
-    top: 44%;
-    border: 1px solid #AAAAAA;
-    padding: 0.5vw 11vw 0.5vw 1vw;
-}
-.footer2 {
-    color: #AAAAAA;
-    font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    position: absolute;
-    left: 25%;
-    top: 51%;
-    border: 1px solid #AAAAAA;
-    padding: 1vw 11.8vw 9vw 1vw;
-}
-.footer3 {
-    color: #AAAAAA;
-    font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    position: absolute;
-    left: 25%;
-    top: 77%;
-    border: 1px solid #AAAAAA;
-    padding: 0.5vw 1vw 0.5vw 1vw;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
