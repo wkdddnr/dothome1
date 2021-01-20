@@ -16,7 +16,7 @@
 }
 .reveal1.show {
     opacity: 1;
-    animation: opacity 5000ms linear forwards;
+    /* animation: opacity 5000ms linear forwards; */
 }
 .reveal1 {
     position: relative;
@@ -45,7 +45,7 @@
 }
 .reveal2.show {
     opacity: 1;
-    animation: opacity 5000ms linear forwards;
+    animation: opacity 3000ms linear forwards;
 }
 .reveal2 {
     position: relative;
@@ -54,18 +54,25 @@
     content: '';
     position: absolute;
     right: 0; top: 0;
+    width: 0;
     height: 100%;
     z-index: 100;
-    background: black;
+    background: white;
 }
 .reveal2.show::before {
-    animation: reveal2 2500ms cubic-bezier(.77,0,.18,1);
+    animation: reveal2 2400ms cubic-bezier(.77,0,.18,1);
 }
 @keyframes reveal2 {
-    0% {width: 100%; left: 0;}
+    0% {width: 0; left: 0;}
     50% {width: 100%; left: 0;}
     80% {width: 100%; left: 0;}
     100% {width: 0; left: 100%;}
+}
+@keyframes opacity {
+    0% {opacity: 0;}
+    60% {opacity: 0;}
+    70% {opacity: 1;}
+    100% {opacity: 1;}
 }
 
 .supah-scroll {
@@ -79,7 +86,7 @@
     overflow: hidden;
 }
 
-#contents {width: 2000vw;}
+#contents {width: 1940vw;}
 #section1 {height: 100vh; float: left;}
 #section2 {height: 100vh; float: left;}
 #section3 {height: 100vh; float: left;}
@@ -148,8 +155,8 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1.1vw;
-    padding: 2.2vw 0;
-    margin: 0 1.5vw;
+    padding: 2.4vw 0;
+    margin: 0 2vw;
 }
 
 /* cont3 */
@@ -202,7 +209,7 @@
 
 }
 .tit h2:nth-child(1) {
-
+    margin-top: 1.2vh;
 }
 .tit h2:nth-child(2) {
     margin-left: 370px;
@@ -540,7 +547,7 @@
     background-position: 50% 50%;
     width: 37vw;
     height: 40vh;
-    left: 127%;
+    left: 135%;
     position: absolute;
 }
 .site01 p {
@@ -775,7 +782,7 @@
     background-position: 50% 50%;
     width: 37vw;
     height: 40vh;
-    left: 217%;
+    left: 214%;
     position: absolute;
 }
 .site03 p {
@@ -870,7 +877,7 @@
     background-position: 50% 50%;
     width: 37vw;
     height: 40vh;
-    left: 256%;
+    left: 260%;
     position: absolute;
 }
 .site04 p {
@@ -964,7 +971,7 @@
     background-position: 50% 50%;
     width: 37vw;
     height: 40vh;
-    left: 297%;
+    left: 300%;
     position: absolute;
 }
 .site05 p {
