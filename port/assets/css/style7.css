@@ -9,6 +9,33 @@
     src : url("../font/GT-Super-Display-Light-Trial.otf");
     font-family: 'GT Super Ds Trial';
 }
+/* body {
+    height: 100%;
+    overflow: hidden;
+}
+body.active {
+    height: auto;
+    overflow: auto;
+}
+
+.progress {
+    position: fixed;
+    left: 0; top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+.progress-text {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    color: #fff;
+}
+.progress-text::after {
+    content: '%';
+} */
 
 /* reveal1 */
 .reveal1{
