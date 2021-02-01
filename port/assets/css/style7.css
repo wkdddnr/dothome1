@@ -9,7 +9,8 @@
     src : url("../font/GT-Super-Display-Light-Trial.otf");
     font-family: 'GT Super Ds Trial';
 }
-/* body {
+
+body {
     height: 100%;
     overflow: hidden;
 }
@@ -32,10 +33,11 @@ body.active {
     transform: translate(-50%, -50%);
     font-size: 6vw;
     color: #fff;
+    font-family: 'Nanum Myeongjo', serif;
 }
 .progress-text::after {
     content: '%';
-} */
+}
 
 /* reveal1 */
 .reveal1{
@@ -57,7 +59,7 @@ body.active {
     background: black;
 }
 .reveal1.show::before {
-    animation: reveal1 1500ms cubic-bezier(.77,0,.18,1);
+    animation: reveal1 1800ms cubic-bezier(.77,0,.18,1);
 }
 @keyframes reveal1 {
     0% {width: 100%; right: 0;}
@@ -72,7 +74,7 @@ body.active {
 }
 .reveal2.show {
     opacity: 1;
-    animation: opacity 3000ms linear forwards;
+    /* animation: opacity 3000ms linear forwards; */
 }
 .reveal2 {
     position: relative;
@@ -87,7 +89,7 @@ body.active {
     background: white;
 }
 .reveal2.show::before {
-    animation: reveal2 2400ms cubic-bezier(.77,0,.18,1);
+    animation: reveal2 2700ms cubic-bezier(.77,0,.18,1);
 }
 @keyframes reveal2 {
     0% {width: 0; left: 0;}
@@ -107,7 +109,6 @@ body.active {
     z-index: 1;
     top: 0;
     left: 0;
-    width: 100%;
     height: auto;
     will-change: transform;
     overflow: hidden;
@@ -540,7 +541,6 @@ body.active {
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    animation: site1 10s infinite normal linear;
 }
 .site01 h2::after {
     content: '';
@@ -574,7 +574,7 @@ body.active {
     background-position: 50% 50%;
     width: 37vw;
     height: 40vh;
-    left: 135%;
+    left: 125%;
     position: absolute;
 }
 .site01 p {
@@ -692,7 +692,7 @@ body.active {
     background-position: 50% 50%;
     width: 37vw;
     height: 40vh;
-    left: 170%;
+    left: 160%;
     position: absolute;
 }
 .site02 p {
@@ -809,7 +809,7 @@ body.active {
     background-position: 50% 50%;
     width: 37vw;
     height: 40vh;
-    left: 214%;
+    left: 204%;
     position: absolute;
 }
 .site03 p {
@@ -904,7 +904,7 @@ body.active {
     background-position: 50% 50%;
     width: 37vw;
     height: 40vh;
-    left: 260%;
+    left: 250%;
     position: absolute;
 }
 .site04 p {
@@ -998,7 +998,7 @@ body.active {
     background-position: 50% 50%;
     width: 37vw;
     height: 40vh;
-    left: 300%;
+    left: 290%;
     position: absolute;
 }
 .site05 p {
@@ -1936,20 +1936,3 @@ body.active {
     border: 1px solid #AAAAAA;
     padding: 0.5vw 1vw 0.5vw 1vw;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
