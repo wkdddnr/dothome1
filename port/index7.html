@@ -193,7 +193,9 @@
           <div id="cont11">
             <div class="cont11">
               <div class="site01">
-                <h2>Web Standard</h2>
+                <div class="siteTitle01">
+                  <h2>Web Standard Web Standard Web Standard Web Standard</h2>
+                </div>
                 <div id="img1">
                   <div class="main_img1"></div>
                 </div>
@@ -216,7 +218,9 @@
           <div id="cont12">
             <div class="cont12">
               <div class="site02">
-                  <h2>Responsive</h2>
+                <div class="siteTitle02">
+                  <h2>Responsive Responsive Responsive Responsive</h2>
+                </div>
                   <div id="img3">
                     <div class="main_img2"></div>
                   </div>
@@ -237,7 +241,9 @@
           <div id="cont13">
             <div class="cont13">
               <div class="site03">
-                  <h2>Mega Box</h2>
+                <div class="siteTitle03">
+                  <h2>Mega Box Mega Box Mega Box Mega Box</h2>
+                </div>
                   <div id="img5">
                     <div class="main_img3"></div>
                   </div>
@@ -259,7 +265,9 @@
           <div id="cont14">
             <div class="cont14">
               <div class="site04">
-                  <h2>Naver Clova</h2>
+                <div class="siteTitle04">
+                  <h2>Naver Clova Naver Clova Naver Clova Naver Clova</h2>
+                </div>
                   <div id="img7">
                     <div class="main_img4"></div>
                   </div>
@@ -279,7 +287,9 @@
           <div id="cont15">
             <div class="cont15">
               <div class="site05">
-                  <h2>React</h2>
+                <div class="siteTitle05">
+                  <h2>React React React React</h2>
+                </div>
                   <div id="img9">
                     <div class="main_img5"></div>
                   </div>
@@ -524,6 +534,12 @@
             this.img4.classList.add('supah-scroll')
             this.img5 = document.querySelector(".sub_img5")
             this.img5.classList.add('supah-scroll')
+            
+            this.siteTitle01 = document.querySelector(".siteTitle01 h2");
+            this.siteTitle02 = document.querySelector(".siteTitle02 h2");
+            this.siteTitle03 = document.querySelector(".siteTitle03 h2");
+            this.siteTitle04 = document.querySelector(".siteTitle04 h2");
+            this.siteTitle05 = document.querySelector(".siteTitle05 h2");
             this.events()
             this.update()
             this.animate()
@@ -531,7 +547,7 @@
 
           update() {
             if (this.supahScroll === null) return
-            document.body.style.height = `${this.supahScroll.getBoundingClientRect().width}px`
+            document.body.style.height = `${this.supahScroll.getBoundingClientRect().width*0.93}px`
           }
 
           pause() {
@@ -566,6 +582,11 @@
             this.img3.style.transform = `translate3d(${-this.scrollY * 0.08}px,0,0)`
             this.img4.style.transform = `translate3d(${-this.scrollY * 0.08}px,0,0)`
             this.img5.style.transform = `translate3d(${-this.scrollY * 0.08}px,0,0)`
+            this.siteTitle01.style.transform = `rotate(270deg) translate3d(${-this.scrollY + 5000}px,0,0)`
+            this.siteTitle02.style.transform = `rotate(270deg) translate3d(${-this.scrollY + 7800}px,0,0)`
+            this.siteTitle03.style.transform = `rotate(270deg) translate3d(${-this.scrollY + 9800}px,0,0)`
+            this.siteTitle04.style.transform = `rotate(270deg) translate3d(${-this.scrollY + 12000}px,0,0)`
+            this.siteTitle05.style.transform = `rotate(270deg) translate3d(${-this.scrollY + 14000}px,0,0)`
             this.raf = requestAnimationFrame(this.animate.bind(this))
           }
 
@@ -618,8 +639,48 @@
             }
         });
 
-        
+        /*------------------------------
+        loding
+        ------------------------------*/
+        /* loding */
+        function loading() {
+            let progress = $(".progress");
+            let progressText = $(".progress-text");
+            let imgLoad = imagesLoaded("body");
+            let imgTotal = imgLoad.images.length;
+            let imgLoaded = 0;
+            let imgCurrent = 0;
+            let progressTimer = setInterval(updateProgress, 1000/60);
 
+            imgLoad.on("progress", function(){
+                imgLoaded++;
+            });
+
+            function updateProgress(){
+                let target = (imgLoaded/imgTotal) * 100;
+                imgCurrent += (target - imgCurrent) * 0.1;
+                progressText.text(parseInt(imgCurrent));
+
+                if(imgCurrent >= 100){
+                    clearInterval(progressTimer);
+
+                    $("body").addClass("active");
+                    gsap.to(progress, {
+                        duration: 0.5,
+                        opacity: 0,
+                        "z-index": -9999
+                    });
+
+                    //메인 애니메이션
+                    let tl = gsap.timeline();
+                }
+
+                if(imgCurrent > 99){
+                    imgCurrent = 100;
+                }
+            }
+        }
+        loading();     
     </script>
 </body>
 </html>

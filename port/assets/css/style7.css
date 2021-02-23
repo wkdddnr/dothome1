@@ -109,6 +109,7 @@ body.active {
     z-index: 1;
     top: 0;
     left: 0;
+    width: 100%;
     height: auto;
     will-change: transform;
     overflow: hidden;
@@ -241,11 +242,9 @@ body.active {
 }
 .tit h2:nth-child(2) {
     margin-left: 370px;
-
 }
 .tit h2:nth-child(3) {
     margin-left: 200px;
-
 }
 
 /* cont5 */
@@ -533,14 +532,18 @@ body.active {
     position: relative;
     border-right: 1px solid #aaaaaa;
 }
+.siteTitle01 {
+    height: 100vh;
+    width: 14vw;
+    position: absolute;
+}
 .site01 h2 {
     color: #000;
-    position: absolute;
-    left: -23%; top: 35%;
     transform: rotate(270deg);
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
+    white-space: nowrap;
 }
 .site01 h2::after {
     content: '';
@@ -650,16 +653,18 @@ body.active {
     /* margin-left: 129.5px; */
     border-right: 1px solid #aaaaaa;
 }
+.siteTitle02 {
+    height: 100vh;
+    width: 16.8vw;
+    position: absolute;
+}
 .site02 h2 {
     color: #000;
-    position: absolute;
-    left: -17%;
-    top: 40%;
     transform: rotate(270deg);
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    animation: site2 10s infinite normal linear;
+    white-space: nowrap;
 }
 .site02 h2::after {
     content: '';
@@ -767,15 +772,18 @@ body.active {
     position: relative;
     border-right: 1px solid #aaaaaa;
 }
+.siteTitle03 {
+    height: 100vh;
+    width: 16.8vw;
+    position: absolute;
+}
 .site03 h2 {
     color: #000;
-    position: absolute;
-    left: -15%; top: 35%;
     transform: rotate(270deg);
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    animation: site3 10s infinite normal linear;
+    white-space: nowrap;
 }
 .site03 h2::after {
     content: '';
@@ -862,15 +870,18 @@ body.active {
     position: relative;
     border-right: 1px solid #aaaaaa;
 }
+.siteTitle04 {
+    height: 100vh;
+    width: 16.8vw;
+    position: absolute;
+}
 .site04 h2 {
     color: #000;
-    position: absolute;
-    left: -18%; top: 35%;
     transform: rotate(270deg);
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    animation: site4 10s infinite normal linear;
+    white-space: nowrap;
 }
 .site04 h2::after {
     content: '';
@@ -956,15 +967,18 @@ body.active {
     height: 100vh;
     position: relative;
 }
+.siteTitle05 {
+    height: 100vh;
+    width: 16.8vw;
+    position: absolute;
+}
 .site05 h2 {
     color: #000;
-    position: absolute;
-    left: -9%; top: 35%;
     transform: rotate(270deg);
     font-size: 9vw;
     font-family: 'GT Super Ds Trial';
     font-weight: 100;
-    animation: site5 10s infinite normal linear;
+    white-space: nowrap;
 }
 .site05 h2::after {
     content: '';
